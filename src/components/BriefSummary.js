@@ -83,8 +83,8 @@ const BriefSummary = () => (
           }}
         >
           <iframe
-            title="2018 QHacks Hackathon Highlights"
-            src="https://www.youtube.com/embed/sqzy5n3m-RA?rel=0&amp;controls=0&amp;showinfo=0"
+            title="Bissingen an der Teck"
+            src="https://www.youtube.com/embed/JAUBKHbLoVE?rel=0&amp;controls=0&amp;showinfo=0"
             frameBorder="0"
             allow="autoplay; encrypted-media"
             allowFullScreen

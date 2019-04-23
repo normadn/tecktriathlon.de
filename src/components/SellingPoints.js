@@ -63,7 +63,7 @@ const SellingPoints = () => (
           }}
         >
           <div css={flexChildStyle}>
-            <h1>Softwareelemente</h1>
+            <h1>Eizeln antreten</h1>
             <p css={blurbStyle}>
               Sie wollen ihre Unternehmens-Website erneuern, ihr SEO-Ranking verbessern, ihre Kundendaten aufarbeiten oder Prozesse automatisieren? Wir haben Spezialisten für im Frontend, Backend, Web-Design und der Datenanalyse im Team und können Softwareelemente auf Ihr Unternehmen zugeschnitten entwickeln.  
             </p>
@@ -97,7 +97,7 @@ const SellingPoints = () => (
             </picture>
           </div>
           <div css={flexChildStyle}>
-            <h1>Komplettlösungen</h1>
+            <h1>oder als Team</h1>
             <p css={blurbStyle}>
               Sie suchen nach einer Digitalisierungsstrategie für ihr Unternehmen? - Da sind sie bei uns genau richtig! Jedes Unternehmen löst andere Herausforderungen. Ein enger Austausch mit Ihnen ist uns folglich wichtig, um Lösungen zu entwickeln, die Ihre Kunden begeistern werden. Wir helfen Ihnen der Konkurrenz einen Schritt voraus zu sein.
             </p>

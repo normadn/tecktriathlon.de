@@ -112,15 +112,15 @@ export default () => {
         </Helmet>
         <div>
           <Landing />
-          <MailingListSignup />
+          <BriefSummary/>
           <SellingPoints/>
+          {/*<MailingListSignup />
           <HackerTestimonials />
-          <Speakers />
-           {/* <EventSchedule />
-            <Sponsors />
-          <BriefSummary/>*/}
+          <Speakers />*/}
+          <EventSchedule />
+          <Sponsors />
           <FAQs />
-          <Podcast />
+          {/*<Podcast />*/}
           <Footer />
         </div>
       </div>

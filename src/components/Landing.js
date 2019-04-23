@@ -93,7 +93,7 @@ const Landing = () => (
               }
             }}
           >
-            Softwareentwicklung an der Teck
+            Triathlon Bissingen
           </h2>
           <h2
             data-cy="qhacks-tagline"
@@ -118,10 +118,10 @@ const Landing = () => (
             backgroundColor="#ffffff"
             foregroundColor="#00205b"
             style={applyButtonCSS}
-            link="/#kontakt"
+            link="https://docs.google.com/forms/d/e/1FAIpQLSdjqizoW8smdG5cEZfGd06iQtTLokHvbgeDb5_Tre59X77IyQ/viewform?usp=sf_link"
             type="rounded"
           >
-            Kontakt aufnehmen
+            Anmelden
           </ActionButton> 
         </div>
         <div

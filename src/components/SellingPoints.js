@@ -63,7 +63,7 @@ const SellingPoints = () => (
           }}
         >
           <div css={flexChildStyle}>
-            <h1>Eizeln antreten</h1>
+            <h1>Einzelwertung</h1>
             <p css={blurbStyle}>
               Sie wollen ihre Unternehmens-Website erneuern, ihr SEO-Ranking verbessern, ihre Kundendaten aufarbeiten oder Prozesse automatisieren? Wir haben Spezialisten für im Frontend, Backend, Web-Design und der Datenanalyse im Team und können Softwareelemente auf Ihr Unternehmen zugeschnitten entwickeln.  
             </p>

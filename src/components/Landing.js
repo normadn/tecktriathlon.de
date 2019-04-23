@@ -4,9 +4,9 @@ import Header from "./Header";
 import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
 
-import landingImg from "../assets/img/logo/logo-no-text.svg";
+import landingImg from "../assets/img/logo/tvb-small.png";
 import logo from "../assets/img/logo/logo-no-text.svg";
-import word from "../assets/img/logo/amsel-tech-word.svg";
+import word from "../assets/img/logo/teck-triathlon.svg";
 import backgroundCubes from "../assets/img/backgrounds/backgroundCubes.svg";
 
 const applyButtonCSS = {
@@ -21,7 +21,6 @@ const Landing = () => (
     id=""
     css={{
       width: "100%",
-      background: `url(${backgroundCubes}) no-repeat center center`,
       backgroundSize: "cover",
       "@media(max-width: 600px)": {
         minHeight: "600px"
@@ -93,7 +92,7 @@ const Landing = () => (
               }
             }}
           >
-            Triathlon Bissingen
+            Volkstriathlon in Bissingen an der Teck
           </h2>
           <h2
             data-cy="qhacks-tagline"
@@ -109,9 +108,9 @@ const Landing = () => (
               }
             }}
           >
-            Website & App Entwicklung
+            Am 28.08.2019 - Das Fun Event für Jung und Alt
             <br />
-            Auf Ihre Bedürfnisse zugeschnitten
+            Teilnahme einzeln oder als Team möglich
           </h2>
           <ActionButton
             dataCy="login-button"

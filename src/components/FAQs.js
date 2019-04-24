@@ -3,44 +3,59 @@ import ContentWrapper from "./ContentWrapper";
 
 const questionsAndAnswers = [
   {
-    question: "Wie teuer ist eine neue Website?",
+    question: "Wo findet die Veranstaltung statt?",
     answer:
-      "Das ist natürlich vom Umfang abhängig. Erfahrungsgemäß zwischen 3-10k €."
+      "Lauwiesenweg 3, 73266 Bissingen an der Teck"
   },
   {
-    question: "Wie kann ich euch vertrauen, dass ihr meine Kundendaten nicht an Dritte weitergebt?",
-    answer: (
-      <span>
-        Wir stellen höchste Ansprüche an das Thema Datensicherheit. Siehe auch {" "}
-        <a
-          href="https://amsel.tech/Impressum"
-          rel="external noopener"
-          target="_blank"
-        >
-          /Datenschutz
-        </a>
-      </span>
-    )
+    question: "Wie hoch ist das Startgeld?",
+    answer: 
+      "Einzelwertung: 20€; Staffelwertung: 20€ pro Person"
   },
   {
-    question: "Was könnt ihr alles entwickeln?",
-    answer: "Websiten, Apps (Mobile, Progressive Web-Apps), Datenbankstrukturen, Analytic-Dashboards und Prozessautomatisierungen."
+    question: "Wieviele Startplätze gibt es und gibt es ein Mindestalter?",
+    answer: "100. Jeder kann mitmachen, egal wie alt oder jung er ist."
   },
   {
-    question: "Welche Programmiersprachen benutzt ihr dafür?",
+    question: "Bis wann kann ich mich anmelden?",
     answer:
-      "Bei Websites und Web-Apps benutzen wir gerne ReactJS; Im Mobile Bereich können wir sowohl native als auch react-native. Zur Datenanalyse benutzen wir Python und im Backend hauptsächlich Golang."
+      "Bis 2 Wochen vor dem Veranstaltungstermin. So können wir sicher stellen, dass wir auch eure Tshirts bis dahin fertig bekommen."
   },
   {
-    question: "Warum heißt ihr Amsel.tech?",
+    question: "Wie sind die Distanzen bei den einzelnen Disziplinen?",
     answer:
-      "Wir wohnen im Amselweg 7 in Bissingen an der Teck (fast wie Tech), lieben Vögel und Technik. Alles zusammen ergab den Namen :)"
-  } //,
-  // {
-  //   question: "How do I apply?",
-  //   answer:
-  //     "Applications will roll out at the end of November, so make sure to stay in the loop by following our social media pages or signing up for our newsletter (link to top). You don't need to be an expert hacker or to have been to a hackathon before - we just want to see what makes you creative and unique!"
-  // }
+      "Schwimmen: 400 m; Radfahren: ca. 20 km; Laufen: ca. 6 km"
+  },
+  {
+    question: "Wann und wo ist die Startnummernausgabe?",
+    answer:
+      "Um 12:00 – 12:45 Uhr am Sportplatz Bissigen an der Teck"
+  },
+  {
+    question: "Wann beginnt das Rennen?",
+    answer:
+      "Um 13:00 Uhr am Sportplatz Bissingen an der Teck in 10 Gruppen, Abstand 15 Minuten. Gruppeneinteilung laut Aushang. Startberechtigung nur in der eingeteilten Gruppe."
+  },
+  {
+    question: "Welches sportliches Ausgangsniveau wird benötigt?",
+    answer:
+      "Um bei einem Volkstriathlon an den Start zu gehen, genügt, wenn Sie allgemein sportlich aktiv sind, eventuell auch als Ball- oder Mannschaftssportler. Eine Ausdauergrundlage ist natürlich ideal."
+  },
+  {
+    question: "Wieviel Vorbereitungszeit sollte ich einplanen?",
+    answer:
+      "Als Vorbereitungszeit auf einen Volkstriathlon genügen 4 bis 6 Wochen."
+  },
+  {
+    question: "Brauche ich spezielles Triathlon-Equipment?",
+    answer:
+      "Spezielles Triathlon-Equipment wie ein Neoprenanzug oder ein Rennrad sind nicht zwingend erforderlich. Ein Helm ist jedoch Pflicht."
+  },
+  {
+    question: "Welche Leistungen sind im Preis inbegriffen?",
+    answer:
+      "T-Shirt, Finshergeschenk, Warme Duschen, Wettkampfverpflegung inkl.  Bananen und Isotonic Sports Drink, Festzelt mit Verpflegung kalt/warm, Tolle Stimmung, Siegerehrungen, Startplatzübertragung im Krankheitsfall"
+  }
 ];
 
 const linkCss = {
@@ -60,7 +75,7 @@ const FAQs = () => (
           }
         }}
       >
-        <h1>Häufig gestellte Fragen</h1>
+        <h1>Alle Informationen zur Veranstaltung</h1>
         <div
           css={{
             paddingTop: "36px",

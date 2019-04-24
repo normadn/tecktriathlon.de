@@ -10,9 +10,9 @@ import word from "../assets/img/logo/teck-triathlon.svg";
 import backgroundCubes from "../assets/img/backgrounds/backgroundCubes.svg";
 
 const applyButtonCSS = {
-  margin: "25px 0 100px 0",
+  margin: "5px 0 50px 0",
   "@media(max-width: 820px)": {
-    margin: "30px 0 45px auto"
+    margin: "5px 0 20px auto"
   }
 };
 
@@ -97,12 +97,12 @@ const Landing = () => (
           <h2
             data-cy="qhacks-tagline"
             css={{
-              padding: "20px 0 100px",
+              padding: "20px 0 50px",
               color: "#575757",
               fontWeight: 500,
               lineHeight: "30px",
               "@media(max-width: 820px)": {
-                paddingTop: "20px",
+                paddingTop: "10px",
                 fontSize: "15px",
                 lineHeight: "1.6"
               }
@@ -117,10 +117,23 @@ const Landing = () => (
             backgroundColor="#ffffff"
             foregroundColor="#00205b"
             style={applyButtonCSS}
-            link="https://docs.google.com/forms/d/e/1FAIpQLSdjqizoW8smdG5cEZfGd06iQtTLokHvbgeDb5_Tre59X77IyQ/viewform?usp=sf_link"
+            link="https://forms.gle/aj93xZaareggDn2Y6"
             type="rounded"
           >
-            Anmelden
+            Zur Einzelwertung anmelden
+          </ActionButton> 
+          
+          <br />
+
+          <ActionButton
+            dataCy="login-button"
+            backgroundColor="#ffffff"
+            foregroundColor="#00205b"
+            style={applyButtonCSS}
+            link="https://forms.gle/eQiaWeY8k3MEcLvP6"
+            type="rounded"
+          >
+            Zur Teamwertung anmelden
           </ActionButton> 
         </div>
         <div

@@ -23,7 +23,7 @@ import goll from "../assets/img/sponsors/goll.png";
 import maenner from "../assets/img/sponsors/maenner.png";
 import seestueble from "../assets/img/sponsors/seestueble.jpg";
 import amsel from "../assets/img/sponsors/amsel-tech.png";
-import mosaicLogo from "../assets/img/sponsors/mosaic.svg";
+import schmidt from "../assets/img/sponsors/schmidt.jpg";
 import apolloLogo from "../assets/img/sponsors/apollo.svg";
 import googleLogo from "../assets/img/sponsors/google.svg";
 import indicoLogo from "../assets/img/sponsors/indico.svg";
@@ -77,7 +77,7 @@ const Sponsors = () => (
       >
         {/* Sponsors */}
         <div>
-          <h1>Sponsors</h1>
+          <h1>Sponsoren</h1>
 
           {/* Tera */}
           <div
@@ -207,6 +207,35 @@ const Sponsors = () => (
                 }}
                 data-cy="test-sponsor-image"
                 alt="Amsel.tech logo"
+              />
+            </SponsorLink>
+          </div>
+
+          {/* Tera Row 3 */}
+          <div
+            css={{
+              display: "grid",
+              gridTemplateColumns: "1fr",
+              marginBottom: "80px",
+            }}
+          >
+            <SponsorLink url="http://see-stueble.de/st/">
+              <img
+                src={schmidt}
+                css={{
+                  width: "800px",
+                  "@media(max-width: 980px)": {
+                    width: "600px"
+                  },
+                  "@media(max-width: 680px)": {
+                    width: "400px"
+                  },
+                  "@media(max-width: 460px)": {
+                    width: "300px"
+                  }
+                }}
+                data-cy="test-sponsor-image"
+                alt="Standard Library Logo"
               />
             </SponsorLink>
           </div>

@@ -55,17 +55,17 @@ export default () => {
     <ApolloProvider client={apolloClient}>
       <div css={{ overflowX: "hidden" }}>
         <Helmet
-          title="Amsel.tech | Software Agentur an der Teck"
+          title="Teck Triathlon | Volkstriathlon in Bissingen an der Teck"
           meta={[
             {
               name: "description",
               content:
-                "Amsel.tech ist die Software Argentur in Bissingen an der Teck"
+                "Jedermann Triathlon am Fuße der Teck"
             },
             {
               name: "keywords",
               content:
-                "Sotware, Agentur, Bissingen, Teck"
+                "Triathlon, Volkstriathlon, Teck"
             },
             {
               name: "viewport",
@@ -77,11 +77,11 @@ export default () => {
             },
             {
               property: "og:url",
-              content: "https://amsel.tech/"
+              content: "https://tecktriathlon.de"
             },
             {
               property: "og:title",
-              content: "Amsel.tech | Software Agentur an der Teck"
+              content: "Teck Triathlon | Volkstriathlon in Bissingen an der Teck"
             },
             {
               property: "og:image",
@@ -90,11 +90,11 @@ export default () => {
             {
               property: "og:description",
               content:
-                "Amsel.tech ist die Software Argentur in Bissingen an der Teck. Website und App Entwicklung vor Ihrer Haustür."
+                "Der Cross-Country Triathlon bei dem der Spaß im Vordergrund steht :)"
             },
             {
               property: "og:site_name",
-              content: "Amsel.tech"
+              content: "Teck Triathlon"
             },
             {
               property: "og:locale",

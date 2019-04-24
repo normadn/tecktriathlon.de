@@ -9,8 +9,8 @@ import hackers from "../assets/img/icons/hackersIcon.svg";
 import schools from "../assets/img/icons/schoolsIcon.svg";
 import challenges from "../assets/img/icons/challengesIcon.svg";
 import applications from "../assets/img/icons/applicationsIcon.svg";
-import qhacksSellingPointOnejpg from "../assets/img/selling_points/sellingPointElement.jpg";
-import qhacksSellingPointTwojpg from "../assets/img/selling_points/sellingPointCode.jpg";
+import qhacksSellingPointOnejpg from "../assets/img/selling_points/sellingPointFist.jpg";
+import qhacksSellingPointTwojpg from "../assets/img/selling_points/sellingPointTeam.jpg";
 import qhacksSellingPointOnewebp from "../assets/img/selling_points/qhacksSellingPointOne.webp";
 import qhacksSellingPointTwowebp from "../assets/img/selling_points/qhacksSellingPointTwo.webp";
 import ContentWrapper from "./ContentWrapper";
@@ -65,7 +65,7 @@ const SellingPoints = () => (
           <div css={flexChildStyle}>
             <h1>Einzelwertung</h1>
             <p css={blurbStyle}>
-              Sie wollen ihre Unternehmens-Website erneuern, ihr SEO-Ranking verbessern, ihre Kundendaten aufarbeiten oder Prozesse automatisieren? Wir haben Spezialisten für im Frontend, Backend, Web-Design und der Datenanalyse im Team und können Softwareelemente auf Ihr Unternehmen zugeschnitten entwickeln.  
+            Mit dieser Veranstaltung soll auch der Personenkreis der Freizeitsportler/innen und Triathlon-Einsteiger/innen angesprochen werden. Die Distanz ist daher für einen Triathlon recht kurz gehalten und eignet sich somit auch für Sportler/innen, die bereits eine Ausdauersportart betreiben und sich nun einmal im Triathlon testen wollen. Natürlich sind auch erfahrene Triathleten/innen, die zu, Saisonende noch einen Volkstriathlon absolvieren wollen, herzlich eingeladen.  
             </p>
           </div>
           <div css={flexChildStyle}>
@@ -99,44 +99,10 @@ const SellingPoints = () => (
           <div css={flexChildStyle}>
             <h1>oder als Team</h1>
             <p css={blurbStyle}>
-              Sie suchen nach einer Digitalisierungsstrategie für ihr Unternehmen? - Da sind sie bei uns genau richtig! Jedes Unternehmen löst andere Herausforderungen. Ein enger Austausch mit Ihnen ist uns folglich wichtig, um Lösungen zu entwickeln, die Ihre Kunden begeistern werden. Wir helfen Ihnen der Konkurrenz einen Schritt voraus zu sein.
+            Drei Teilnehmer teilen sich nach dem Staffelprinzip den Triathlon. Jeder Teilnehmer legt eine Teilstrecke (Schwimmen, Radfahren oder Laufen) zurück. Bei zwei Teilnehmern läuft der Schwimmer, der zweite Teilnehmer fährt Rad.
             </p>
           </div>
         </div>
-        <picture
-          css={{
-            width: "400px",
-            height: "246px",
-            position: "absolute",
-            bottom: "-140px",
-            left: "-60px",
-            zIndex: 3,
-            "@media(max-width: 1200px)": {
-              width: "358px",
-              height: "220px",
-              bottom: "-120px",
-              left: "-40px"
-            },
-            "@media(max-width: 840px)": {
-              display: "none"
-            }
-          }}
-        >
-          <source srcSet={cubes2webp} type="image/webp" />
-          <source srcSet={cubes2png} type="image/png" />
-          <img
-            css={{
-              width: "400px",
-              height: "246px",
-              "@media(max-width: 1200px)": {
-                width: "358px",
-                height: "220px"
-              }
-            }}
-            src={cubes2png}
-            alt="Floating cubes"
-          />
-        </picture>
       </div>
     </ContentWrapper>
   </div>

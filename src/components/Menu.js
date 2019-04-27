@@ -2,7 +2,7 @@ import React from "react";
 import ScrollSpy from "react-scrollspy";
 
 import colored from "../assets/img/logo/qhacksCrown-colored.svg";
-import amsel from "../assets/img/logo/amsel-logo-bird-two.png";
+import amsel from "../assets/img/logo/tvb-squared.png";
 
 const Menu = (props) => {
   return (

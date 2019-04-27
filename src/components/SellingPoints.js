@@ -45,14 +45,14 @@ const imgStyle = {
 };
 
 const SellingPoints = () => (
-  <div id="services" css={{ position: "relative" }}>
+  <div id="wertungen" css={{ position: "relative", backgroundColor: "#f8f8f8",}}>
     <ContentWrapper>
       <div
         css={{
-          padding: "143px 0",
+          padding: "100px 0",
           margin: "0 -28px",
           "@media(max-width: 840px)": {
-            padding: "143px 0 50px 0"
+            padding: "100px 0 50px 0"
           }
         }}
       >

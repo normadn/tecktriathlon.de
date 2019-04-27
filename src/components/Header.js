@@ -7,11 +7,10 @@ import Menu from "./Menu";
 let prevScrollY = 0;
 
 const menuItems = [
-  "services",
-  "referenzen",
-  "team",
-  "faq",
-  "kontakt"
+  "wertungen",
+  "sponsoren",
+  "bissingen",
+  "informationen",
 ];
 
 class Header extends Component {

@@ -19,7 +19,7 @@ import EventSchedule from "../components/EventSchedule";
 import MailingListSignup from "../components/MailingListSignup";
 import HackerTestimonials from "../components/HackerTestimonials";
 
-import favicon from "../assets/img/icons/favicon-amsel.ico";
+import favicon from "../assets/img/icons/favicon-tvb.ico";
 import sharingImage from "../assets/img/logo/logo-with-text.svg";
 
 export default () => {
@@ -112,15 +112,16 @@ export default () => {
         </Helmet>
         <div>
           <Landing />
+          <MailingListSignup />
           <SellingPoints/>
           <Sponsors />
+          <BriefSummary/>
           <FAQs />
           {/*<MailingListSignup />
           <HackerTestimonials />
           <Speakers />
           <EventSchedule />
           <Podcast />*/}
-          <BriefSummary/>
           <Footer />
         </div>
       </div>

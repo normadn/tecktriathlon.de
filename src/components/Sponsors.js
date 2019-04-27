@@ -55,9 +55,9 @@ import asusAmsEngSocLogo from "../assets/img/sponsors/asusAmsEngSoc.png";
 
 const Sponsors = () => (
   <section
-    id="sponsors"
+    id="sponsoren"
     css={{
-      backgroundColor: "#f8f8f8",
+      backgroundColor: "#ffffff",
       " img": {
         transition: "0.3s",
         ":hover": {
@@ -194,15 +194,15 @@ const Sponsors = () => (
               <img
                 src={amsel}
                 css={{
-                  width: "400px",
+                  width: "350px",
                   "@media(max-width: 980px)": {
-                    width: "400px"
+                    width: "350px"
                   },
                   "@media(max-width: 680px)": {
-                    width: "250px"
+                    width: "200px"
                   },
                   "@media(max-width: 460px)": {
-                    width: "200px"
+                    width: "150px"
                   }
                 }}
                 data-cy="test-sponsor-image"
@@ -219,7 +219,7 @@ const Sponsors = () => (
               marginBottom: "80px",
             }}
           >
-            <SponsorLink url="http://see-stueble.de/st/">
+            <SponsorLink url="https://www.facebook.com/pages/category/Cargo---Freight-Company/Schmidt-Transporte-GmbH-236242266579529/">
               <img
                 src={schmidt}
                 css={{

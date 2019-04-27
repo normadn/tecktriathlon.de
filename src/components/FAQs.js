@@ -65,7 +65,7 @@ const linkCss = {
 };
 
 const FAQs = () => (
-  <section id="faq" css={{ backgroundColor: "#ffffff" }}>
+  <section id="informationen" css={{ backgroundColor: "#ffffff" }}>
     <ContentWrapper>
       <div
         css={{

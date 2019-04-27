@@ -4,15 +4,15 @@ import Header from "./Header";
 import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
 
-import landingImg from "../assets/img/logo/tvb-small.png";
+import landingImg from "../assets/img/logo/tvb-logo.svg";
 import logo from "../assets/img/logo/logo-no-text.svg";
-import word from "../assets/img/logo/teck-triathlon.svg";
+import word from "../assets/img/logo/tecktriathlon.svg";
 import backgroundCubes from "../assets/img/backgrounds/backgroundCubes.svg";
 
 const applyButtonCSS = {
-  margin: "5px 0 50px 0",
+  margin: "5px 0 30px 0",
   "@media(max-width: 820px)": {
-    margin: "5px 0 20px auto"
+    margin: "5px 0 15px auto"
   }
 };
 
@@ -33,6 +33,7 @@ const Landing = () => (
         css={{
           display: "grid",
           gridTemplateColumns: "auto 1fr",
+          marginBottom: "60px",
           "@media(max-width: 820px)": {
             textAlign: "center",
             display: "block"
@@ -43,11 +44,11 @@ const Landing = () => (
           css={{
             "@media(min-width: 1200px)": {
               paddingRight: "50px",
-              paddingTop: "115px"
+              paddingTop: "75px"
             },
             "@media (min-width: 821px) and (max-width: 1199px)": {
               paddingRight: "50px",
-              paddingTop: "115px"
+              paddingTop: "75px"
             },
             "@media (max-width: 820px)": {
               paddingTop: "80px"
@@ -57,8 +58,8 @@ const Landing = () => (
           <img
             src={landingImg}
             css={{
-              width: "75vw",
-              maxWidth: "350px",
+              width: "70vw",
+              maxWidth: "300px",
               "@media(min-width: 821px)": { display: "none" }
             }}
             alt="Illustration"
@@ -93,6 +94,23 @@ const Landing = () => (
             }}
           >
             Volkstriathlon in Bissingen an der Teck
+          </h2>
+
+          <h2
+            data-cy="qhacks-information"
+            css={{
+              color: "#575757",
+              fontWeight: 600,
+              fontSize: "20px",
+              paddingBottom: "30px",
+              "@media(max-width: 820px)": {
+                paddingBottom: "24px"
+              }
+            }}
+          >
+            Es ist egal wie schnell du bist. 
+            <br />
+            Du schlägst alle die zuhause bleiben!
           </h2>
           <h2
             data-cy="qhacks-tagline"
@@ -141,7 +159,7 @@ const Landing = () => (
             position: "relative",
             textAlign: "right",
             display: "flex",
-            paddingTop: "84px",
+            paddingTop: "85px",
             alignItems: "right",
             "@media(max-width: 820px)": {
               display: "none"
@@ -151,11 +169,12 @@ const Landing = () => (
           <img
             src={landingImg}
             css={{
-              paddingLeft: "100px",
-              paddingBottom: "40px",
+              paddingTop: "35px",
+              paddingLeft: "50px",
+              paddingBottom: "20px",
               width: "85%"
             }}
-            alt="Amsel Illustration"
+            alt="TVB logo"
           />
         </div>
       </section>

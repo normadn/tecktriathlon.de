@@ -15,6 +15,7 @@ const caretCSS = (backgroundColor) =>
 
 const BriefSummary = () => (
   <div
+    id="bissingen"
     css={{
       position: "relative",
       width: "100%",

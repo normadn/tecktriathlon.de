@@ -3,7 +3,7 @@ import React from "react";
 import cubeswebp from "../assets/img/icons/mobileMenuCubes.webp";
 import menuClose from "../assets/img/icons/mobileMenuClose.svg";
 import hamburger from "../assets/img/icons/mobileMenuOpen.svg";
-import word from "../assets/img/logo/amsel-tech-word-white.svg";
+import word from "../assets/img/logo/tecktriathlon-white.svg";
 import cubespng from "../assets/img/icons/mobileMenuCubes.png";
 import logo from "../assets/img/logo/amsel-logo-bird-small-white-new.svg";
 
@@ -69,13 +69,7 @@ const MobileMenu = (props) => (
             }
           }}
         >
-          <div>
-            <img
-              src={logo}
-              css={{ paddingBottom: "11px", width: "45%"}}
-              alt="QHacks Crown"
-            />
-          </div>
+          
           <div css={{ paddingBottom: "52px" }}>
             <img
               src={word}
@@ -95,13 +89,7 @@ const MobileMenu = (props) => (
               </a>
             </div>
           ))}
-          <div css={{ marginTop: "-100px", pointerEvents: "none" }}>
-            <picture>
-              <source srcSet={cubeswebp} type="image/webp" />
-              <source srcSet={cubespng} type="image/png" />
-              <img src={cubespng} alt="Floating cubes" />
-            </picture>
-          </div>
+         
         </div>
       </div>
     </div>

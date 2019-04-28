@@ -20,7 +20,7 @@ import MailingListSignup from "../components/MailingListSignup";
 import HackerTestimonials from "../components/HackerTestimonials";
 
 import favicon from "../assets/img/icons/favicon-tvb.ico";
-import sharingImage from "../assets/img/logo/logo-with-text.svg";
+import sharingImage from "../assets/img/logo/sharing-tvb.png";
 
 export default () => {
   let environment = process.env.NETLIFY_ENV;

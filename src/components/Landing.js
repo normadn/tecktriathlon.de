@@ -126,7 +126,7 @@ const Landing = () => (
               }
             }}
           >
-            Am 28.08.2019 - Das Fun Event für Jung und Alt
+            Am 31.08.2019 - Das Fun Event für Jung und Alt
             <br />
             Teilnahme einzeln oder als Team möglich
           </h2>

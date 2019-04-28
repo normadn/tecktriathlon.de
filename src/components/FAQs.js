@@ -29,17 +29,32 @@ const questionsAndAnswers = [
   {
     question: "Wann und wo ist die Startnummernausgabe?",
     answer:
-      "Um 12:00 – 12:45 Uhr am Sportplatz Bissigen an der Teck"
+      "Um 9:00 – 9:45 Uhr am Sportplatz Bissigen an der Teck"
   },
   {
     question: "Wann beginnt das Rennen?",
     answer:
-      "Um 13:00 Uhr am Sportplatz Bissingen an der Teck in 10 Gruppen, Abstand 15 Minuten. Gruppeneinteilung laut Aushang. Startberechtigung nur in der eingeteilten Gruppe."
+      "Um 10:00 Uhr am Sportplatz Bissingen an der Teck in 10 Gruppen, Abstand 15 Minuten. Gruppeneinteilung laut Aushang. Startberechtigung nur in der eingeteilten Gruppe."
   },
   {
     question: "Welches sportliches Ausgangsniveau wird benötigt?",
     answer:
       "Um bei einem Volkstriathlon an den Start zu gehen, genügt, wenn Sie allgemein sportlich aktiv sind, eventuell auch als Ball- oder Mannschaftssportler. Eine Ausdauergrundlage ist natürlich ideal."
+  },
+  {
+    question: "Wie sieht es mit der Haftung aus?",
+    answer: (
+      <span>
+        Jeder haftet für sich selbst. Eine genauere Erläuterung findet ihr unter {" "}
+        <a
+          href="/haftung"
+          rel="external noopener"
+          target="_blank"
+        >
+          /haftung
+        </a>
+      </span>
+    )
   },
   {
     question: "Wieviel Vorbereitungszeit sollte ich einplanen?",

@@ -4,6 +4,15 @@ import SponsorLink from "./SponsorLink";
 import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
 
+import goll from "../assets/img/sponsors/goll.png";
+import maenner from "../assets/img/sponsors/maenner.png";
+import seestueble from "../assets/img/sponsors/seestueble.jpg";
+import amsel from "../assets/img/sponsors/amsel-tech.png";
+import schmidt from "../assets/img/sponsors/schmidt.jpg";
+import ecenter from "../assets/img/sponsors/ecenterKirchheim.png";
+import holl from "../assets/img/sponsors/sportHoll.png";
+
+
 import tdLogo from "../assets/img/sponsors/td.svg";
 import qicLogo from "../assets/img/sponsors/qic.svg";
 import dclLogo from "../assets/img/sponsors/dcl.svg";
@@ -19,11 +28,6 @@ import githubLogo from "../assets/img/sponsors/github.svg";
 import sketchLogo from "../assets/img/sponsors/sketch.svg";
 import ritualLogo from "../assets/img/sponsors/ritual.svg";
 import loopioLogo from "../assets/img/sponsors/loopio.svg";
-import goll from "../assets/img/sponsors/goll.png";
-import maenner from "../assets/img/sponsors/maenner.png";
-import seestueble from "../assets/img/sponsors/seestueble.jpg";
-import amsel from "../assets/img/sponsors/amsel-tech.png";
-import schmidt from "../assets/img/sponsors/schmidt.jpg";
 import apolloLogo from "../assets/img/sponsors/apollo.svg";
 import googleLogo from "../assets/img/sponsors/google.svg";
 import indicoLogo from "../assets/img/sponsors/indico.svg";
@@ -119,7 +123,7 @@ const Sponsors = () => (
                     }
                   }}
                   data-cy="test-sponsor-image"
-                  alt="Backstube Goll Logo"
+                  alt="Backstube Goll"
                 />
               </SponsorLink>
             </div>
@@ -147,7 +151,7 @@ const Sponsors = () => (
                     }
                   }}
                   data-cy="test-sponsor-image"
-                  alt="Maenner Logo"
+                  alt="Maenner Container"
                 />
               </SponsorLink>
             </div>
@@ -177,7 +181,7 @@ const Sponsors = () => (
                   }
                 }}
                 data-cy="test-sponsor-image"
-                alt="Standard Library Logo"
+                alt="Seestueble"
               />
             </SponsorLink>
           </div>
@@ -206,7 +210,7 @@ const Sponsors = () => (
                   }
                 }}
                 data-cy="test-sponsor-image"
-                alt="Amsel.tech logo"
+                alt="Amsel.tech"
               />
             </SponsorLink>
           </div>
@@ -235,7 +239,65 @@ const Sponsors = () => (
                   }
                 }}
                 data-cy="test-sponsor-image"
-                alt="Standard Library Logo"
+                alt="Schimdt Transporte"
+              />
+            </SponsorLink>
+          </div>
+
+          {/* Tera Row 3 */}
+          <div
+            css={{
+              display: "grid",
+              gridTemplateColumns: "1fr",
+              marginBottom: "80px",
+            }}
+          >
+            <SponsorLink url="https://www.facebook.com/pages/category/Cargo---Freight-Company/Schmidt-Transporte-GmbH-236242266579529/">
+              <img
+                src={holl}
+                css={{
+                  width: "500px",
+                  "@media(max-width: 980px)": {
+                    width: "400px"
+                  },
+                  "@media(max-width: 680px)": {
+                    width: "300px"
+                  },
+                  "@media(max-width: 460px)": {
+                    width: "250px"
+                  }
+                }}
+                data-cy="test-sponsor-image"
+                alt="Sport Holl"
+              />
+            </SponsorLink>
+          </div>
+
+          {/* Tera Row 3 */}
+          <div
+            css={{
+              display: "grid",
+              gridTemplateColumns: "1fr",
+              marginBottom: "80px",
+            }}
+          >
+            <SponsorLink url="https://www.facebook.com/pages/category/Cargo---Freight-Company/Schmidt-Transporte-GmbH-236242266579529/">
+              <img
+                src={ecenter}
+                css={{
+                  width: "500px",
+                  "@media(max-width: 980px)": {
+                    width: "400px"
+                  },
+                  "@media(max-width: 680px)": {
+                    width: "300px"
+                  },
+                  "@media(max-width: 460px)": {
+                    width: "250px"
+                  }
+                }}
+                data-cy="test-sponsor-image"
+                alt="Ecenter Kirchheim Teck"
               />
             </SponsorLink>
           </div>

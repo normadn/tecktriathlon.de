@@ -252,7 +252,7 @@ const Sponsors = () => (
               marginBottom: "80px",
             }}
           >
-            <SponsorLink url="https://www.facebook.com/pages/category/Cargo---Freight-Company/Schmidt-Transporte-GmbH-236242266579529/">
+            <SponsorLink url="https://www.sport-holl.de/">
               <img
                 src={holl}
                 css={{
@@ -281,7 +281,7 @@ const Sponsors = () => (
               marginBottom: "80px",
             }}
           >
-            <SponsorLink url="https://www.facebook.com/pages/category/Cargo---Freight-Company/Schmidt-Transporte-GmbH-236242266579529/">
+            <SponsorLink url="https://www.edeka.de/eh/s%C3%BCdwest/e-center-kirchheim-teck-stuttgarter-stra%C3%9Fe-1/index.jsp">
               <img
                 src={ecenter}
                 css={{

@@ -99,7 +99,7 @@ const SellingPoints = () => (
           <div css={flexChildStyle}>
             <h1>oder als Team</h1>
             <p css={blurbStyle}>
-            Drei Teilnehmer teilen sich nach dem Staffelprinzip den Triathlon. Jeder Teilnehmer legt eine Teilstrecke (Schwimmen, Radfahren oder Laufen) zurück. Bei zwei Teilnehmern läuft der Schwimmer, der zweite Teilnehmer fährt Rad.
+            Drei Teilnehmer teilen sich nach dem Staffelprinzip den Triathlon. Jeder Teilnehmer legt eine Teilstrecke (Schwimmen, Radfahren oder Laufen) zurück. Ihr bekommt drei gleiche Startnummern und den Rest regelt ihr selbst.
             </p>
           </div>
         </div>

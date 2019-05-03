@@ -19,7 +19,7 @@ const questionsAndAnswers = [
   {
     question: "Bis wann kann ich mich anmelden?",
     answer:
-      "Bis 2 Wochen vor dem Veranstaltungstermin. So können wir sicher stellen, dass wir auch eure Tshirts bis dahin fertig bekommen."
+      "Bis 2 Wochen vor dem Veranstaltungstermin. So können wir sicher stellen, dass wir auch eure T-Shirts bis dahin fertig bekommen."
   },
   {
     question: "Wie sind die Distanzen bei den einzelnen Disziplinen?",
@@ -29,12 +29,12 @@ const questionsAndAnswers = [
   {
     question: "Wann und wo ist die Startnummernausgabe?",
     answer:
-      "Um 9:00 – 9:45 Uhr am Sportplatz Bissigen an der Teck"
+      "Um 9:00 – 9:45 Uhr am Sportplatz in Bissigen an der Teck"
   },
   {
     question: "Wann beginnt das Rennen?",
     answer:
-      "Um 10:00 Uhr am Sportplatz Bissingen an der Teck in 10 Gruppen, Abstand 15 Minuten. Gruppeneinteilung laut Aushang. Startberechtigung nur in der eingeteilten Gruppe."
+      "Um 10:00 Uhr am Sportplatz Bissingen an der Teck in 10er Gruppen, Abstand 15 Minuten. Gruppeneinteilung laut Aushang. Startberechtigung nur in der eingeteilten Gruppe."
   },
   {
     question: "Welches sportliches Ausgangsniveau wird benötigt?",
@@ -64,7 +64,7 @@ const questionsAndAnswers = [
   {
     question: "Brauche ich spezielles Triathlon-Equipment?",
     answer:
-      "Spezielles Triathlon-Equipment wie ein Neoprenanzug oder ein Rennrad sind nicht zwingend erforderlich. Ein Helm ist jedoch Pflicht."
+      "Spezielles Triathlon-Equipment wie ein Neoprenanzug oder ein Moutainbike sind nicht zwingend erforderlich. Ein Helm ist jedoch Pflicht."
   },
   {
     question: "Welche Leistungen sind im Preis inbegriffen?",

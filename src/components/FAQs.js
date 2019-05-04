@@ -14,7 +14,7 @@ const questionsAndAnswers = [
   },
   {
     question: "Wieviele Startplätze gibt es und gibt es ein Mindestalter?",
-    answer: "100. Jeder kann mitmachen, egal wie alt oder jung er ist."
+    answer: "100 Startplätze stehen zur Verfügung und jeder kann mitmachen. Die Teilnahme ist altersunabhängig."
   },
   {
     question: "Bis wann kann ich mich anmelden?",
@@ -39,7 +39,7 @@ const questionsAndAnswers = [
   {
     question: "Welches sportliches Ausgangsniveau wird benötigt?",
     answer:
-      "Um bei einem Volkstriathlon an den Start zu gehen, genügt, wenn Sie allgemein sportlich aktiv sind, eventuell auch als Ball- oder Mannschaftssportler. Eine Ausdauergrundlage ist natürlich ideal."
+      "Um bei einem Volkstriathlon an den Start zu gehen, genügt, wenn du allgemein sportlich aktiv sind, eventuell auch als Ball- oder Mannschaftssportler. Eine Ausdauergrundlage ist natürlich ideal."
   },
   {
     question: "Wie sieht es mit der Haftung aus?",
@@ -69,7 +69,7 @@ const questionsAndAnswers = [
   {
     question: "Welche Leistungen sind im Preis inbegriffen?",
     answer:
-      "T-Shirt, Finshergeschenk, Warme Duschen, Wettkampfverpflegung inkl.  Bananen und Isotonic Sports Drink, Festzelt mit Verpflegung kalt/warm, Tolle Stimmung, Siegerehrungen, Startplatzübertragung im Krankheitsfall"
+      "T-Shirt, Finshergeschenk, warme Duschen, Wettkampfverpflegung inkl.  Bananen und Isotonic Sports Drink, Festzelt mit Verpflegung kalt/warm, tolle Stimmung, Siegerehrungen, Startplatzübertragung im Krankheitsfall"
   }
 ];
 

@@ -6,7 +6,7 @@ import ContentWrapper from "./ContentWrapper";
 
 import goll from "../assets/img/sponsors/goll.png";
 import maenner from "../assets/img/sponsors/maenner.png";
-import seestueble from "../assets/img/sponsors/seestueble.jpg";
+import seestueble from "../assets/img/sponsors/seestueble.png";
 import amsel from "../assets/img/sponsors/amsel-tech.png";
 import schmidt from "../assets/img/sponsors/schmidt.jpg";
 import ecenter from "../assets/img/sponsors/ecenterKirchheim.png";

@@ -8,11 +8,6 @@ const questionsAndAnswers = [
       "Lauwiesenweg 3, 73266 Bissingen an der Teck"
   },
   {
-    question: "Wie hoch ist das Startgeld?",
-    answer: 
-      "Einzelwertung: 20€; Staffelwertung: 20€ pro Person"
-  },
-  {
     question: "Wieviele Startplätze gibt es und gibt es ein Mindestalter?",
     answer: "100 Startplätze stehen zur Verfügung und jeder kann mitmachen. Die Teilnahme ist altersunabhängig."
   },
@@ -25,6 +20,16 @@ const questionsAndAnswers = [
     question: "Wie sind die Distanzen bei den einzelnen Disziplinen?",
     answer:
       "Schwimmen: 400 m; Radfahren: ca. 20 km; Laufen: ca. 6 km"
+  },
+  {
+    question: "Wie hoch ist das Startgeld?",
+    answer: 
+      "Einzelwertung: 20€; Staffelwertung: 20€ pro Person"
+  },
+  {
+    question: "Wie kann ich das Startgeld bezahlen?",
+    answer: 
+      "Am Besten einfach via diesem Paypal-Link: https://www.paypal.me/tecktriathlon. Alternativ kann auch via Überweisung bezahlt werden. IBAN: DE18611500200008160227; Eigentümer: Faustball Bissingen;"
   },
   {
     question: "Wann und wo ist die Startnummernausgabe?",

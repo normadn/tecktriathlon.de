@@ -98,12 +98,12 @@ const Sponsors = () => (
               css={{
                 display: "grid",
                 gridTemplateColumns: "1fr",
-                marginBottom: "80px",
+                marginBottom: "50px",
                 "@media(max-width: 460px)": {
                   marginBottom: "40px"
                 },
                 "@media(max-width: 980px)": {
-                  marginBottom: "60px"
+                  marginBottom: "50px"
                 }
               }}
             >
@@ -127,34 +127,37 @@ const Sponsors = () => (
                 />
               </SponsorLink>
             </div>
+          </div>
 
-            {/* Tera Row 2 */}
-            <div
-              css={{
-                display: "grid",
-                gridTemplateColumns: "1fr"
-              }}
-            >
-              <SponsorLink url="https://www.maenner-containerdienst.de/">
-                <img
-                  src={maenner}
-                  css={{
-                    width: "500px",
-                    "@media(max-width: 980px)": {
-                      width: "400px"
-                    },
-                    "@media(max-width: 680px)": {
-                      width: "300px"
-                    },
-                    "@media(max-width: 460px)": {
-                      width: "250px"
-                    }
-                  }}
-                  data-cy="test-sponsor-image"
-                  alt="Maenner Container"
-                />
-              </SponsorLink>
-            </div>
+
+          {/* Tera Row 2 */}
+          <div
+            css={{
+              display: "grid",
+              gridTemplateColumns: "1fr",
+              marginBottom: "80px",
+              marginLeft: "10px",
+            }}
+          >
+            <SponsorLink url="https://www.maenner-containerdienst.de/">
+              <img
+                src={maenner}
+                css={{
+                  width: "500px",
+                  "@media(max-width: 980px)": {
+                    width: "400px"
+                  },
+                  "@media(max-width: 680px)": {
+                    width: "300px"
+                  },
+                  "@media(max-width: 460px)": {
+                    width: "250px"
+                  }
+                }}
+                data-cy="test-sponsor-image"
+                alt="Maenner Container"
+              />
+            </SponsorLink>
           </div>
 
           {/* Tera Row 3 */}
@@ -191,7 +194,7 @@ const Sponsors = () => (
             css={{
               display: "grid",
               gridTemplateColumns: "1fr",
-              marginBottom: "80px",
+              marginBottom: "40px",
             }}
           >
             <SponsorLink url="https://amsel.tech">
@@ -215,31 +218,33 @@ const Sponsors = () => (
             </SponsorLink>
           </div>
 
+
           {/* Tera Row 3 */}
           <div
             css={{
               display: "grid",
               gridTemplateColumns: "1fr",
-              marginBottom: "80px",
+              marginBottom: "50px",
+              marginLeft: "35px",
             }}
           >
-            <SponsorLink url="https://www.facebook.com/pages/category/Cargo---Freight-Company/Schmidt-Transporte-GmbH-236242266579529/">
+            <SponsorLink url="https://www.edeka.de/eh/s%C3%BCdwest/e-center-kirchheim-teck-stuttgarter-stra%C3%9Fe-1/index.jsp">
               <img
-                src={schmidt}
+                src={ecenter}
                 css={{
-                  width: "800px",
+                  width: "500px",
                   "@media(max-width: 980px)": {
-                    width: "600px"
-                  },
-                  "@media(max-width: 680px)": {
                     width: "400px"
                   },
-                  "@media(max-width: 460px)": {
+                  "@media(max-width: 680px)": {
                     width: "300px"
+                  },
+                  "@media(max-width: 460px)": {
+                    width: "250px"
                   }
                 }}
                 data-cy="test-sponsor-image"
-                alt="Schimdt Transporte"
+                alt="Ecenter Kirchheim Teck"
               />
             </SponsorLink>
           </div>
@@ -281,26 +286,28 @@ const Sponsors = () => (
               marginBottom: "80px",
             }}
           >
-            <SponsorLink url="https://www.edeka.de/eh/s%C3%BCdwest/e-center-kirchheim-teck-stuttgarter-stra%C3%9Fe-1/index.jsp">
+            <SponsorLink url="https://www.facebook.com/pages/category/Cargo---Freight-Company/Schmidt-Transporte-GmbH-236242266579529/">
               <img
-                src={ecenter}
+                src={schmidt}
                 css={{
-                  width: "500px",
+                  width: "800px",
                   "@media(max-width: 980px)": {
-                    width: "400px"
+                    width: "600px"
                   },
                   "@media(max-width: 680px)": {
-                    width: "300px"
+                    width: "400px"
                   },
                   "@media(max-width: 460px)": {
-                    width: "250px"
+                    width: "300px"
                   }
                 }}
                 data-cy="test-sponsor-image"
-                alt="Ecenter Kirchheim Teck"
+                alt="Schimdt Transporte"
               />
             </SponsorLink>
           </div>
+
+          
 
           </div>
       </div>

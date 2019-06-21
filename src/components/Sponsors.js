@@ -5,6 +5,7 @@ import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
 
 import goll from "../assets/img/sponsors/goll.png";
+import leilani from "../assets/img/sponsors/finca-leilani.png";
 import maenner from "../assets/img/sponsors/maenner.png";
 import seestueble from "../assets/img/sponsors/seestueble.png";
 import amsel from "../assets/img/sponsors/amsel-tech.png";
@@ -127,8 +128,36 @@ const Sponsors = () => (
                 />
               </SponsorLink>
             </div>
-          </div>
 
+          {/* Tera Row 2 */}
+          <div
+            css={{
+              display: "grid",
+              gridTemplateColumns: "1fr",
+              marginBottom: "80px",
+              marginLeft: "10px",
+            }}
+          >
+            <SponsorLink url="https://www.finca-leilani.de/">
+              <img
+                src={leilani}
+                css={{
+                  width: "380px",
+                  "@media(max-width: 980px)": {
+                    width: "320px"
+                  },
+                  "@media(max-width: 680px)": {
+                    width: "220px"
+                  },
+                  "@media(max-width: 460px)": {
+                    width: "170px"
+                  }
+                }}
+                data-cy="test-sponsor-image"
+                alt="Finca Leilani"
+              />
+            </SponsorLink>
+          </div>
 
           {/* Tera Row 2 */}
           <div
@@ -307,9 +336,9 @@ const Sponsors = () => (
             </SponsorLink>
           </div>
 
-          
+        </div>
 
-          </div>
+        </div>
       </div>
     </ContentWrapper>
   </section>

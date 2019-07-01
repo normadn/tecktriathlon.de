@@ -24,7 +24,7 @@ const questionsAndAnswers = [
   {
     question: "Wie hoch ist das Startgeld?",
     answer: 
-      "Einzelwertung: 20€; Staffelwertung: 20€ pro Person"
+      "Einzelwertung: 25€; Staffelwertung: 25€ pro Person"
   },
   {
     question: "Wie kann ich das Startgeld bezahlen?",

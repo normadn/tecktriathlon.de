@@ -34,6 +34,14 @@ const questionsAndAnswers = [
         Radstrecke 
       </a>
       <br/>
+      <a
+        href="https://www.google.com/maps/d/viewer?mid=1paNI9DLHiosCX4ZGB2VMEt9JZ0F3k70f&ll=48.58517986582279%2C9.48277500000006&z=14"
+        rel="external noopener"
+        target="_blank"
+      >
+        Radstrecke Link 2
+      </a>
+      <br/>
       ... und hier die {" "}
       <a
         href="https://drive.google.com/open?id=16tmMdiTLbklomoKu8y-B1xdYq55zxUeV&usp=sharing"
@@ -41,6 +49,14 @@ const questionsAndAnswers = [
         target="_blank"
       >
         Laufstrecke
+      </a>
+      <br/>
+      <a
+        href="https://www.google.com/maps/d/viewer?mid=16tmMdiTLbklomoKu8y-B1xdYq55zxUeV&ll=48.58349117352666%2C9.494840000000067&z=14"
+        rel="external noopener"
+        target="_blank"
+      >
+        Laufstrecke Link 2 
       </a>
     </span>
   },

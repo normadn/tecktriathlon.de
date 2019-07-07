@@ -45,7 +45,7 @@ const questionsAndAnswers = [
       <br/>
       ... und hier die {" "}
       <a
-        href="https://drive.google.com/file/d/18ix0Uj0Qt7xzmFMabhcr_ytr1LZStk29/view?usp=sharing"
+        href="https://drive.google.com/open?id=16tmMdiTLbklomoKu8y-B1xdYq55zxUeV&usp=sharing"
         rel="external noopener"
         target="_blank"
       >

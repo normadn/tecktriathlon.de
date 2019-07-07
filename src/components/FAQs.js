@@ -19,7 +19,35 @@ const questionsAndAnswers = [
   {
     question: "Wie sind die Distanzen bei den einzelnen Disziplinen?",
     answer:
-      "Schwimmen: 400 m; Radfahren: ca. 20 km; Laufen: ca. 6 km"
+      "Schwimmen: 400 m; Radfahren: ca. 12 km; Laufen: ca. 6 km"
+  },
+  {
+    question: "Wo führt die Rad- und Laufstrecke entlang?",
+    answer:
+      <span>
+      Hier die {" "}
+      <a
+        href="https://drive.google.com/open?id=1paNI9DLHiosCX4ZGB2VMEt9JZ0F3k70f&usp=sharing"
+        rel="external noopener"
+        target="_blank"
+      >
+        Radstrecke 
+      </a>
+      <br/>
+      ... und hier die {" "}
+      <a
+        href="https://drive.google.com/open?id=16tmMdiTLbklomoKu8y-B1xdYq55zxUeV&usp=sharing"
+        rel="external noopener"
+        target="_blank"
+      >
+        Laufstrecke
+      </a>
+    </span>
+  },
+  {
+    question: "Brauche ich ein Rennrad oder ein Mountainbike?",
+    answer:
+      "Ein Mountainbike. Die Strecke führt über Feld- und Schotterwege."
   },
   {
     question: "Wie hoch ist das Startgeld?",
@@ -44,7 +72,7 @@ const questionsAndAnswers = [
   {
     question: "Welches sportliches Ausgangsniveau wird benötigt?",
     answer:
-      "Um bei einem Volkstriathlon an den Start zu gehen, genügt, wenn du allgemein sportlich aktiv sind, eventuell auch als Ball- oder Mannschaftssportler. Eine Ausdauergrundlage ist natürlich ideal."
+      "Um bei einem Volkstriathlon an den Start zu gehen, genügt, wenn du allgemein sportlich aktiv bist, eventuell auch als Ball- oder Mannschaftssportler. Eine Ausdauergrundlage ist natürlich ideal."
   },
   {
     question: "Wie sieht es mit der Haftung aus?",
@@ -74,7 +102,7 @@ const questionsAndAnswers = [
   {
     question: "Welche Leistungen sind im Preis inbegriffen?",
     answer:
-      "T-Shirt, Finshergeschenk, warme Duschen, Wettkampfverpflegung inkl.  Bananen und Isotonic Sports Drink, Festzelt mit Verpflegung kalt/warm, tolle Stimmung, Siegerehrungen, Startplatzübertragung im Krankheitsfall"
+      "T-Shirt, Finishergeschenk, warme Duschen, Wettkampfverpflegung inkl.  Bananen und Isotonic Sports Drink, Festzelt mit Verpflegung kalt/warm, tolle Stimmung, Siegerehrungen, Startplatzübertragung im Krankheitsfall"
   }
 ];
 

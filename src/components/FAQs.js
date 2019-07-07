@@ -88,7 +88,7 @@ const questionsAndAnswers = [
       "Um 10:00 Uhr am Sportplatz Bissingen an der Teck in 10er Gruppen, Abstand 15 Minuten. Gruppeneinteilung laut Aushang. Startberechtigung nur in der eingeteilten Gruppe."
   },
   {
-    question: "Welches sportliches Ausgangsniveau wird benötigt?",
+    question: "Welches sportliche Ausgangsniveau wird benötigt?",
     answer:
       "Um bei einem Volkstriathlon an den Start zu gehen, genügt, wenn du allgemein sportlich aktiv bist, eventuell auch als Ball- oder Mannschaftssportler. Eine Ausdauergrundlage ist natürlich ideal."
   },

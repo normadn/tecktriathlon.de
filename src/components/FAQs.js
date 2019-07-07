@@ -34,15 +34,6 @@ const questionsAndAnswers = [
         Radstrecke 
       </a>
       <br/>
-      Bzw. falls der Link Bei euch nicht geht: {" "}
-      <a
-        href="https://drive.google.com/file/d/18ix0Uj0Qt7xzmFMabhcr_ytr1LZStk29/view?usp=sharing"
-        rel="external noopener"
-        target="_blank"
-      >
-        Radstrecke Link 2
-      </a>
-      <br/>
       ... und hier die {" "}
       <a
         href="https://drive.google.com/open?id=16tmMdiTLbklomoKu8y-B1xdYq55zxUeV&usp=sharing"
@@ -52,7 +43,16 @@ const questionsAndAnswers = [
         Laufstrecke
       </a>
       <br/>
-      Bzw. falls der Link Bei euch nicht geht: {" "}
+      Bzw. falls die Links bei euch nicht gehen: {" "}
+      <a
+        href="https://drive.google.com/file/d/18ix0Uj0Qt7xzmFMabhcr_ytr1LZStk29/view?usp=sharing"
+        rel="external noopener"
+        target="_blank"
+      >
+        Radstrecke Link 2
+      </a>
+      <br/>
+      {" "}
       <a
         href="https://drive.google.com/file/d/1H7uDI33TBHNkrE_dq7cnWiBW_Rd_y4N3/view?usp=sharing"
         rel="external noopener"

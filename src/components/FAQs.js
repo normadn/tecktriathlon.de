@@ -80,7 +80,7 @@ const questionsAndAnswers = [
   {
     question: "Wann und wo ist die Startnummernausgabe?",
     answer:
-      "Um 9:00 – 9:45 Uhr am Sportplatz in Bissigen an der Teck"
+      "Um 9:00 – 9:45 Uhr am Sportplatz in Bissingen an der Teck"
   },
   {
     question: "Wann beginnt das Rennen?",

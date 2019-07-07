@@ -36,7 +36,7 @@ const questionsAndAnswers = [
       <br/>
       Bzw. falls der Link Bei euch nicht geht: {" "}
       <a
-        href="https://docs.google.com/document/d/1A6F0lzPbW4NZPDr29cIed7LL0o0DTNF2fw9sde9AIzE/edit?usp=sharing"
+        href="https://drive.google.com/file/d/18ix0Uj0Qt7xzmFMabhcr_ytr1LZStk29/view?usp=sharing"
         rel="external noopener"
         target="_blank"
       >

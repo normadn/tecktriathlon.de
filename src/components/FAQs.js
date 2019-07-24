@@ -63,6 +63,11 @@ const questionsAndAnswers = [
     </span>
   },
   {
+    question: "Wo findet die Schwimmdisziplin statt?",
+    answer:
+      "Im Bissinger See."
+  },
+  {
     question: "Brauche ich ein Rennrad oder ein Mountainbike?",
     answer:
       "Ein Mountainbike. Die Strecke führt über Feld- und Schotterwege."

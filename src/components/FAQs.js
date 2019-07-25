@@ -78,6 +78,11 @@ const questionsAndAnswers = [
       "Einzelwertung: 25€; Staffelwertung: 25€ pro Person"
   },
   {
+    question: "Können wir auch zu Zweit an der Staffelwertung teilnehmen?",
+    answer: 
+      "Ja, das geht auch! Bitte klickt dafür auf den Link 'ZUR TEAMWERTUNG ANMELDEN'. Beim dritten Teilnehmer einfach 'Zweier Team' ausfüllen und beim Bezahlen (logischerweise) auch nur für zwei Teilnehmer überweisen."
+  },
+  {
     question: "Wie kann ich das Startgeld bezahlen?",
     answer: 
       "Am Besten einfach via diesem Paypal-Link: https://www.paypal.me/tecktriathlon. Alternativ kann auch via Überweisung bezahlt werden. IBAN: DE18611500200008160227; Eigentümer: Faustball Bissingen;"

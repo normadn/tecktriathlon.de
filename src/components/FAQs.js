@@ -73,15 +73,16 @@ const questionsAndAnswers = [
       "Ein Mountainbike. Die Strecke führt über Feld- und Schotterwege."
   },
   {
-    question: "Wie hoch ist das Startgeld?",
-    answer: 
-      "Einzelwertung: 25€; Staffelwertung: 25€ pro Person"
-  },
-  {
     question: "Können wir auch zu Zweit an der Staffelwertung teilnehmen?",
     answer: 
       "Ja, das geht auch! Bitte klickt dafür auf den Link 'ZUR TEAMWERTUNG ANMELDEN'. Beim dritten Teilnehmer einfach 'Zweierteam' ausfüllen und beim Bezahlen (logischerweise) auch nur für zwei Teilnehmer überweisen."
   },
+  {
+    question: "Wie hoch ist das Startgeld?",
+    answer: 
+      "Einzelwertung: 25€; Staffelwertung: 25€ pro Person. Bei Anmeldung als Zweierteam bitte via Überweisung bezahlen."
+  },
+  
   {
     question: "Wie kann ich das Startgeld bezahlen?",
     answer: 

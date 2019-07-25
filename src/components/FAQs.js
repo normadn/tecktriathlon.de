@@ -80,7 +80,7 @@ const questionsAndAnswers = [
   {
     question: "Können wir auch zu Zweit an der Staffelwertung teilnehmen?",
     answer: 
-      "Ja, das geht auch! Bitte klickt dafür auf den Link 'ZUR TEAMWERTUNG ANMELDEN'. Beim dritten Teilnehmer einfach 'Zweier Team' ausfüllen und beim Bezahlen (logischerweise) auch nur für zwei Teilnehmer überweisen."
+      "Ja, das geht auch! Bitte klickt dafür auf den Link 'ZUR TEAMWERTUNG ANMELDEN'. Beim dritten Teilnehmer einfach 'Zweierteam' ausfüllen und beim Bezahlen (logischerweise) auch nur für zwei Teilnehmer überweisen."
   },
   {
     question: "Wie kann ich das Startgeld bezahlen?",

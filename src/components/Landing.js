@@ -130,16 +130,26 @@ const Landing = () => (
             <br />
             Teilnahme einzeln oder als Team möglich
           </h2>
-          <ActionButton
-            dataCy="login-button"
-            backgroundColor="#ffffff"
-            foregroundColor="#00205b"
-            style={applyButtonCSS}
-            link="https://forms.gle/aj93xZaareggDn2Y6"
-            type="rounded"
+
+          <h2
+            data-cy="qhacks-tagline"
+            css={{
+              padding: "20px 0 50px",
+              color: "#575757",
+              fontWeight: 500,
+              lineHeight: "30px",
+              "@media(max-width: 820px)": {
+                paddingTop: "10px",
+                fontSize: "15px",
+                lineHeight: "1.6"
+              }
+            }}
           >
-            Zur Einzelwertung anmelden
-          </ActionButton> 
+            Vielen Dank für die 100 Anmeldungen!!!
+            <br />
+            Für 2020 könnt ihr euer Interesse hier bekunden:
+          </h2>
+          
           
           <br />
 
@@ -148,10 +158,10 @@ const Landing = () => (
             backgroundColor="#ffffff"
             foregroundColor="#00205b"
             style={applyButtonCSS}
-            link="https://forms.gle/eQiaWeY8k3MEcLvP6"
+            link="https://forms.gle/7x51UMv5ZxD1cRHt9"
             type="rounded"
           >
-            Zur Teamwertung anmelden
+            Interesse für 2020
           </ActionButton> 
         </div>
         <div

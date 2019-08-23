@@ -51,11 +51,13 @@ export default () => (
           <p
             css={{ fontSize: "16px", color: "#000000", lineHeight: "20px", marginBottom: "10px" }}
           >
-          
-            Die Haftung des Veranstalters und Ausrichters  auch gegenüber Dritten ist beschränkt auf Vorsatz und grobe Fahrlässigkeit. Dies gilt auch für die vom Veranstalter eingesetzten Firmen und Helfer. <br/>
-            Die Haftung des Veranstalters für andere Schäden als solche aus der Verletzung des Lebens, des Körpers oder der Gesundheit ist ausgeschlossen, soweit sie nicht auf einer vorsätzlichen oder grob fahrlässigen Pflichtverletzung des Veranstalters, oder seines gesetzlichen Vertreters oder Erfüllungsgehilfen beruht. <br/>
-            Der Veranstalter haftet nicht für Ausrüstungsgegenstände, die in der Wechselzone abhandenkommen oder für andere abhanden gekommene Gegenstände der Teilnehmer, soweit sie nicht auf einer vorsätzlichen oder grob fahrlässigen Pflichtverletzung des Veranstalters, oder seines gesetzlichen Vertreters oder Erfüllungsgehilfen beruht. <br/>
-            Mit Empfang der Startnummer erklärt der Teilnehmer verbindlich, dass gegen seine Teilnahme keine gesundheitlichen Bedenken bestehen <br/>
+          Für die Haftung bei der Sportveranstaltung gelten die gesetzlichen Bestimmungen. Der Veranstalter übernimmt keinerlei Haftung bei Unfällen, Diebstählen oder anderen Schadensfällen.
+          <br/>
+          Durch die Anmeldung erlaubt jeder Teilnehmer, dass Name und Bilder von den Medien und Fotoservice gratis und uneingeschränkt verwendet werden dürfen, soweit dies im Zusammenhang mit der Veranstaltung steht. Dies gilt auch für mitgereiste Angehörige bzw. Betreuer oder Fans.
+          <br/>
+          Mit der Anmeldung erklärt jeder Teilnehmer dass die Verzichtserklärung und Haftungsfreistellung sorgfältig und im Einzelnen durchgelesen und verstanden wurde und er mit deren Inhalt ausdrücklich einverstanden ist.
+          <br/>
+          Hinweis lt. Datenschutzgesetz: Die Daten werden maschinell gespeichert.
           </p>
         
         </div>

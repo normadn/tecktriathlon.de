@@ -126,7 +126,7 @@ const Landing = () => (
               }
             }}
           >
-            Am 31.08.2019 - Das Fun Event für Jung und Alt
+            2020 geht es in die 2. Runde
             <br />
             Teilnahme einzeln oder als Team möglich
           </h2>
@@ -145,7 +145,7 @@ const Landing = () => (
               }
             }}
           >
-            Vielen Dank für die 100 Anmeldungen!!!
+            Vielen Dank für euere Teilnahme!
             <br />
             Für 2020 könnt ihr euer Interesse hier bekunden:
           </h2>
@@ -164,23 +164,6 @@ const Landing = () => (
             Interesse für 2020
           </ActionButton> 
 
-          <h2
-            data-cy="qhacks-tagline"
-            css={{
-              padding: "20px 0 50px",
-              color: "#575757",
-              fontWeight: 500,
-              lineHeight: "30px",
-              "@media(max-width: 820px)": {
-                paddingTop: "10px",
-                fontSize: "15px",
-                lineHeight: "1.6"
-              }
-            }}
-          >
-            Vielen Dank für euere Teilnahme!
-          </h2>
-
           <ActionButton
             dataCy="login-button"
             backgroundColor="#ffffff"
@@ -189,7 +172,7 @@ const Landing = () => (
             link="https://drive.google.com/file/d/1RBSphejbaEhTGZkylImfajuLVTflteL1/view?usp=sharing"
             type="rounded"
           >
-            Ziel- und Zwischenzeiten 2019 abrufen
+            Ziel- und Zwischenzeiten 2019
           </ActionButton> 
         </div>
         <div

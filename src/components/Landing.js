@@ -146,8 +146,6 @@ const Landing = () => (
             }}
           >
             Vielen Dank für euere Teilnahme!
-            <br />
-            Für 2020 könnt ihr euer Interesse hier bekunden:
           </h2>
           
           
@@ -163,6 +161,8 @@ const Landing = () => (
           >
             Interesse für 2020
           </ActionButton> 
+
+          <br />
 
           <ActionButton
             dataCy="login-button"

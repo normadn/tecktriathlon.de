@@ -126,7 +126,7 @@ const Landing = () => (
               }
             }}
           >
-            Vielen Dank für euere Teilnahme 2019!
+            Vielen Dank für eure Teilnahme 2019!
             <br />
             2020 geht es in die 2. Runde
           </h2>      

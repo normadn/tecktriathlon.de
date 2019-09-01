@@ -126,28 +126,10 @@ const Landing = () => (
               }
             }}
           >
-            2020 geht es in die 2. Runde
+            Vielen Dank für euere Teilnahme 2019!
             <br />
-            Teilnahme einzeln oder als Team möglich
-          </h2>
-
-          <h2
-            data-cy="qhacks-tagline"
-            css={{
-              padding: "20px 0 50px",
-              color: "#575757",
-              fontWeight: 500,
-              lineHeight: "30px",
-              "@media(max-width: 820px)": {
-                paddingTop: "10px",
-                fontSize: "15px",
-                lineHeight: "1.6"
-              }
-            }}
-          >
-            Vielen Dank für euere Teilnahme!
-          </h2>
-          
+            2020 geht es in die 2. Runde
+          </h2>      
           
           <br />
 

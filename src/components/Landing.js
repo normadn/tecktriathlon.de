@@ -163,6 +163,34 @@ const Landing = () => (
           >
             Interesse für 2020
           </ActionButton> 
+
+          <h2
+            data-cy="qhacks-tagline"
+            css={{
+              padding: "20px 0 50px",
+              color: "#575757",
+              fontWeight: 500,
+              lineHeight: "30px",
+              "@media(max-width: 820px)": {
+                paddingTop: "10px",
+                fontSize: "15px",
+                lineHeight: "1.6"
+              }
+            }}
+          >
+            Vielen Dank für euere Teilnahme!
+          </h2>
+
+          <ActionButton
+            dataCy="login-button"
+            backgroundColor="#ffffff"
+            foregroundColor="#00205b"
+            style={applyButtonCSS}
+            link="https://drive.google.com/file/d/1RBSphejbaEhTGZkylImfajuLVTflteL1/view?usp=sharing"
+            type="rounded"
+          >
+            Ziel- und Zwischenzeiten 2019 abrufen
+          </ActionButton> 
         </div>
         <div
           css={{

@@ -151,7 +151,7 @@ const Landing = () => (
             backgroundColor="#ffffff"
             foregroundColor="#00205b"
             style={applyButtonCSS}
-            link="https://drive.google.com/file/d/1RBSphejbaEhTGZkylImfajuLVTflteL1/view?usp=sharing"
+            link="https://drive.google.com/open?id=1py9Pzvk3ITxtTUWx0aVL-U5h_jXmKP8v"
             type="rounded"
           >
             Ziel- und Zwischenzeiten 2019

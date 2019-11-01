@@ -128,7 +128,7 @@ const Landing = () => (
           >
             Vielen Dank für eure Teilnahme 2019!
             <br />
-            2020 geht es in die 2. Runde
+            2. Tecktriathlon voraussichtlich am 29.08.2020
           </h2>      
           
           <br />

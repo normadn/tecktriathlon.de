@@ -25,41 +25,14 @@ const questionsAndAnswers = [
     question: "Wo führt die Rad- und Laufstrecke entlang?",
     answer:
       <span>
-      Hier die {" "}
+      Hier findet ihr Informationen zu den {" "}
       <a
-        href="https://drive.google.com/open?id=1paNI9DLHiosCX4ZGB2VMEt9JZ0F3k70f&usp=sharing"
-        rel="external noopener"
-        target="_blank"
+        href="#strecken"
       >
-        Radstrecke 
+        Strecken
       </a>
-      <br/>
-      ... und hier die {" "}
-      <a
-        href="https://drive.google.com/open?id=16tmMdiTLbklomoKu8y-B1xdYq55zxUeV&usp=sharing"
-        rel="external noopener"
-        target="_blank"
-      >
-        Laufstrecke
-      </a>
-      <br/>
-      Bzw. falls die Links bei euch nicht gehen: {" "}
-      <a
-        href="https://drive.google.com/file/d/18ix0Uj0Qt7xzmFMabhcr_ytr1LZStk29/view?usp=sharing"
-        rel="external noopener"
-        target="_blank"
-      >
-        Radstrecke Link 2
-      </a>
-      <br/>
       {" "}
-      <a
-        href="https://drive.google.com/file/d/1H7uDI33TBHNkrE_dq7cnWiBW_Rd_y4N3/view?usp=sharing"
-        rel="external noopener"
-        target="_blank"
-      >
-        Laufstrecke Link 2 
-      </a>
+      (Link klicken)
     </span>
   },
   {
@@ -198,11 +171,20 @@ const FAQs = () => (
                 rel="external noopener"
                 target="_blank"
                 css={linkCss}
-                href="mailto:norman@amsel.tech"
+                href="mailto:alex@tecktriathlon.de"
               >
-                norman@amsel.tech
+               alex@tecktriathlon.de
               </a>{" "}
-              oder unter 07023 9577753
+              oder {" "}
+              <a
+                rel="external noopener"
+                target="_blank"
+                css={linkCss}
+                href="mailto:patrick@tecktriathlon.de"
+              >
+               patrick@tecktriathlon.de
+              </a>.{" "}
+              Alternativ telefonisch unter 01578 1764211 oder 0171 9386246.
             </p>
           </div>
         </div>

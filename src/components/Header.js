@@ -9,8 +9,8 @@ let prevScrollY = 0;
 const menuItems = [
   "wertungen",
   "sponsoren",
-  "bissingen",
   "informationen",
+  "strecken",
 ];
 
 class Header extends Component {

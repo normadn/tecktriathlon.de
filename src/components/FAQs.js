@@ -9,7 +9,7 @@ const questionsAndAnswers = [
   },
   {
     question: "Wieviele Startplätze gibt es und gibt es ein Mindestalter?",
-    answer: "100 Startplätze stehen zur Verfügung und jeder kann mitmachen. Die Teilnahme ist altersunabhängig."
+    answer: "150 Startplätze stehen zur Verfügung und jeder kann mitmachen. Die Teilnahme ist altersunabhängig."
   },
   {
     question: "Bis wann kann ich mich anmelden?",
@@ -69,7 +69,7 @@ const questionsAndAnswers = [
   {
     question: "Wann beginnt das Rennen?",
     answer:
-      "Um 10:00 Uhr am Sportplatz Bissingen an der Teck in 10er Gruppen, Abstand 15 Minuten. Gruppeneinteilung laut Aushang. Startberechtigung nur in der eingeteilten Gruppe."
+      "Um 10:00 Uhr am Sportplatz Bissingen an der Teck in 12er Gruppen, Abstand 15 Minuten. Gruppeneinteilung laut Aushang. Startberechtigung nur in der eingeteilten Gruppe."
   },
   {
     question: "Welches sportliche Ausgangsniveau wird benötigt?",

@@ -11,8 +11,6 @@ import challenges from "../assets/img/icons/challengesIcon.svg";
 import applications from "../assets/img/icons/applicationsIcon.svg";
 import sellingPointOnejpg from "../assets/img/selling_points/sellingPointFist.jpg";
 import sellingPointTwojpg from "../assets/img/selling_points/sellingPointTeam.jpg";
-import qhacksSellingPointOnewebp from "../assets/img/selling_points/qhacksSellingPointOne.webp";
-import qhacksSellingPointTwowebp from "../assets/img/selling_points/qhacksSellingPointTwo.webp";
 import ContentWrapper from "./ContentWrapper";
 
 const twoColumnStyle = {
@@ -44,8 +42,8 @@ const imgStyle = {
   width: "100%"
 };
 
-const SellingPoints = () => (
-  <div id="wertungen" css={{ position: "relative", backgroundColor: "#f8f8f8",}}>
+const Tracks = () => (
+  <div id="strecken" css={{ position: "relative", backgroundColor: "#f8f8f8",}}>
     <ContentWrapper>
       <div
         css={{
@@ -63,9 +61,9 @@ const SellingPoints = () => (
           }}
         >
           <div css={flexChildStyle}>
-            <h1>Einzelwertung</h1>
+            <h1>Radstrecke</h1>
             <p css={blurbStyle}>
-            Mit dieser Veranstaltung soll auch der Personenkreis der Freizeitsportler/innen und Triathlon-Einsteiger/innen angesprochen werden. Die Distanz ist daher für einen Triathlon recht kurz gehalten und eignet sich somit auch für Sportler/innen, die bereits eine Ausdauersportart betreiben und sich nun einmal im Triathlon testen wollen. Natürlich sind auch erfahrene Triathleten/innen, die zu Saisonende noch einen Volkstriathlon absolvieren wollen, herzlich eingeladen.  
+            Die Strecke führt einmal um die Teck herum und hat 4 Verpflegungstationen.  
             </p>
           </div>
           <div css={flexChildStyle}>
@@ -97,9 +95,9 @@ const SellingPoints = () => (
             </picture>
           </div>
           <div css={flexChildStyle}>
-            <h1>oder als Team</h1>
+            <h1>Laufstrecke</h1>
             <p css={blurbStyle}>
-            Drei Teilnehmer teilen sich nach dem Staffelprinzip den Triathlon. Jeder Teilnehmer legt eine Teilstrecke (Schwimmen, Radfahren oder Laufen) zurück. Ihr bekommt drei gleiche Startnummern und den Rest regelt ihr selbst.
+            Die Strecke führt hoch zum Bissinger Wasserfall und über den Bauernhof zurück.  
             </p>
           </div>
         </div>
@@ -108,4 +106,4 @@ const SellingPoints = () => (
   </div>
 );
 
-export default SellingPoints;
+export default Tracks;

@@ -18,6 +18,7 @@ import Speakers from "../components/Speakers";
 import EventSchedule from "../components/EventSchedule";
 import MailingListSignup from "../components/MailingListSignup";
 import HackerTestimonials from "../components/HackerTestimonials";
+import Tracks from "../components/Tracks";
 
 import favicon from "../assets/img/icons/favicon-tvb.ico";
 import sharingImage from "../assets/img/logo/sharing-tvb.png";
@@ -108,7 +109,7 @@ export default () => {
             }
           ]}
         >
-          <html lang="en" />
+          <html lang="de" />
         </Helmet>
         <div>
           <Landing />
@@ -117,6 +118,7 @@ export default () => {
           <Sponsors />
           <BriefSummary/>
           <FAQs />
+          <Tracks />
           {/*<MailingListSignup />
           <HackerTestimonials />
           <Speakers />

@@ -1,13 +1,13 @@
 {
-  "name": "amsel.tech",
+  "name": "tecktriathlon.de",
   "version": "4.7.1",
-  "description": "Website for amsel.tech!",
+  "description": "Website for tecktriathlon.de!",
   "author": "Norman Saade",
-  "homepage": "https://github.com/amsel-tech/amsel.tech",
+  "homepage": "https://github.com/amsel-tech/tecktriathlon.de",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amsel-tech/amsel.tech"
+    "url": "https://github.com/amsel-tech/tecktriathlon.de"
   },
   "husky": {
     "hooks": {

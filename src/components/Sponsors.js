@@ -197,7 +197,7 @@ const Sponsors = () => (
               marginBottom: "80px",
             }}
           >
-            <SponsorLink url="http://see-stueble.de/st/">
+            <SponsorLink url="http://seestueble.com">
               <img
                 src={seestueble}
                 css={{

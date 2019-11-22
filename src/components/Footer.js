@@ -51,45 +51,99 @@ const Footer = () => (
     <ContentWrapper>
       <div
         css={{
-          display: "block",
-          textAlign: "center"
+          display: "grid",
+          gridTemplateColumns: "auto auto auto",
+          paddingTop: "60px",
+          paddingBottom: "30px",
+          " h4": {
+            color: "white",
+            textTransform: "uppercase"
+          },
+          [smallScreens]: {
+            display: "block",
+            textAlign: "center"
+          }
         }}
       >
         <div
           css={{
-            paddingTop: "20px",
-            paddingBottom: "20px",
             marginLeft: "auto",
             marginRight: "auto",
+            textAlign: "center",
+            maxWidth: "455px",
+            paddingTop: "20px",
+            paddingBottom: "30px",
+            [smallScreens]: {
+              paddingTop: "0px",
+            }
+          }}
+        >
+          <SponsorLink url="https://www.tv-bissingen.de/service/impressum">
+            <h4>
+              Impressum
+            </h4>
+          </SponsorLink>
+        </div>
+        <div
+          css={{
+            marginLeft: "auto",
+            marginRight: "auto",
+            textAlign: "center",
             maxWidth: "455px"
           }}
         >
-        <p
+          <div
             css={{
-              fontSize: "12px",
-              lineHeight: "20px",
-              paddingBottom: "10px",
-              lineHeight: "1.67",
-              [smallScreens]: { paddingLeft: "24px", paddingRight: "24px" }
+              paddingTop: "0px",
+              paddingBottom: "20px",
+              marginLeft: "auto",
+              marginRight: "auto",
+              maxWidth: "455px"
             }}
           >
-            {"< />"} with ♡ by
-          </p>
-          <SponsorLink url="https://amsel.tech">
-            <span>
-              <img
-                height="34px"
-                src={logo}
-                css={{ marginBottom: "5px", paddingRight: "13px" }}
-                alt="QHacks Crown"
-              />
-              <img height="37px" src={wordmark} alt="QHacks Wordmark" />
-            </span>
-          </SponsorLink>
-
+          <p
+              css={{
+                fontSize: "12px",
+                lineHeight: "20px",
+                paddingBottom: "10px",
+                lineHeight: "1.67",
+                [smallScreens]: { paddingLeft: "24px", paddingRight: "24px" }
+              }}
+            >
+              {"< />"} with ♡ by
+            </p>
+            <SponsorLink url="https://amsel.tech">
+              <span>
+                <img
+                  height="34px"
+                  src={logo}
+                  css={{ marginBottom: "5px", paddingRight: "13px" }}
+                  alt="QHacks Crown"
+                />
+                <img height="37px" src={wordmark} alt="QHacks Wordmark" />
+              </span>
+            </SponsorLink>
+          </div>
         </div>
-    
-        
+        <div
+          css={{
+            marginLeft: "auto",
+            marginRight: "auto",
+            textAlign: "center",
+            maxWidth: "455px",
+            paddingTop: "20px",
+            paddingBottom: "30px",
+            [smallScreens]: {
+              paddingTop: "15px",
+            }
+          }}
+        >
+          <SponsorLink url="https://www.tv-bissingen.de/service/datenschutzerklaerung">
+            <h4>
+              Datenschutz
+            </h4>
+          </SponsorLink>
+        </div>
       </div>
     </ContentWrapper>
   </footer>

@@ -22,7 +22,7 @@ const disallowCrawling = {
 module.exports = {
   siteMetadata: {
     siteUrl,
-    title: "Trecktriathlon Bissingen"
+    title: "Teck Triathlon | Volkstriathlon in Bissingen an der Teck"
   },
   plugins: [
     "gatsby-plugin-react-helmet",

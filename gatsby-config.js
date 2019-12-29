@@ -40,13 +40,13 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "Amsel.tech",
-        short_name: "Amsel",
+        name: "Teck Triathlon | Volkstriathlon in Bissingen an der Teck",
+        short_name: "Tecktriathlon",
         start_url: "/",
         background_color: "#00205b",
         theme_color: "#c81c2e",
         display: "minimal-ui",
-        icon: "src/assets/img/logo/amsel-logo-bird-two.png"
+        icon: "src/assets/img/logo/tvb-squared.png"
       }
     },
     "gatsby-plugin-offline",

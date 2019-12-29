@@ -118,9 +118,9 @@ const Footer = () => (
                   height="34px"
                   src={logo}
                   css={{ marginBottom: "5px", paddingRight: "13px" }}
-                  alt="QHacks Crown"
+                  alt="amsel.tech"
                 />
-                <img height="37px" src={wordmark} alt="QHacks Wordmark" />
+                <img height="37px" src={wordmark} alt="amsel.tech Wordmark" />
               </span>
             </SponsorLink>
           </div>

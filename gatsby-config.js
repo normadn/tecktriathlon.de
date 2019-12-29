@@ -22,7 +22,7 @@ const disallowCrawling = {
 module.exports = {
   siteMetadata: {
     siteUrl,
-    title: "Amsel.tech Website"
+    title: "Trecktriathlon Bissingen"
   },
   plugins: [
     "gatsby-plugin-react-helmet",

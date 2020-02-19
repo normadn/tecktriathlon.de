@@ -184,7 +184,7 @@ const FAQs = () => (
               >
                patrick@tecktriathlon.de
               </a>.{" "}
-              Alternativ telefonisch unter 01578 1764211 oder 0171 9386246.
+              Alternativ telefonisch unter 01578 1764211.
             </p>
           </div>
         </div>

@@ -128,7 +128,7 @@ const Landing = () => (
           >
             Vielen Dank für eure Teilnahme 2019!
             <br />
-            2. Tecktriathlon leider abgesagt
+            Der 2. Tecktriathlon ist leider abgesagt.
           </h2>      
           
           <br />

@@ -128,7 +128,7 @@ const Landing = () => (
           >
             Vielen Dank für eure Teilnahme 2019!
             <br />
-            2. Tecktriathlon voraussichtlich am 29.08.2020
+            2. Tecktriathlon leider abgesagt
           </h2>      
           
           <br />
@@ -141,7 +141,7 @@ const Landing = () => (
             link="https://forms.gle/7x51UMv5ZxD1cRHt9"
             type="rounded"
           >
-            Interesse für 2020
+            Interesse für 2021
           </ActionButton> 
 
           <br />

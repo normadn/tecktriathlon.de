@@ -29,13 +29,13 @@ module.exports = {
     "gatsby-plugin-netlify",
     "gatsby-plugin-glamor",
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
-        trackingId: "UA-139155654-1",
-        head: false,
-        anonymize: false,
-        respectDNT: true
-      }
+        googleAnalytics: {
+          trackingId: 'UA-139155654-1',
+        },
+        environments: ['production']
+      },
     },
     {
       resolve: "gatsby-plugin-manifest",

@@ -4,6 +4,7 @@ import Helmet from "react-helmet";
 import ApolloClient from "apollo-boost";
 import * as Sentry from "@sentry/browser";
 import { ApolloProvider } from "react-apollo";
+import CookieConsent from 'react-cookie-consent';
 
 import "./index.css";
 import FAQs from "../components/FAQs";
@@ -126,6 +127,17 @@ export default () => {
           <Podcast />*/}
           <Footer />
         </div>
+        <CookieConsent
+          location="bottom"
+          enableDeclineButton
+          buttonText="Einverstanden"
+          declineButtonText="Nein Danke"
+          style={{ background: "#11213f" }}
+          buttonStyle={{ background: "#ffffff" , color: "#11213f", fontSize: "13px" }}
+          declineButtonStyle={{ background: "#ffffff" , color: "#11213f", fontSize: "13px" }}
+          cookieName="gatsby-gdpr-google-analytics">
+          Wir möchten Cookies verwenden, um unsere Website zu verbessern
+        </CookieConsent>
       </div>
     </ApolloProvider>
   );

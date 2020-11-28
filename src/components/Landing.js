@@ -128,7 +128,7 @@ const Landing = () => (
           >
             Vielen Dank für eure Teilnahme 2019!
             <br />
-            Der 2. Tecktriathlon ist leider abgesagt.
+            2. Tecktriathlon voraussichtlich am 28.08.2021
           </h2>      
           
           <br />

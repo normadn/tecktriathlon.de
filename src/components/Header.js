@@ -96,7 +96,7 @@ class Header extends Component {
           >
             <Menu
               menuItems={this.props.menuItems || menuItems}
-              imgCss={this.state.isLogoVisible}
+              imgCss={true}
               standaloneVersion={this.props.standaloneVersion}
             />
             <MobileMenu

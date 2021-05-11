@@ -4,7 +4,7 @@ import Header from "./Header";
 import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
 
-import landingImg from "../assets/img/logo/tvb-logo.svg";
+import landingImg from "../assets/img/logo/tecktriathlon-hero.svg";
 import logo from "../assets/img/logo/logo-no-text.svg";
 import word from "../assets/img/logo/tecktriathlon.svg";
 import backgroundCubes from "../assets/img/backgrounds/backgroundCubes.svg";
@@ -175,7 +175,7 @@ const Landing = () => (
               paddingTop: "35px",
               paddingLeft: "50px",
               paddingBottom: "20px",
-              width: "85%"
+              width: "90%"
             }}
             alt="TVB logo"
           />

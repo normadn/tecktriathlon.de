@@ -30,7 +30,6 @@
     "cypress-verify": "cypress verify"
   },
   "engines": {
-    "node": "8.11.x",
     "npm": "6.x"
   },
   "dependencies": {

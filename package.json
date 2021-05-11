@@ -30,7 +30,7 @@
     "cypress-verify": "cypress verify"
   },
   "engines": {
-    "npm": "6.x"
+    "node": "15.9.x"
   },
   "dependencies": {
     "@sentry/browser": "^4.2.4",

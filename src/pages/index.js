@@ -22,7 +22,7 @@ import HackerTestimonials from "../components/HackerTestimonials";
 import Tracks from "../components/Tracks";
 
 import favicon from "../assets/img/icons/favicon-tvb.ico";
-import sharingImage from "../assets/img/logo/sharing-tvb.png";
+import sharingImage from "../assets/img/logo/sharing-triathlon.png";
 
 export default () => {
   let environment = process.env.NETLIFY_ENV;

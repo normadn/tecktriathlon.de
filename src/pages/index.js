@@ -57,7 +57,7 @@ export default () => {
     <ApolloProvider client={apolloClient}>
       <div css={{ overflowX: "hidden" }}>
         <Helmet
-          title="Teck Triathlon | Volkstriathlon in Bissingen an der Teck"
+          title="Tecktriathlon | Volkstriathlon in Bissingen an der Teck"
           meta={[
             {
               name: "description",
@@ -67,7 +67,7 @@ export default () => {
             {
               name: "keywords",
               content:
-                "Triathlon, Volkstriathlon, Teck"
+                "Teck, Triathlon, Volkstriathlon, Tecktriathlon"
             },
             {
               name: "viewport",
@@ -83,7 +83,7 @@ export default () => {
             },
             {
               property: "og:title",
-              content: "Teck Triathlon | Volkstriathlon in Bissingen an der Teck"
+              content: "Tecktriathlon | Volkstriathlon in Bissingen an der Teck"
             },
             {
               property: "og:image",
@@ -96,7 +96,7 @@ export default () => {
             },
             {
               property: "og:site_name",
-              content: "Teck Triathlon"
+              content: "Tecktriathlon"
             },
             {
               property: "og:locale",

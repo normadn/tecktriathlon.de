@@ -70,14 +70,6 @@ const MobileMenu = (props) => (
           }}
         >
           
-          <div css={{ paddingBottom: "52px" }}>
-            <img
-              src={word}
-              width="134px"
-              height="34.8px"
-              alt="QHacks Wordmark"
-            />
-          </div>
           {props.menuItems.map((i) => (
             <div key={i} css={{ paddingBottom: "24px" }}>
               <a

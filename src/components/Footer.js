@@ -47,7 +47,7 @@ const [smallScreens, mediumScreens, largeScreens] = [
 ];
 
 const Footer = () => (
-  <footer css={{ backgroundColor: "#11213f", color: "#ffffff" }}>
+  <footer css={{ backgroundColor: "#020066", color: "#ffffff" }}>
     <ContentWrapper>
       <div
         css={{

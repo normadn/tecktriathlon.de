@@ -36,7 +36,7 @@ const MobileMenu = (props) => (
         top: "0px",
         left: "0px",
         zIndex: "5",
-        background: "#11213f"
+        background: "#020066"
       }}
     >
       <input

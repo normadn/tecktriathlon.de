@@ -91,7 +91,7 @@ const Menu = (props) => {
               css={{
                 ":hover": {
                   " a": {
-                    color: "#00205b"
+                    color: "#020066"
                   },
                   ">div": {
                     width: "100%",
@@ -119,7 +119,7 @@ const Menu = (props) => {
                   transition: "0.5s",
                   marginLeft: "auto",
                   marginRight: "auto",
-                  backgroundColor: "#00205b",
+                  backgroundColor: "#020066",
                   width: "0px"
                 }}
               />

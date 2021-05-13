@@ -132,9 +132,9 @@ export default () => {
           enableDeclineButton
           buttonText="Einverstanden"
           declineButtonText="Nein Danke"
-          style={{ background: "#11213f" }}
-          buttonStyle={{ background: "#ffffff" , color: "#11213f", fontSize: "13px" }}
-          declineButtonStyle={{ background: "#ffffff" , color: "#11213f", fontSize: "13px" }}
+          style={{ background: "#020066" }}
+          buttonStyle={{ background: "#ffffff" , color: "#020066", fontSize: "13px" }}
+          declineButtonStyle={{ background: "#ffffff" , color: "#020066", fontSize: "13px" }}
           cookieName="gatsby-gdpr-google-analytics">
           Wir möchten Cookies verwenden, um unsere Website zu verbessern
         </CookieConsent>

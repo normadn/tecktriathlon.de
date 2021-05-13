@@ -28,7 +28,7 @@ exports[`MobileMenu renders correctly 1`] = `
     className=""
     css={
       Object {
-        "background": "#11213f",
+        "background": "#020066",
         "display": "none",
         "height": "100vh",
         "left": "0px",

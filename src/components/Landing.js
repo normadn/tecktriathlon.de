@@ -65,26 +65,23 @@ const Landing = () => (
             alt="Illustration"
           />
           <br />
-          <img
-            data-cy="amsel-wordmark"
-            src={word}
+          <h1
             css={{
               paddingTop: "40px",
               paddingBottom: "18px",
-              width: "100vw",
-              maxWidth: "300px",
+              fontSize: "40px",
               "@media(max-width: 820px)": {
                 paddingTop: "12px",
-                width: "192px",
                 paddingBottom: "8px"
               }
             }}
-            alt="Amsel Wordmark"
-          />
+          >
+            Tecktriathlon
+          </h1>
           <h2
             data-cy="qhacks-information"
             css={{
-              color: "#00205b",
+              color: "#020066",
               fontWeight: 600,
               fontSize: "22px",
               paddingBottom: "30px",

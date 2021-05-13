@@ -76,7 +76,7 @@ const Landing = () => (
               }
             }}
           >
-            Tecktriathlon
+            Teck Triathlon
           </h1>
           <h2
             data-cy="qhacks-information"
@@ -125,7 +125,7 @@ const Landing = () => (
           >
             Vielen Dank für eure Teilnahme 2019!
             <br />
-            2. Tecktriathlon voraussichtlich am 28.08.2021
+            2. Teck Triathlon voraussichtlich am 28.08.2021
           </h2>      
           
           <br />
@@ -138,7 +138,7 @@ const Landing = () => (
             link="https://forms.gle/7x51UMv5ZxD1cRHt9"
             type="rounded"
           >
-            Interesse für 2021
+            Interesse für 2022
           </ActionButton> 
 
           <br />

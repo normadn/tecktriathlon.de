@@ -78,7 +78,7 @@ const Footer = () => (
             }
           }}
         >
-          <SponsorLink url="https://www.tv-bissingen.de/service/impressum">
+          <SponsorLink url="https://www.tv-bissingen.de/impressum">
             <h4>
               Impressum
             </h4>
@@ -103,7 +103,7 @@ const Footer = () => (
           >
           <p
               css={{
-                fontSize: "12px",
+                fontSize: "14px",
                 lineHeight: "20px",
                 paddingBottom: "10px",
                 lineHeight: "1.67",
@@ -138,7 +138,7 @@ const Footer = () => (
             }
           }}
         >
-          <SponsorLink url="https://www.tv-bissingen.de/service/datenschutzerklaerung">
+          <SponsorLink url="https://www.tv-bissingen.de/datenschutzerklaerung">
             <h4>
               Datenschutz
             </h4>

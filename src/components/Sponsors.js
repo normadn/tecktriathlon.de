@@ -13,51 +13,6 @@ import schmidt from "../assets/img/sponsors/schmidt.jpg";
 import ecenter from "../assets/img/sponsors/ecenterKirchheim.png";
 import holl from "../assets/img/sponsors/sportHoll.png";
 
-
-import tdLogo from "../assets/img/sponsors/td.svg";
-import qicLogo from "../assets/img/sponsors/qic.svg";
-import dclLogo from "../assets/img/sponsors/dcl.svg";
-import eceLogo from "../assets/img/sponsors/ece.svg";
-import cseLogo from "../assets/img/sponsors/cse.svg";
-// import amsLogo from "../assets/img/sponsors/ams.svg";
-import iganLogo from "../assets/img/sponsors/seestueble.jpg";
-import mmieLogo from "../assets/img/sponsors/mmie.svg";
-import snapLogo from "../assets/img/sponsors/snap.svg";
-import telusLogo from "../assets/img/sponsors/telus.svg";
-import mlhLogo from "../assets/img/sponsors/mlhText.svg";
-import githubLogo from "../assets/img/sponsors/github.svg";
-import sketchLogo from "../assets/img/sponsors/sketch.svg";
-import ritualLogo from "../assets/img/sponsors/ritual.svg";
-import loopioLogo from "../assets/img/sponsors/loopio.svg";
-import apolloLogo from "../assets/img/sponsors/apollo.svg";
-import googleLogo from "../assets/img/sponsors/google.svg";
-import indicoLogo from "../assets/img/sponsors/indico.svg";
-import sodexoLogo from "../assets/img/sponsors/sodexo.svg";
-import pccLogo from "../assets/img/sponsors/pcc.png";
-import ratehubLogo from "../assets/img/sponsors/ratehub.svg";
-import sunLifeLogo from "../assets/img/sponsors/goll.png";
-import wolframLogo from "../assets/img/sponsors/wolfram.svg";
-import wakeupsLogo from "../assets/img/sponsors/wakeups.svg";
-import deloitteLogo from "../assets/img/sponsors/deloitte.svg";
-import balsamiqLogo from "../assets/img/sponsors/balsamiq.svg";
-import kingstonLogo from "../assets/img/sponsors/kingston.svg";
-import bloombergLogo from "../assets/img/sponsors/bloomberg.svg";
-import consensysLogo from "../assets/img/sponsors/consensys.svg";
-import ycombinator from "../assets/img/sponsors/ycombinator.svg";
-import orangeGateLogo from "../assets/img/sponsors/orangeGate.svg";
-import scotiabankLogo from "../assets/img/sponsors/scotiabank.svg";
-import onePasswordLogo from "../assets/img/sponsors/1password.svg";
-import stickermuleLogo from "../assets/img/sponsors/stickermule.svg";
-import nationalBankLogo from "../assets/img/sponsors/nationalbank.svg";
-import launchAcademyLogo from "../assets/img/sponsors/launchAcademy.svg";
-import schoolOfComputingLogo from "../assets/img/sponsors/schoolOfComputing.svg";
-import ramenVenturesLogo from "../assets/img/sponsors/ramenVentures.png";
-import shopifyLogo from "../assets/img/sponsors/shopify.svg";
-import foundersBetaLogo from "../assets/img/sponsors/foundersBeta.png";
-import coinsquareLogo from "../assets/img/sponsors/coinsquare.png";
-import munvoLogo from "../assets/img/sponsors/munvo.png";
-import asusAmsEngSocLogo from "../assets/img/sponsors/asusAmsEngSoc.png";
-
 const Sponsors = () => (
   <section
     id="sponsoren"
@@ -84,13 +39,17 @@ const Sponsors = () => (
         <div>
           <h1>Sponsoren</h1>
 
-          {/* Tera */}
+          {/* 2x Grid */}
           <div
             css={{
               marginTop: "70px",
-              marginBottom: "80px",
-              "@media(max-width: 460px)": {
-                marginBottom: "60px"
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr",
+              marginBottom: "20px",
+              "@media(max-width: 500px)": {
+                gridTemplateColumns: "1fr",
+                marginTop: "30px",
+                marginBottom: "10px"
               }
             }}
           >
@@ -100,11 +59,8 @@ const Sponsors = () => (
                 display: "grid",
                 gridTemplateColumns: "1fr",
                 marginBottom: "50px",
-                "@media(max-width: 460px)": {
-                  marginBottom: "40px"
-                },
-                "@media(max-width: 980px)": {
-                  marginBottom: "50px"
+                "@media(max-width: 680px)": {
+                  marginBottom: "30px"
                 }
               }}
             >
@@ -112,15 +68,16 @@ const Sponsors = () => (
                 <img
                   src={goll}
                   css={{
-                    width: "500px",
+                    width: "400px",
                     "@media(max-width: 980px)": {
-                      width: "400px"
+                      width: "300px"
                     },
                     "@media(max-width: 680px)": {
                       width: "300px"
                     },
                     "@media(max-width: 460px)": {
-                      width: "250px"
+                      width: "250px",
+                      
                     }
                   }}
                   data-cy="test-sponsor-image"
@@ -136,13 +93,16 @@ const Sponsors = () => (
               gridTemplateColumns: "1fr",
               marginBottom: "80px",
               marginLeft: "10px",
+              "@media(max-width: 680px)": {
+                marginBottom: "30px"
+              }
             }}
           >
             <SponsorLink url="https://www.finca-leilani.de/">
               <img
                 src={leilani}
                 css={{
-                  width: "380px",
+                  width: "340px",
                   "@media(max-width: 980px)": {
                     width: "320px"
                   },
@@ -166,6 +126,9 @@ const Sponsors = () => (
               gridTemplateColumns: "1fr",
               marginBottom: "80px",
               marginLeft: "10px",
+              "@media(max-width: 680px)": {
+                marginBottom: "30px"
+              }
             }}
           >
             <SponsorLink url="https://www.maenner-containerdienst.de/">
@@ -195,6 +158,9 @@ const Sponsors = () => (
               display: "grid",
               gridTemplateColumns: "1fr",
               marginBottom: "80px",
+              "@media(max-width: 680px)": {
+                marginBottom: "30px"
+              }
             }}
           >
             <SponsorLink url="http://seestueble.com">
@@ -224,15 +190,18 @@ const Sponsors = () => (
               display: "grid",
               gridTemplateColumns: "1fr",
               marginBottom: "40px",
+              "@media(max-width: 680px)": {
+                marginBottom: "30px"
+              }
             }}
           >
             <SponsorLink url="https://amsel.tech">
               <img
                 src={amsel}
                 css={{
-                  width: "350px",
+                  width: "320px",
                   "@media(max-width: 980px)": {
-                    width: "350px"
+                    width: "320px"
                   },
                   "@media(max-width: 680px)": {
                     width: "200px"
@@ -255,6 +224,9 @@ const Sponsors = () => (
               gridTemplateColumns: "1fr",
               marginBottom: "50px",
               marginLeft: "35px",
+              "@media(max-width: 680px)": {
+                marginBottom: "30px"
+              }
             }}
           >
             <SponsorLink url="https://www.edeka.de/eh/s%C3%BCdwest/e-center-kirchheim-teck-stuttgarter-stra%C3%9Fe-1/index.jsp">
@@ -278,12 +250,27 @@ const Sponsors = () => (
             </SponsorLink>
           </div>
 
+        </div>
+
+        {/* Single Row Sponsors */}
+        <div
+          css={{
+            marginTop: "20px",
+            marginBottom: "30px",
+            "@media(max-width: 680px)": {
+              marginBottom: "0px"
+            }
+          }}
+        >
           {/* Tera Row 3 */}
           <div
             css={{
               display: "grid",
               gridTemplateColumns: "1fr",
-              marginBottom: "80px",
+              marginBottom: "60px",
+              "@media(max-width: 680px)": {
+                marginBottom: "30px"
+              }
             }}
           >
             <SponsorLink url="https://www.sport-holl.de/">
@@ -313,9 +300,12 @@ const Sponsors = () => (
               display: "grid",
               gridTemplateColumns: "1fr",
               marginBottom: "80px",
+              "@media(max-width: 680px)": {
+                marginBottom: "30px"
+              }
             }}
           >
-            <SponsorLink url="https://www.facebook.com/pages/category/Cargo---Freight-Company/Schmidt-Transporte-GmbH-236242266579529/">
+            <SponsorLink url="http://www.schmidt-transporte.com/">
               <img
                 src={schmidt}
                 css={{
@@ -335,7 +325,6 @@ const Sponsors = () => (
               />
             </SponsorLink>
           </div>
-
         </div>
 
         </div>

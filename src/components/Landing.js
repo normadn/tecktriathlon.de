@@ -123,24 +123,11 @@ const Landing = () => (
               }
             }}
           >
-            Vielen Dank für eure Teilnahme 2019!
+            Teck Triathlon 2021 wegen Corona abgesagt.
             <br />
-            2. Teck Triathlon voraussichtlich am 28.08.2021
+            Wir versuchen alles, damit es 2022 wieder klappt!
           </h2>      
           
-          <br />
-
-          <ActionButton
-            dataCy="login-button"
-            backgroundColor="#ffffff"
-            foregroundColor="#00205b"
-            style={applyButtonCSS}
-            link="https://forms.gle/7x51UMv5ZxD1cRHt9"
-            type="rounded"
-          >
-            Interesse für 2022
-          </ActionButton> 
-
           <br />
 
           <ActionButton

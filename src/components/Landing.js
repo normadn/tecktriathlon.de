@@ -123,9 +123,9 @@ const Landing = () => (
               }
             }}
           >
-            Teck Triathlon 2021 wegen Corona abgesagt.
+            Teck Triathlon 2022 ist in Planung
             <br />
-            Wir versuchen alles, damit es 2022 wieder klappt!
+            27.08.2022 voraussichtlicher Termin
           </h2>
 
           <br />

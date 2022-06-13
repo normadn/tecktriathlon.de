@@ -4,7 +4,7 @@ import Header from "./Header";
 import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
 
-import landingImg from "../assets/img/logo/tecktriathlon-hero.svg";
+import landingImg from "../assets/img/logo/tecktriathlon-hero-new.svg";
 import logo from "../assets/img/logo/logo-no-text.svg";
 import word from "../assets/img/logo/tecktriathlon.svg";
 import backgroundCubes from "../assets/img/backgrounds/backgroundCubes.svg";
@@ -105,7 +105,7 @@ const Landing = () => (
               }
             }}
           >
-            Es ist egal wie schnell du bist. 
+            Es ist egal wie schnell du bist.
             <br />
             Du schlägst alle die zuhause bleiben!
           </h2>
@@ -126,8 +126,8 @@ const Landing = () => (
             Teck Triathlon 2021 wegen Corona abgesagt.
             <br />
             Wir versuchen alles, damit es 2022 wieder klappt!
-          </h2>      
-          
+          </h2>
+
           <br />
 
           <ActionButton
@@ -139,7 +139,7 @@ const Landing = () => (
             type="rounded"
           >
             Ziel- und Zwischenzeiten 2019
-          </ActionButton> 
+          </ActionButton>
         </div>
         <div
           css={{

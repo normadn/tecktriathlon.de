@@ -10,7 +10,7 @@ import maenner from "../assets/img/sponsors/maenner.png";
 import seestueble from "../assets/img/sponsors/seestueble.png";
 import amsel from "../assets/img/sponsors/amsel-tech.png";
 import schmidt from "../assets/img/sponsors/schmidt.jpg";
-import ecenter from "../assets/img/sponsors/ecenterKirchheim.png";
+import firstreisebuero from "../assets/img/sponsors/first-reisebuero.jpg";
 import holl from "../assets/img/sponsors/sportHoll.png";
 
 const Sponsors = () => (
@@ -77,7 +77,7 @@ const Sponsors = () => (
                     },
                     "@media(max-width: 460px)": {
                       width: "250px",
-                      
+
                     }
                   }}
                   data-cy="test-sponsor-image"
@@ -229,9 +229,9 @@ const Sponsors = () => (
               }
             }}
           >
-            <SponsorLink url="https://www.edeka.de/eh/s%C3%BCdwest/e-center-kirchheim-teck-stuttgarter-stra%C3%9Fe-1/index.jsp">
+            <SponsorLink url="https://www.first-reisebuero.de/">
               <img
-                src={ecenter}
+                src={firstreisebuero}
                 css={{
                   width: "500px",
                   "@media(max-width: 980px)": {
@@ -245,7 +245,7 @@ const Sponsors = () => (
                   }
                 }}
                 data-cy="test-sponsor-image"
-                alt="Ecenter Kirchheim Teck"
+                alt="First Reisebuero"
               />
             </SponsorLink>
           </div>

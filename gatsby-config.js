@@ -43,8 +43,8 @@ module.exports = {
         name: "Teck Triathlon | Volkstriathlon in Bissingen an der Teck",
         short_name: "Tecktriathlon",
         start_url: "/",
-        background_color: "#00205b",
-        theme_color: "#c81c2e",
+        background_color: "#ffffff",
+        theme_color: "#ffffff",
         display: "minimal-ui",
         icon: "src/assets/img/logo/tvb-squared.png"
       }

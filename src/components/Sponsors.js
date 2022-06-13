@@ -10,7 +10,7 @@ import maenner from "../assets/img/sponsors/maenner.png";
 import seestueble from "../assets/img/sponsors/seestueble.png";
 import amsel from "../assets/img/sponsors/amsel-tech.png";
 import schmidt from "../assets/img/sponsors/schmidt.jpg";
-import firstreisebuero from "../assets/img/sponsors/first-reisebuero.jpg";
+import firstreisebuero from "../assets/img/sponsors/first-reisebuero.jpeg";
 import holl from "../assets/img/sponsors/sportHoll.png";
 
 const Sponsors = () => (

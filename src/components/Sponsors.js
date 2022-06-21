@@ -223,7 +223,6 @@ const Sponsors = () => (
               display: "grid",
               gridTemplateColumns: "1fr",
               marginBottom: "50px",
-              marginLeft: "35px",
               "@media(max-width: 680px)": {
                 marginBottom: "30px"
               }
@@ -241,7 +240,8 @@ const Sponsors = () => (
                     width: "300px"
                   },
                   "@media(max-width: 460px)": {
-                    width: "250px"
+                    width: "250px",
+
                   }
                 }}
                 data-cy="test-sponsor-image"

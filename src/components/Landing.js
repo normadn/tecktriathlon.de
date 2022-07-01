@@ -123,7 +123,7 @@ const Landing = () => (
               }
             }}
           >
-            🗓 27.08.2022 🗓
+            27.08.2022
           </h2>
           <div>
             <ActionButton

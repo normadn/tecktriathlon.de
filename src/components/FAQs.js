@@ -47,18 +47,18 @@ const questionsAndAnswers = [
   },
   {
     question: "Können wir auch zu Zweit an der Staffelwertung teilnehmen?",
-    answer: 
-      "Ja, das geht auch! Bitte klickt dafür auf den Link 'ZUR TEAMWERTUNG ANMELDEN'. Beim dritten Teilnehmer einfach 'Zweierteam' ausfüllen und beim Bezahlen (logischerweise) auch nur für zwei Teilnehmer überweisen."
+    answer:
+      "Ja, das geht auch! Bitte klickt dafür auf den Link 'TEAM-ANMELDUNG'. Beim dritten Teilnehmer einfach 'Zweierteam' ausfüllen und beim Bezahlen (logischerweise) auch nur für zwei Teilnehmer überweisen."
   },
   {
     question: "Wie hoch ist das Startgeld?",
-    answer: 
-      "Einzelwertung: 25€; Staffelwertung: 25€ pro Person. Bei Anmeldung als Zweierteam bitte via Überweisung bezahlen."
+    answer:
+      "Einzelwertung: 30€; Staffelwertung: 30€ pro Person. Bei Anmeldung als Zweierteam bitte via Überweisung bezahlen."
   },
-  
+
   {
     question: "Wie kann ich das Startgeld bezahlen?",
-    answer: 
+    answer:
       "Am Besten einfach via diesem Paypal-Link: https://www.paypal.me/tecktriathlon. Alternativ kann auch via Überweisung bezahlt werden. IBAN: DE18611500200008160227; Eigentümer: Faustball Bissingen;"
   },
   {
@@ -92,9 +92,9 @@ const questionsAndAnswers = [
     )
   },
   {
-    question: "Wieviel Vorbereitungszeit sollte ich einplanen?",
+    question: "Wird der Tecktriathlon nach den regularien der DTU durchgeführt?",
     answer:
-      "Als Vorbereitungszeit auf einen Volkstriathlon genügen 4 bis 6 Wochen."
+      "Nein, wir orientieren uns lediglich an den Disziplinen."
   },
   {
     question: "Brauche ich spezielles Triathlon-Equipment?",

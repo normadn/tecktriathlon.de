@@ -44,7 +44,7 @@ const Landing = () => (
           css={{
             "@media(min-width: 1200px)": {
               paddingRight: "50px",
-              paddingTop: "75px"
+              paddingTop: "90px"
             },
             "@media (min-width: 821px) and (max-width: 1199px)": {
               paddingRight: "50px",
@@ -114,7 +114,7 @@ const Landing = () => (
             css={{
               padding: "20px 0 50px",
               color: "#575757",
-              fontWeight: 500,
+              fontWeight: 800,
               lineHeight: "30px",
               "@media(max-width: 820px)": {
                 paddingTop: "10px",
@@ -123,22 +123,27 @@ const Landing = () => (
               }
             }}
           >
-            Teck Triathlon 2022 ist in Planung
-            <br />
-            27.08.2022 voraussichtlicher Termin
+            🗓 27.08.2022 🗓
           </h2>
-
-          <br />
-
+          <div>
+            <ActionButton
+              backgroundColor="#ffffff"
+              foregroundColor="#00205b"
+              style={applyButtonCSS}
+              link="https://forms.gle/Ymz24jidtKdT9rrR6"
+              type="rounded"
+            >
+              Einzel-Anmeldung
+            </ActionButton>
+          </div>
           <ActionButton
-            dataCy="login-button"
             backgroundColor="#ffffff"
             foregroundColor="#00205b"
             style={applyButtonCSS}
-            link="https://drive.google.com/open?id=15mKZ8xGSR3Q4yWdJ8LgAiVKYGtTlkRns"
+            link="https://forms.gle/sGBC3a5a7kPUcDgw5"
             type="rounded"
           >
-            Ziel- und Zwischenzeiten 2019
+            Team-Anmeldung
           </ActionButton>
         </div>
         <div

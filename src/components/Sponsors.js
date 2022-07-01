@@ -5,9 +5,12 @@ import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
 
 import goll from "../assets/img/sponsors/goll.png";
-import leilani from "../assets/img/sponsors/finca-leilani.png";
+import wall from "../assets/img/sponsors/wall-logo.png";
 import maenner from "../assets/img/sponsors/maenner.png";
 import seestueble from "../assets/img/sponsors/seestueble.png";
+import mall from "../assets/img/sponsors/mall-logo.jpeg";
+import schaefer from "../assets/img/sponsors/schaefer-logo.jpeg";
+import goldochsen from "../assets/img/sponsors/goldochsen-logo.jpeg";
 import amsel from "../assets/img/sponsors/amsel-tech.png";
 import schmidt from "../assets/img/sponsors/schmidt.jpg";
 import firstreisebuero from "../assets/img/sponsors/first-reisebuero.jpeg";
@@ -42,7 +45,7 @@ const Sponsors = () => (
           {/* 2x Grid */}
           <div
             css={{
-              marginTop: "70px",
+              marginTop: "0px",
               display: "grid",
               gridTemplateColumns: "1fr 1fr",
               marginBottom: "20px",
@@ -56,11 +59,12 @@ const Sponsors = () => (
             {/* Tera Row 1 */}
             <div
               css={{
+                marginTop: "30px",
                 display: "grid",
                 gridTemplateColumns: "1fr",
                 marginBottom: "50px",
                 "@media(max-width: 680px)": {
-                  marginBottom: "30px"
+                  marginBottom: "20px"
                 }
               }}
             >
@@ -89,18 +93,20 @@ const Sponsors = () => (
           {/* Tera Row 2 */}
           <div
             css={{
+              marginTop: "110px",
               display: "grid",
               gridTemplateColumns: "1fr",
               marginBottom: "80px",
               marginLeft: "10px",
               "@media(max-width: 680px)": {
+                marginTop: "0px",
                 marginBottom: "30px"
               }
             }}
           >
-            <SponsorLink url="https://www.finca-leilani.de/">
+            <SponsorLink url="https://www.wall-am-markt.de/">
               <img
-                src={leilani}
+                src={wall}
                 css={{
                   width: "340px",
                   "@media(max-width: 980px)": {
@@ -114,7 +120,7 @@ const Sponsors = () => (
                   }
                 }}
                 data-cy="test-sponsor-image"
-                alt="Finca Leilani"
+                alt="Wall am Markt"
               />
             </SponsorLink>
           </div>
@@ -184,6 +190,71 @@ const Sponsors = () => (
             </SponsorLink>
           </div>
 
+          {/* Tera Row 2 */}
+          <div
+            css={{
+              display: "grid",
+              gridTemplateColumns: "1fr",
+              marginBottom: "80px",
+              marginLeft: "10px",
+              "@media(max-width: 680px)": {
+                marginBottom: "30px"
+              }
+            }}
+          >
+            <SponsorLink url="https://www.schaefer-metzgerei.de/">
+              <img
+                src={schaefer}
+                css={{
+                  width: "500px",
+                  "@media(max-width: 980px)": {
+                    width: "400px"
+                  },
+                  "@media(max-width: 680px)": {
+                    width: "300px"
+                  },
+                  "@media(max-width: 460px)": {
+                    width: "250px"
+                  }
+                }}
+                data-cy="test-sponsor-image"
+                alt="Metzgerei Schaefer"
+              />
+            </SponsorLink>
+          </div>
+
+          {/* Tera Row 3 */}
+          <div
+            css={{
+              display: "grid",
+              gridTemplateColumns: "1fr",
+              marginBottom: "80px",
+              "@media(max-width: 680px)": {
+                marginBottom: "30px"
+              }
+            }}
+          >
+            <SponsorLink url="https://www.mall-entsorgung.de/">
+              <img
+                src={mall}
+                css={{
+                  width: "500px",
+                  "@media(max-width: 980px)": {
+                    width: "400px"
+                  },
+                  "@media(max-width: 680px)": {
+                    width: "300px"
+                  },
+                  "@media(max-width: 460px)": {
+                    width: "250px"
+                  }
+                }}
+                data-cy="test-sponsor-image"
+                alt="Mall Ensorgung"
+              />
+            </SponsorLink>
+          </div>
+
           {/* Tera Row 4 */}
           <div
             css={{
@@ -199,15 +270,15 @@ const Sponsors = () => (
               <img
                 src={amsel}
                 css={{
-                  width: "320px",
+                  width: "260px",
                   "@media(max-width: 980px)": {
-                    width: "320px"
+                    width: "260px"
                   },
                   "@media(max-width: 680px)": {
-                    width: "200px"
+                    width: "180px"
                   },
                   "@media(max-width: 460px)": {
-                    width: "150px"
+                    width: "140px"
                   }
                 }}
                 data-cy="test-sponsor-image"
@@ -228,47 +299,37 @@ const Sponsors = () => (
               }
             }}
           >
-            <SponsorLink url="https://www.first-reisebuero.de/">
+            <SponsorLink url="https://goldochsen.de/">
               <img
-                src={firstreisebuero}
+                src={goldochsen}
                 css={{
-                  width: "500px",
+                  width: "320px",
                   "@media(max-width: 980px)": {
-                    width: "400px"
+                    width: "320px"
                   },
                   "@media(max-width: 680px)": {
-                    width: "300px"
+                    width: "220px"
                   },
                   "@media(max-width: 460px)": {
-                    width: "250px",
-
+                    width: "170px"
                   }
                 }}
                 data-cy="test-sponsor-image"
-                alt="First Reisebuero"
+                alt="Goldochsen"
               />
             </SponsorLink>
           </div>
 
-        </div>
-
-        {/* Single Row Sponsors */}
-        <div
-          css={{
-            marginTop: "20px",
-            marginBottom: "30px",
-            "@media(max-width: 680px)": {
-              marginBottom: "0px"
-            }
-          }}
-        >
-          {/* Tera Row 3 */}
+          {/* Tera Row 2 */}
           <div
             css={{
               display: "grid",
               gridTemplateColumns: "1fr",
-              marginBottom: "60px",
+              marginTop: "30px",
+              marginBottom: "80px",
+              marginLeft: "10px",
               "@media(max-width: 680px)": {
+                marginTop: "0px",
                 marginBottom: "30px"
               }
             }}
@@ -293,6 +354,51 @@ const Sponsors = () => (
               />
             </SponsorLink>
           </div>
+
+          {/* Tera Row 3 */}
+          <div
+            css={{
+              display: "grid",
+              gridTemplateColumns: "1fr",
+              marginBottom: "80px",
+              "@media(max-width: 680px)": {
+                marginBottom: "30px"
+              }
+            }}
+          >
+            <SponsorLink url="https://www.first-reisebuero.de/">
+              <img
+                src={firstreisebuero}
+                css={{
+                  width: "500px",
+                  "@media(max-width: 980px)": {
+                    width: "400px"
+                  },
+                  "@media(max-width: 680px)": {
+                    width: "300px"
+                  },
+                  "@media(max-width: 460px)": {
+                    width: "250px"
+                  }
+                }}
+                data-cy="test-sponsor-image"
+                alt="First Reisebuero"
+              />
+            </SponsorLink>
+          </div>
+
+        </div>
+
+        {/* Single Row Sponsors */}
+        <div
+          css={{
+            marginTop: "20px",
+            marginBottom: "30px",
+            "@media(max-width: 680px)": {
+              marginBottom: "0px"
+            }
+          }}
+        >
 
           {/* Tera Row 3 */}
           <div

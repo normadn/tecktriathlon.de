@@ -1,16 +1,9 @@
 import React from "react";
-import SellingPointsIcons from "./SellingPointsIcons.js";
 
-import cubes2png from "../assets/img/icons/cubes-2.png";
-import judges from "../assets/img/icons/judgesIcon.svg";
-import cubes2webp from "../assets/img/icons/cubes-2.webp";
-import mentors from "../assets/img/icons/mentorsIcon.svg";
-import hackers from "../assets/img/icons/hackersIcon.svg";
-import schools from "../assets/img/icons/schoolsIcon.svg";
-import challenges from "../assets/img/icons/challengesIcon.svg";
-import applications from "../assets/img/icons/applicationsIcon.svg";
 import sellingPointOnejpg from "../assets/img/selling_points/fahrradstrecke.png";
 import sellingPointTwojpg from "../assets/img/selling_points/laufstrecke.png";
+import fahrradtrack from "../assets/img/selling_points/fahrradstrecke-2022.jpeg";
+import lauftrack from "../assets/img/selling_points/laufstrecke-2022.jpeg";
 import ContentWrapper from "./ContentWrapper";
 
 const twoColumnStyle = {
@@ -63,10 +56,13 @@ const Tracks = () => (
           <div css={flexChildStyle}>
             <h1>Fahrradstrecke</h1>
             <p css={blurbStyle}>
-            Die Strecke führt einmal um die Teck herum und hat sechs Streckenposten, teilweise mit Verpflegung für die Radfahrer. Die Strecke wird entsprechend markiert, sodass auch auswertige den Weg ohne Probleme finden können. 
+              Die Strecke führt einmal am Rande von Bissigen entlang und hat zehn Streckenposten, teilweise mit Verpflegung für die Radfahrer. Die Strecke wird entsprechend markiert, sodass auch auswertige den Weg ohne Probleme finden können.
             </p>
+            <div css={blurbStyle}>
+              Fun fact: Die Fahrradstrecke 2022 ist neu, da wir keine Genehmigung für die 2019er Strecke bekommen haben.
+            </div>
 
-            <div
+            {/* <div
               css={{
                 margin: "auto auto auto auto",
                 "@media(max-width: 1115px)": {
@@ -97,14 +93,14 @@ const Tracks = () => (
                   }
                 }}
               />
-            </div>
+            </div> */}
           </div>
           <div css={flexChildStyle}>
             <picture css={imgStyle}>
-              <source srcSet={sellingPointOnejpg} type="image/jpg" />
+              <source srcSet={fahrradtrack} type="image/jpg" />
               <img
                 css={imgStyle}
-                src={sellingPointOnejpg}
+                src={fahrradtrack}
                 alt="html css"
               />
             </picture>
@@ -119,10 +115,10 @@ const Tracks = () => (
         >
           <div css={flexChildStyle}>
             <picture css={imgStyle}>
-              <source srcSet={sellingPointTwojpg} type="image/jpg" />
+              <source srcSet={lauftrack} type="image/jpg" />
               <img
                 css={imgStyle}
-                src={sellingPointTwojpg}
+                src={lauftrack}
                 alt="Mentor judging a VR hack"
               />
             </picture>

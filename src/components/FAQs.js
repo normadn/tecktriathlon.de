@@ -38,7 +38,7 @@ const questionsAndAnswers = [
   {
     question: "Wo findet die Schwimmdisziplin statt?",
     answer:
-      "Im Bissinger See."
+      "Im bissinger See."
   },
   {
     question: "Brauche ich ein Rennrad oder ein Mountainbike?",

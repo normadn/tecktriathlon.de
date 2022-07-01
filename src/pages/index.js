@@ -92,7 +92,7 @@ export default () => {
             {
               property: "og:description",
               content:
-                "Der Cross-Country Triathlon bei dem der Spaß im Vordergrund steht :)"
+                "27.08.2022 - Der Cross-Country Triathlon bei dem der Spaß im Vordergrund steht :)"
             },
             {
               property: "og:site_name",

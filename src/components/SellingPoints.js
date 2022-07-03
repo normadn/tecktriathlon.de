@@ -65,7 +65,7 @@ const SellingPoints = () => (
           <div css={flexChildStyle}>
             <h1>Einzelwertung</h1>
             <p css={blurbStyle}>
-            Mit dieser Veranstaltung soll auch der Personenkreis der Freizeitsportler/innen und Triathlon-Einsteiger/innen angesprochen werden. Die Distanz ist daher für einen Triathlon recht kurz gehalten und eignet sich somit auch für Sportler/innen, die bereits eine Ausdauersportart betreiben und sich nun einmal im Triathlon testen wollen. Natürlich sind auch erfahrene Triathleten/innen, die zu Saisonende noch einen Volkstriathlon absolvieren wollen, herzlich eingeladen.  
+            Mit dieser Veranstaltung soll auch der Personenkreis der Freizeitsportler/innen und Triathlon-Einsteiger/innen angesprochen werden. Die Distanz ist daher für einen Triathlon recht kurz gehalten und eignet sich somit auch für Sportler/innen, die bereits eine Ausdauersportart betreiben und sich nun einmal im Triathlon testen wollen. Natürlich sind auch erfahrene Triathleten/innen, die zu Saisonende noch einen Volkstriathlon absolvieren wollen, herzlich eingeladen.
             </p>
           </div>
           <div css={flexChildStyle}>
@@ -99,7 +99,7 @@ const SellingPoints = () => (
           <div css={flexChildStyle}>
             <h1>oder als Team</h1>
             <p css={blurbStyle}>
-            Drei Teilnehmer teilen sich nach dem Staffelprinzip den Triathlon. Jeder Teilnehmer legt eine Teilstrecke (Schwimmen, Radfahren oder Laufen) zurück. Ihr bekommt drei gleiche Startnummern und den Rest regelt ihr selbst.
+             Drei Teilnehmer teilen sich nach dem Staffelprinzip den Triathlon. Jeder Teilnehmer legt eine Teilstrecke (Schwimmen, Radfahren oder Laufen) zurück. Wir erlauben auch Teams mit zwei Teilnehmern.
             </p>
           </div>
         </div>

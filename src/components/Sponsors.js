@@ -5,7 +5,7 @@ import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
 
 import goll from "../assets/img/sponsors/goll.png";
-import wall from "../assets/img/sponsors/wall-logo.png";
+import wall from "../assets/img/sponsors/wall-neu.png";
 import maenner from "../assets/img/sponsors/maenner.png";
 import seestueble from "../assets/img/sponsors/seestueble.png";
 import mall from "../assets/img/sponsors/mall-logo.jpeg";

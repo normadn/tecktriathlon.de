@@ -14,7 +14,7 @@ const questionsAndAnswers = [
   {
     question: "Bis wann kann ich mich anmelden?",
     answer:
-      "Bis 2 Wochen vor dem Veranstaltungstermin. So können wir sicher stellen, dass wir auch eure T-Shirts bis dahin fertig bekommen."
+      "Bis 2 Wochen vor dem Veranstaltungstermin. So können wir sicherstellen, dass wir auch eure T-Shirts bis dahin fertig bekommen."
   },
   {
     question: "Wie sind die Distanzen bei den einzelnen Disziplinen?",
@@ -38,7 +38,7 @@ const questionsAndAnswers = [
   {
     question: "Wo findet die Schwimmdisziplin statt?",
     answer:
-      "Im bissinger See."
+      "Im Bissinger See."
   },
   {
     question: "Brauche ich ein Rennrad oder ein Mountainbike?",
@@ -92,7 +92,7 @@ const questionsAndAnswers = [
     )
   },
   {
-    question: "Wird der Tecktriathlon nach den regularien der DTU durchgeführt?",
+    question: "Wird der Tecktriathlon nach den Regularien der DTU durchgeführt?",
     answer:
       "Nein, wir orientieren uns lediglich an den Disziplinen."
   },

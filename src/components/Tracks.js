@@ -56,7 +56,7 @@ const Tracks = () => (
           <div css={flexChildStyle}>
             <h1>Fahrradstrecke</h1>
             <p css={blurbStyle}>
-              Die Strecke führt einmal am Rande Bissingens entlang und hat zehn Streckenposten, teilweise mit Verpflegung für die Radfahrer. Die Strecke wird entsprechend markiert, sodass auch auswertige den Weg ohne Probleme finden können.
+              Die Strecke führt einmal am Rande Bissingens entlang und hat zehn Streckenposten, teilweise mit Verpflegung für die Radfahrer. Die Strecke wird entsprechend markiert, sodass auch auswärtige den Weg ohne Probleme finden können.
             </p>
             <div css={blurbStyle}>
               Fun fact: Die Fahrradstrecke 2022 ist neu, da wir keine Genehmigung für die 2019er Strecke bekommen haben.

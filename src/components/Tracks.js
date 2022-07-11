@@ -126,7 +126,7 @@ const Tracks = () => (
           <div css={flexChildStyle}>
             <h1>Laufstrecke</h1>
             <p css={blurbStyle}>
-            Die Strecke führt hoch zum bissinger Wasserfall und über den Bauernhof zurück. Bitte beachten: Am Waldanfang führt die Strecke direkt nach rechts und nicht links, wie eingezeichnet, den Berg hoch. Die Strecke wird entsprechend markiert, sodass auch auswertige den Weg ohne Probleme finden können.
+            Die Strecke führt hoch zum Bissinger Wasserfall und über den Bauernhof zurück. Bitte beachten: Am Waldanfang führt die Strecke direkt nach rechts und nicht links, wie eingezeichnet, den Berg hoch. Die Strecke wird entsprechend markiert, sodass auch auswertige den Weg ohne Probleme finden können.
             </p>
             <div
               css={{

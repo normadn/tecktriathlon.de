@@ -59,7 +59,7 @@ const questionsAndAnswers = [
   {
     question: "Wie kann ich das Startgeld bezahlen?",
     answer:
-      "Am Besten einfach via diesem Paypal-Link: https://www.paypal.me/tecktriathlon. Alternativ kann auch via Überweisung bezahlt werden. IBAN: DE18611500200008160227; Eigentümer: Faustball Bissingen;"
+      "Am Besten einfach via diesem Paypal-Link: https://www.paypal.me/tecktriathlon. Alternativ kann auch via Überweisung bezahlt werden. IBAN: DE18611500200008160227; Eigentümer: Faustball Bissingen"
   },
   {
     question: "Wann und wo ist die Startnummernausgabe?",

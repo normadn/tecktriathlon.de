@@ -9,7 +9,7 @@ const questionsAndAnswers = [
   },
   {
     question: "Wieviele Startplätze gibt es und gibt es ein Mindestalter?",
-    answer: "150 Startplätze stehen zur Verfügung und jeder kann mitmachen. Die Teilnahme ist altersunabhängig."
+    answer: "150 Startplätze stehen zur Verfügung und jeder kann mitmachen. Die Teilnahme ist altersunabhängig. Minderjährige müssen nur eine Einverständniserklärung der Eltern mitbringen."
   },
   {
     question: "Bis wann kann ich mich anmelden?",

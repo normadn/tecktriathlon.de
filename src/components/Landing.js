@@ -99,7 +99,7 @@ const Landing = () => (
               color: "#575757",
               fontWeight: 600,
               fontSize: "20px",
-              paddingBottom: "30px",
+              paddingBottom: "20px",
               "@media(max-width: 820px)": {
                 paddingBottom: "24px"
               }
@@ -110,9 +110,8 @@ const Landing = () => (
             Du schlägst alle die zuhause bleiben!
           </h2>
           <h2
-            data-cy="qhacks-tagline"
             css={{
-              padding: "20px 0 50px",
+              padding: "20px 0 20px",
               color: "#575757",
               fontWeight: 800,
               lineHeight: "30px",
@@ -125,26 +124,32 @@ const Landing = () => (
           >
             27.08.2022
           </h2>
+          <h2
+            css={{
+              color: "#575757",
+              fontWeight: 600,
+              fontSize: "20px",
+              paddingBottom: "30px",
+              "@media(max-width: 820px)": {
+                paddingBottom: "24px"
+              }
+            }}
+          >
+            Vielen Dank für 150 Anmeldungen!!
+            <br />
+            Interesse nächstes Jahr dabei zu sein?
+          </h2>
           <div>
             <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
               style={applyButtonCSS}
-              link="https://forms.gle/Ymz24jidtKdT9rrR6"
+              link="https://forms.gle/WiDQBE43HVf8EqFH9"
               type="rounded"
             >
-              Einzel-Anmeldung
+              Interesse Teck Triathlon 2023
             </ActionButton>
           </div>
-          <ActionButton
-            backgroundColor="#ffffff"
-            foregroundColor="#00205b"
-            style={applyButtonCSS}
-            link="https://forms.gle/sGBC3a5a7kPUcDgw5"
-            type="rounded"
-          >
-            Team-Anmeldung
-          </ActionButton>
         </div>
         <div
           css={{

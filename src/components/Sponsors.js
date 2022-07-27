@@ -235,23 +235,23 @@ const Sponsors = () => (
               }
             }}
           >
-            <SponsorLink url="https://www.mall-entsorgung.de/">
+            <SponsorLink url="https://www.rewe.de/marktseite/dettingen/865862/rewe-markt-kirchheimer-str-138/">
               <img
-                src={mall}
+                src={reweKopp}
                 css={{
-                  width: "500px",
+                  width: "200px",
                   "@media(max-width: 980px)": {
-                    width: "400px"
+                    width: "200px"
                   },
                   "@media(max-width: 680px)": {
-                    width: "300px"
+                    width: "150px"
                   },
                   "@media(max-width: 460px)": {
-                    width: "250px"
+                    width: "200px"
                   }
                 }}
                 data-cy="test-sponsor-image"
-                alt="Mall Ensorgung"
+                alt="Rewe Kopp"
               />
             </SponsorLink>
           </div>
@@ -433,23 +433,23 @@ const Sponsors = () => (
               }
             }}
           >
-            <SponsorLink url="https://www.rewe.de/marktseite/dettingen/865862/rewe-markt-kirchheimer-str-138/">
+            <SponsorLink url="https://www.mall-entsorgung.de/">
               <img
-                src={reweKopp}
+                src={mall}
                 css={{
-                  width: "200px",
+                  width: "500px",
                   "@media(max-width: 980px)": {
-                    width: "200px"
+                    width: "400px"
                   },
                   "@media(max-width: 680px)": {
-                    width: "150px"
+                    width: "300px"
                   },
                   "@media(max-width: 460px)": {
-                    width: "200px"
+                    width: "250px"
                   }
                 }}
                 data-cy="test-sponsor-image"
-                alt="Rewe Kopp"
+                alt="Mall Ensorgung"
               />
             </SponsorLink>
           </div>

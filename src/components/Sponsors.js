@@ -387,10 +387,7 @@ const Sponsors = () => (
               />
             </SponsorLink>
           </div>
-
-        </div>
-
-        {/* Tera Row 2 */}
+          {/* Tera Row 2 */}
         <div
             css={{
               display: "grid",
@@ -456,7 +453,6 @@ const Sponsors = () => (
               />
             </SponsorLink>
           </div>
-
         </div>
 
         {/* Single Row Sponsors */}

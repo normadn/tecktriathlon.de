@@ -392,7 +392,7 @@ const Sponsors = () => (
             css={{
               display: "grid",
               gridTemplateColumns: "1fr",
-              marginTop: "60px",
+              marginTop: "70px",
               marginBottom: "80px",
               marginLeft: "10px",
               "@media(max-width: 680px)": {

@@ -396,7 +396,7 @@ const Sponsors = () => (
               marginBottom: "80px",
               marginLeft: "10px",
               "@media(max-width: 680px)": {
-                marginTop: "0px",
+                marginTop: "30px",
                 marginBottom: "30px"
               }
             }}

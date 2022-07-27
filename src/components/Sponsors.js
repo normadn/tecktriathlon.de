@@ -437,15 +437,15 @@ const Sponsors = () => (
               <img
                 src={reweKopp}
                 css={{
-                  width: "500px",
+                  width: "200px",
                   "@media(max-width: 980px)": {
-                    width: "400px"
+                    width: "200px"
                   },
                   "@media(max-width: 680px)": {
-                    width: "300px"
+                    width: "150px"
                   },
                   "@media(max-width: 460px)": {
-                    width: "250px"
+                    width: "200px"
                   }
                 }}
                 data-cy="test-sponsor-image"
@@ -456,7 +456,7 @@ const Sponsors = () => (
         </div>
 
         {/* Single Row Sponsors */}
-        <div
+        {/* <div
           css={{
             marginTop: "20px",
             marginBottom: "30px",
@@ -465,8 +465,6 @@ const Sponsors = () => (
             }
           }}
         >
-
-          {/* Tera Row 3 */}
           <div
             css={{
               display: "grid",
@@ -497,7 +495,7 @@ const Sponsors = () => (
               />
             </SponsorLink>
           </div>
-        </div>
+        </div> */}
 
         </div>
       </div>

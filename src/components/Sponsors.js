@@ -15,6 +15,7 @@ import amsel from "../assets/img/sponsors/amsel-tech.png";
 import schmidt from "../assets/img/sponsors/schmidt.jpg";
 import firstreisebuero from "../assets/img/sponsors/first-reisebuero.jpeg";
 import holl from "../assets/img/sponsors/sportHoll.png";
+import reweKopp from "../assets/img/sponsors/rewe-kopp.jpeg";
 
 const Sponsors = () => (
   <section
@@ -383,6 +384,75 @@ const Sponsors = () => (
                 }}
                 data-cy="test-sponsor-image"
                 alt="First Reisebuero"
+              />
+            </SponsorLink>
+          </div>
+
+        </div>
+
+        {/* Tera Row 2 */}
+        <div
+            css={{
+              display: "grid",
+              gridTemplateColumns: "1fr",
+              marginTop: "30px",
+              marginBottom: "80px",
+              marginLeft: "10px",
+              "@media(max-width: 680px)": {
+                marginTop: "0px",
+                marginBottom: "30px"
+              }
+            }}
+          >
+            <SponsorLink url="http://www.schmidt-transporte.com/">
+              <img
+                src={schmidt}
+                css={{
+                  width: "500px",
+                  "@media(max-width: 980px)": {
+                    width: "400px"
+                  },
+                  "@media(max-width: 680px)": {
+                    width: "300px"
+                  },
+                  "@media(max-width: 460px)": {
+                    width: "250px"
+                  }
+                }}
+                data-cy="test-sponsor-image"
+                alt="Schmidt Transporte"
+              />
+            </SponsorLink>
+          </div>
+
+          {/* Tera Row 3 */}
+          <div
+            css={{
+              display: "grid",
+              gridTemplateColumns: "1fr",
+              marginBottom: "80px",
+              "@media(max-width: 680px)": {
+                marginBottom: "30px"
+              }
+            }}
+          >
+            <SponsorLink url="https://www.rewe.de/marktseite/dettingen/865862/rewe-markt-kirchheimer-str-138/">
+              <img
+                src={reweKopp}
+                css={{
+                  width: "500px",
+                  "@media(max-width: 980px)": {
+                    width: "400px"
+                  },
+                  "@media(max-width: 680px)": {
+                    width: "300px"
+                  },
+                  "@media(max-width: 460px)": {
+                    width: "250px"
+                  }
+                }}
+                data-cy="test-sponsor-image"
+                alt="Rewe Kopp"
               />
             </SponsorLink>
           </div>

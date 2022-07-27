@@ -413,7 +413,7 @@ const Sponsors = () => (
                     width: "300px"
                   },
                   "@media(max-width: 460px)": {
-                    width: "250px"
+                    width: "300px"
                   }
                 }}
                 data-cy="test-sponsor-image"

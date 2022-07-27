@@ -241,10 +241,10 @@ const Sponsors = () => (
                 css={{
                   width: "200px",
                   "@media(max-width: 980px)": {
-                    width: "200px"
+                    width: "230px"
                   },
                   "@media(max-width: 680px)": {
-                    width: "150px"
+                    width: "170px"
                   },
                   "@media(max-width: 460px)": {
                     width: "150px"

@@ -31,7 +31,7 @@ const blurbStyle = {
 
 const imgStyle = {
   maxHeight: "320px",
-  maxWidth: "475px",
+  maxWidth: "474px",
   width: "100%"
 };
 

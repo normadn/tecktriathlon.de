@@ -67,7 +67,7 @@ const Landing = () => (
           <br />
           <h1
             css={{
-              paddingTop: "80px",
+              paddingTop: "40px",
               paddingBottom: "18px",
               fontSize: "40px",
               "@media(max-width: 820px)": {
@@ -133,7 +133,7 @@ const Landing = () => (
               }
             }}
           >
-            26.08.2023
+            Nächster Termin: 26.08.2023
           </h2>
           {/* <h2
             css={{

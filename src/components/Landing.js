@@ -67,7 +67,7 @@ const Landing = () => (
           <br />
           <h1
             css={{
-              paddingTop: "40px",
+              paddingTop: "80px",
               paddingBottom: "18px",
               fontSize: "40px",
               "@media(max-width: 820px)": {

@@ -122,9 +122,9 @@ const Landing = () => (
               }
             }}
           >
-            27.08.2022
+            26.08.2023
           </h2>
-          <h2
+          {/* <h2
             css={{
               color: "#575757",
               fontWeight: 600,
@@ -138,7 +138,7 @@ const Landing = () => (
             Vielen Dank für 150 Anmeldungen!!
             <br />
             Interesse nächstes Jahr dabei zu sein?
-          </h2>
+          </h2> */}
           <div>
             <ActionButton
               backgroundColor="#ffffff"

@@ -109,6 +109,17 @@ const Landing = () => (
             <br />
             Du schlägst alle die zuhause bleiben!
           </h2>
+          <div>
+            <ActionButton
+              backgroundColor="#ffffff"
+              foregroundColor="#00205b"
+              style={applyButtonCSS}
+              link="https://drive.google.com/file/d/1jhGblh_p5XXTtXpBZHZ6xa2nzHAlvJn3/view?usp=sharing"
+              type="rounded"
+            >
+              Ergebnisse 2022
+            </ActionButton>
+          </div>
           <h2
             css={{
               padding: "20px 0 20px",

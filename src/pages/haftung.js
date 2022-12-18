@@ -57,7 +57,7 @@ export default () => (
           <br/>
           Mit der Anmeldung erklärt jeder Teilnehmer dass die Verzichtserklärung und Haftungsfreistellung sorgfältig und im Einzelnen durchgelesen und verstanden wurde und er mit deren Inhalt ausdrücklich einverstanden ist.
           <br/>
-          Hinweis laut Datenschutzgesetz: Die Daten werden maschinell gespeichert.
+          Hinweis lt. Datenschutzgesetz: Die Daten werden maschinell gespeichert.
           </p>
         
         </div>

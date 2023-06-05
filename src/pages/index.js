@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 import ApolloClient from "apollo-boost";
 import * as Sentry from "@sentry/browser";
 import { ApolloProvider } from "react-apollo";
-import CookieConsent from 'react-cookie-consent';
+import CookieConsent from "react-cookie-consent";
 
 import "./index.css";
 import FAQs from "../components/FAQs";
@@ -61,13 +61,11 @@ export default () => {
           meta={[
             {
               name: "description",
-              content:
-                "Jedermann Triathlon am Fuße der Teck"
+              content: "Jedermann Triathlon am Fuße der Teck"
             },
             {
               name: "keywords",
-              content:
-                "Teck, Triathlon, Volkstriathlon, Tecktriathlon"
+              content: "Teck, Triathlon, Volkstriathlon, Tecktriathlon"
             },
             {
               name: "viewport",
@@ -83,7 +81,8 @@ export default () => {
             },
             {
               property: "og:title",
-              content: "Teck Triathlon | Volkstriathlon in Bissingen an der Teck"
+              content:
+                "Teck Triathlon | Volkstriathlon in Bissingen an der Teck"
             },
             {
               property: "og:image",
@@ -92,7 +91,7 @@ export default () => {
             {
               property: "og:description",
               content:
-                "27.08.2022 - Der Cross-Country Triathlon bei dem der Spaß im Vordergrund steht :)"
+                "26.08.2023 - Der Cross-Country Triathlon bei dem der Spaß im Vordergrund steht :)"
             },
             {
               property: "og:site_name",
@@ -115,9 +114,9 @@ export default () => {
         <div>
           <Landing />
           <MailingListSignup />
-          <SellingPoints/>
+          <SellingPoints />
           <Sponsors />
-          <BriefSummary/>
+          <BriefSummary />
           <FAQs />
           <Tracks />
           {/*<MailingListSignup />
@@ -133,9 +132,18 @@ export default () => {
           buttonText="Einverstanden"
           declineButtonText="Nein Danke"
           style={{ background: "#020066" }}
-          buttonStyle={{ background: "#ffffff" , color: "#020066", fontSize: "13px" }}
-          declineButtonStyle={{ background: "#ffffff" , color: "#020066", fontSize: "13px" }}
-          cookieName="gatsby-gdpr-google-analytics">
+          buttonStyle={{
+            background: "#ffffff",
+            color: "#020066",
+            fontSize: "13px"
+          }}
+          declineButtonStyle={{
+            background: "#ffffff",
+            color: "#020066",
+            fontSize: "13px"
+          }}
+          cookieName="gatsby-gdpr-google-analytics"
+        >
           Wir möchten Cookies verwenden, um unsere Website zu verbessern
         </CookieConsent>
       </div>

@@ -36,7 +36,7 @@ const imgStyle = {
 };
 
 const Tracks = () => (
-  <div id="strecken" css={{ position: "relative", backgroundColor: "#f8f8f8",}}>
+  <div id="strecken" css={{ position: "relative", backgroundColor: "#f8f8f8" }}>
     <ContentWrapper>
       <div
         css={{
@@ -56,13 +56,13 @@ const Tracks = () => (
           <div css={flexChildStyle}>
             <h1>Fahrradstrecke</h1>
             <p css={blurbStyle}>
-              Die Strecke führt einmal am Rande Bissingens entlang und hat zehn Streckenposten, teilweise mit Verpflegung für die Radfahrer. Die Strecke wird entsprechend markiert, sodass auch auswärtige den Weg ohne Probleme finden können.
+              Die Strecke führt einmal am Rande Bissingens entlang und hat zehn
+              Streckenposten, teilweise mit Verpflegung für die Radfahrer. Die
+              Strecke wird entsprechend markiert, sodass auch auswärtige den Weg
+              ohne Probleme finden können.
             </p>
-            <div css={blurbStyle}>
-              Fun fact: Die Fahrradstrecke 2022 ist neu, da wir keine Genehmigung für die 2019er Strecke bekommen haben.
-            </div>
 
-            {/* <div
+            <div
               css={{
                 margin: "auto auto auto auto",
                 "@media(max-width: 1115px)": {
@@ -93,16 +93,12 @@ const Tracks = () => (
                   }
                 }}
               />
-            </div> */}
+            </div>
           </div>
           <div css={flexChildStyle}>
             <picture css={imgStyle}>
               <source srcSet={fahrradtrack} type="image/jpg" />
-              <img
-                css={imgStyle}
-                src={fahrradtrack}
-                alt="html css"
-              />
+              <img css={imgStyle} src={fahrradtrack} alt="html css" />
             </picture>
           </div>
         </div>
@@ -126,7 +122,11 @@ const Tracks = () => (
           <div css={flexChildStyle}>
             <h1>Laufstrecke</h1>
             <p css={blurbStyle}>
-            Die Strecke führt hoch zum Bissinger Wasserfall und über den Bauernhof zurück. Bitte beachten: Am Waldanfang führt die Strecke direkt nach rechts und nicht links, wie eingezeichnet, den Berg hoch. Die Strecke wird entsprechend markiert, sodass auch auswertige den Weg ohne Probleme finden können.
+              Die Strecke führt hoch zum Bissinger Wasserfall und über den
+              Bauernhof zurück. Bitte beachten: Am Waldanfang führt die Strecke
+              direkt nach rechts und nicht links, wie eingezeichnet, den Berg
+              hoch. Die Strecke wird entsprechend markiert, sodass auch
+              auswertige den Weg ohne Probleme finden können.
             </p>
             <div
               css={{

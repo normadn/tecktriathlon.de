@@ -110,7 +110,7 @@ const Landing = () => (
             Du schlägst alle die zuhause bleiben!
           </h2>
           <div>
-            <ActionButton
+            {/* <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
               style={applyButtonCSS}
@@ -118,7 +118,7 @@ const Landing = () => (
               type="rounded"
             >
               Ergebnisse 2022
-            </ActionButton>
+            </ActionButton> */}
           </div>
           <h2
             css={{

@@ -2,8 +2,8 @@ import React from "react";
 
 import sellingPointOnejpg from "../assets/img/selling_points/fahrradstrecke.png";
 import sellingPointTwojpg from "../assets/img/selling_points/laufstrecke.png";
-import fahrradtrack from "../assets/img/selling_points/fahrradstrecke-2.jpeg";
-import lauftrack from "../assets/img/selling_points/laufstrecke-2.jpeg";
+import fahrradtrack from "../assets/img/selling_points/fahrradstrecke2023.jpeg";
+import lauftrack from "../assets/img/selling_points/laufstrecke2023.jpeg";
 import ContentWrapper from "./ContentWrapper";
 
 const twoColumnStyle = {

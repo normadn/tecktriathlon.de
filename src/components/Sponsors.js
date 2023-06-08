@@ -16,6 +16,8 @@ import schmidt from "../assets/img/sponsors/schmidt.jpg";
 import firstreisebuero from "../assets/img/sponsors/first-reisebuero.jpeg";
 import holl from "../assets/img/sponsors/sportHoll.png";
 import reweKopp from "../assets/img/sponsors/rewe-kopp.jpeg";
+import reuschwald from "../assets/img/sponsors/reuschwald.jpeg";
+import haupthaar from "../assets/img/sponsors/haupthaar.jpg";
 
 const Sponsors = () => (
   <section
@@ -81,8 +83,7 @@ const Sponsors = () => (
                       width: "300px"
                     },
                     "@media(max-width: 460px)": {
-                      width: "250px",
-
+                      width: "250px"
                     }
                   }}
                   data-cy="test-sponsor-image"
@@ -91,372 +92,437 @@ const Sponsors = () => (
               </SponsorLink>
             </div>
 
-          {/* Tera Row 2 */}
-          <div
-            css={{
-              marginTop: "110px",
-              display: "grid",
-              gridTemplateColumns: "1fr",
-              marginBottom: "80px",
-              marginLeft: "10px",
-              "@media(max-width: 680px)": {
-                marginTop: "0px",
-                marginBottom: "30px"
-              }
-            }}
-          >
-            <SponsorLink url="https://www.wall-am-markt.de/">
-              <img
-                src={wall}
-                css={{
-                  width: "340px",
-                  "@media(max-width: 980px)": {
-                    width: "320px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "220px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "170px"
-                  }
-                }}
-                data-cy="test-sponsor-image"
-                alt="Wall am Markt"
-              />
-            </SponsorLink>
-          </div>
+            {/* Tera Row 2 */}
+            <div
+              css={{
+                marginTop: "110px",
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                marginBottom: "80px",
+                marginLeft: "10px",
+                "@media(max-width: 680px)": {
+                  marginTop: "0px",
+                  marginBottom: "30px"
+                }
+              }}
+            >
+              <SponsorLink url="https://www.wall-am-markt.de/">
+                <img
+                  src={wall}
+                  css={{
+                    width: "340px",
+                    "@media(max-width: 980px)": {
+                      width: "320px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "220px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "170px"
+                    }
+                  }}
+                  data-cy="test-sponsor-image"
+                  alt="Wall am Markt"
+                />
+              </SponsorLink>
+            </div>
 
-          {/* Tera Row 2 */}
-          <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr",
-              marginBottom: "80px",
-              marginLeft: "10px",
-              "@media(max-width: 680px)": {
-                marginBottom: "30px"
-              }
-            }}
-          >
-            <SponsorLink url="https://www.maenner-containerdienst.de/">
-              <img
-                src={maenner}
-                css={{
-                  width: "500px",
-                  "@media(max-width: 980px)": {
-                    width: "400px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "300px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "250px"
-                  }
-                }}
-                data-cy="test-sponsor-image"
-                alt="Maenner Container"
-              />
-            </SponsorLink>
-          </div>
+            {/* Tera Row 2 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                marginBottom: "80px",
+                marginLeft: "10px",
+                "@media(max-width: 680px)": {
+                  marginBottom: "30px"
+                }
+              }}
+            >
+              <SponsorLink url="https://www.maenner-containerdienst.de/">
+                <img
+                  src={maenner}
+                  css={{
+                    width: "500px",
+                    "@media(max-width: 980px)": {
+                      width: "400px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "300px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "250px"
+                    }
+                  }}
+                  data-cy="test-sponsor-image"
+                  alt="Maenner Container"
+                />
+              </SponsorLink>
+            </div>
 
-          {/* Tera Row 3 */}
-          <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr",
-              marginBottom: "80px",
-              "@media(max-width: 680px)": {
-                marginBottom: "30px"
-              }
-            }}
-          >
-            <SponsorLink url="http://seestueble.com">
-              <img
-                src={seestueble}
-                css={{
-                  width: "500px",
-                  "@media(max-width: 980px)": {
-                    width: "400px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "300px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "250px"
-                  }
-                }}
-                data-cy="test-sponsor-image"
-                alt="Seestueble"
-              />
-            </SponsorLink>
-          </div>
+            {/* Tera Row 3 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                marginBottom: "80px",
+                "@media(max-width: 680px)": {
+                  marginBottom: "30px"
+                }
+              }}
+            >
+              <SponsorLink url="http://seestueble.com">
+                <img
+                  src={seestueble}
+                  css={{
+                    width: "500px",
+                    "@media(max-width: 980px)": {
+                      width: "400px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "300px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "250px"
+                    }
+                  }}
+                  data-cy="test-sponsor-image"
+                  alt="Seestueble"
+                />
+              </SponsorLink>
+            </div>
 
-          {/* Tera Row 2 */}
-          <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr",
-              marginBottom: "80px",
-              marginLeft: "10px",
-              "@media(max-width: 680px)": {
-                marginBottom: "30px"
-              }
-            }}
-          >
-            <SponsorLink url="https://www.schaefer-metzgerei.de/">
-              <img
-                src={schaefer}
-                css={{
-                  width: "500px",
-                  "@media(max-width: 980px)": {
-                    width: "400px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "300px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "250px"
-                  }
-                }}
-                data-cy="test-sponsor-image"
-                alt="Metzgerei Schaefer"
-              />
-            </SponsorLink>
-          </div>
+            {/* Tera Row 2 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                marginBottom: "80px",
+                marginLeft: "10px",
+                "@media(max-width: 680px)": {
+                  marginBottom: "30px"
+                }
+              }}
+            >
+              <SponsorLink url="https://www.schaefer-metzgerei.de/">
+                <img
+                  src={schaefer}
+                  css={{
+                    width: "500px",
+                    "@media(max-width: 980px)": {
+                      width: "400px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "300px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "250px"
+                    }
+                  }}
+                  data-cy="test-sponsor-image"
+                  alt="Metzgerei Schaefer"
+                />
+              </SponsorLink>
+            </div>
 
-          {/* Tera Row 3 */}
-          <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr",
-              marginBottom: "80px",
-              "@media(max-width: 680px)": {
-                marginBottom: "30px"
-              }
-            }}
-          >
-            <SponsorLink url="https://www.rewe.de/marktseite/dettingen/865862/rewe-markt-kirchheimer-str-138/">
-              <img
-                src={reweKopp}
-                css={{
-                  width: "200px",
-                  "@media(max-width: 980px)": {
-                    width: "230px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "170px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "150px"
-                  }
-                }}
-                data-cy="test-sponsor-image"
-                alt="Rewe Kopp"
-              />
-            </SponsorLink>
-          </div>
+            {/* Tera Row 3 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                marginBottom: "80px",
+                "@media(max-width: 680px)": {
+                  marginBottom: "30px"
+                }
+              }}
+            >
+              <SponsorLink url="https://www.rewe.de/marktseite/dettingen/865862/rewe-markt-kirchheimer-str-138/">
+                <img
+                  src={reweKopp}
+                  css={{
+                    width: "200px",
+                    "@media(max-width: 980px)": {
+                      width: "230px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "170px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "150px"
+                    }
+                  }}
+                  data-cy="test-sponsor-image"
+                  alt="Rewe Kopp"
+                />
+              </SponsorLink>
+            </div>
 
-          {/* Tera Row 4 */}
-          <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr",
-              marginBottom: "40px",
-              "@media(max-width: 680px)": {
-                marginBottom: "30px"
-              }
-            }}
-          >
-            <SponsorLink url="https://amsel.tech">
-              <img
-                src={amsel}
-                css={{
-                  width: "260px",
-                  "@media(max-width: 980px)": {
-                    width: "260px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "180px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "140px"
-                  }
-                }}
-                data-cy="test-sponsor-image"
-                alt="Amsel.tech"
-              />
-            </SponsorLink>
-          </div>
+            {/* Tera Row 4 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                marginBottom: "40px",
+                "@media(max-width: 680px)": {
+                  marginBottom: "30px"
+                }
+              }}
+            >
+              <SponsorLink url="https://amsel.tech">
+                <img
+                  src={amsel}
+                  css={{
+                    width: "260px",
+                    "@media(max-width: 980px)": {
+                      width: "260px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "180px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "140px"
+                    }
+                  }}
+                  data-cy="test-sponsor-image"
+                  alt="Amsel.tech"
+                />
+              </SponsorLink>
+            </div>
 
+            {/* Tera Row 3 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                marginBottom: "50px",
+                "@media(max-width: 680px)": {
+                  marginBottom: "30px"
+                }
+              }}
+            >
+              <SponsorLink url="https://goldochsen.de/">
+                <img
+                  src={goldochsen}
+                  css={{
+                    width: "320px",
+                    "@media(max-width: 980px)": {
+                      width: "320px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "220px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "170px"
+                    }
+                  }}
+                  data-cy="test-sponsor-image"
+                  alt="Goldochsen"
+                />
+              </SponsorLink>
+            </div>
 
-          {/* Tera Row 3 */}
-          <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr",
-              marginBottom: "50px",
-              "@media(max-width: 680px)": {
-                marginBottom: "30px"
-              }
-            }}
-          >
-            <SponsorLink url="https://goldochsen.de/">
-              <img
-                src={goldochsen}
-                css={{
-                  width: "320px",
-                  "@media(max-width: 980px)": {
-                    width: "320px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "220px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "170px"
-                  }
-                }}
-                data-cy="test-sponsor-image"
-                alt="Goldochsen"
-              />
-            </SponsorLink>
-          </div>
-
-          {/* Tera Row 2 */}
-          <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr",
-              marginTop: "30px",
-              marginBottom: "80px",
-              marginLeft: "10px",
-              "@media(max-width: 680px)": {
-                marginTop: "0px",
-                marginBottom: "30px"
-              }
-            }}
-          >
-            <SponsorLink url="https://www.sport-holl.de/">
-              <img
-                src={holl}
-                css={{
-                  width: "500px",
-                  "@media(max-width: 980px)": {
-                    width: "400px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "300px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "250px"
-                  }
-                }}
-                data-cy="test-sponsor-image"
-                alt="Sport Holl"
-              />
-            </SponsorLink>
-          </div>
-
-          {/* Tera Row 3 */}
-          <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr",
-              marginBottom: "80px",
-              "@media(max-width: 680px)": {
-                marginBottom: "30px"
-              }
-            }}
-          >
-            <SponsorLink url="https://www.first-reisebuero.de/">
-              <img
-                src={firstreisebuero}
-                css={{
-                  width: "500px",
-                  "@media(max-width: 980px)": {
-                    width: "400px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "300px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "250px"
-                  }
-                }}
-                data-cy="test-sponsor-image"
-                alt="First Reisebuero"
-              />
-            </SponsorLink>
-          </div>
-          {/* Tera Row 2 */}
-        <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr",
-              marginTop: "70px",
-              marginBottom: "80px",
-              marginLeft: "10px",
-              "@media(max-width: 680px)": {
+            {/* Tera Row 2 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
                 marginTop: "30px",
-                marginBottom: "30px"
-              }
-            }}
-          >
-            <SponsorLink url="http://www.schmidt-transporte.com/">
-              <img
-                src={schmidt}
-                css={{
-                  width: "500px",
-                  "@media(max-width: 980px)": {
-                    width: "400px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "300px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "300px"
-                  }
-                }}
-                data-cy="test-sponsor-image"
-                alt="Schmidt Transporte"
-              />
-            </SponsorLink>
+                marginBottom: "80px",
+                marginLeft: "10px",
+                "@media(max-width: 680px)": {
+                  marginTop: "0px",
+                  marginBottom: "30px"
+                }
+              }}
+            >
+              <SponsorLink url="https://www.sport-holl.de/">
+                <img
+                  src={holl}
+                  css={{
+                    width: "500px",
+                    "@media(max-width: 980px)": {
+                      width: "400px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "300px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "250px"
+                    }
+                  }}
+                  data-cy="test-sponsor-image"
+                  alt="Sport Holl"
+                />
+              </SponsorLink>
+            </div>
+
+            {/* Tera Row 3 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                marginBottom: "80px",
+                "@media(max-width: 680px)": {
+                  marginBottom: "30px"
+                }
+              }}
+            >
+              <SponsorLink url="https://www.first-reisebuero.de/">
+                <img
+                  src={firstreisebuero}
+                  css={{
+                    width: "500px",
+                    "@media(max-width: 980px)": {
+                      width: "400px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "300px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "250px"
+                    }
+                  }}
+                  data-cy="test-sponsor-image"
+                  alt="First Reisebuero"
+                />
+              </SponsorLink>
+            </div>
+            {/* Tera Row 2 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                marginTop: "60px",
+                marginBottom: "20px",
+                marginLeft: "10px",
+                "@media(max-width: 680px)": {
+                  marginTop: "30px",
+                  marginBottom: "30px"
+                }
+              }}
+            >
+              <SponsorLink url="http://www.schmidt-transporte.com/">
+                <img
+                  src={schmidt}
+                  css={{
+                    width: "500px",
+                    "@media(max-width: 980px)": {
+                      width: "400px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "300px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "300px"
+                    }
+                  }}
+                  data-cy="test-sponsor-image"
+                  alt="Schmidt Transporte"
+                />
+              </SponsorLink>
+            </div>
+
+            {/* Tera Row 3 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                marginBottom: "80px",
+                "@media(max-width: 680px)": {
+                  marginBottom: "30px"
+                }
+              }}
+            >
+              <SponsorLink url="https://www.mall-entsorgung.de/">
+                <img
+                  src={mall}
+                  css={{
+                    width: "500px",
+                    "@media(max-width: 980px)": {
+                      width: "400px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "300px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "250px"
+                    }
+                  }}
+                  data-cy="test-sponsor-image"
+                  alt="Mall Ensorgung"
+                />
+              </SponsorLink>
+            </div>
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                marginTop: "-60px",
+                marginBottom: "20px",
+                marginLeft: "10px",
+                "@media(max-width: 680px)": {
+                  marginTop: "0px",
+                  marginBottom: "30px"
+                }
+              }}
+            >
+              <SponsorLink url="https://www.haupthaar.com/">
+                <img
+                  src={haupthaar}
+                  css={{
+                    width: "320px",
+                    "@media(max-width: 980px)": {
+                      width: "320px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "220px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "170px"
+                    }
+                  }}
+                  data-cy="test-sponsor-image"
+                  alt="Haupthaar"
+                />
+              </SponsorLink>
+            </div>
+
+            {/* Tera Row 3 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                marginTop: "20px",
+                marginBottom: "20px",
+                "@media(max-width: 680px)": {
+                  marginBottom: "30px"
+                }
+              }}
+            >
+              <SponsorLink url="https://www.reuschwald.de/">
+                <img
+                  src={reuschwald}
+                  css={{
+                    width: "500px",
+                    "@media(max-width: 980px)": {
+                      width: "400px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "300px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "250px"
+                    }
+                  }}
+                  data-cy="test-sponsor-image"
+                  alt="Reuschwald"
+                />
+              </SponsorLink>
+            </div>
           </div>
 
-          {/* Tera Row 3 */}
-          <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr",
-              marginBottom: "80px",
-              "@media(max-width: 680px)": {
-                marginBottom: "30px"
-              }
-            }}
-          >
-            <SponsorLink url="https://www.mall-entsorgung.de/">
-              <img
-                src={mall}
-                css={{
-                  width: "500px",
-                  "@media(max-width: 980px)": {
-                    width: "400px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "300px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "250px"
-                  }
-                }}
-                data-cy="test-sponsor-image"
-                alt="Mall Ensorgung"
-              />
-            </SponsorLink>
-          </div>
-        </div>
-
-        {/* Single Row Sponsors */}
-        {/* <div
+          {/* Single Row Sponsors */}
+          {/* <div
           css={{
             marginTop: "20px",
             marginBottom: "30px",
@@ -496,7 +562,6 @@ const Sponsors = () => (
             </SponsorLink>
           </div>
         </div> */}
-
         </div>
       </div>
     </ContentWrapper>

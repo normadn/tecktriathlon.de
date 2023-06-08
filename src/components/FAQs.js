@@ -4,12 +4,12 @@ import ContentWrapper from "./ContentWrapper";
 const questionsAndAnswers = [
   {
     question: "Wo findet die Veranstaltung statt?",
-    answer:
-      "Lauwiesenweg 3, 73266 Bissingen an der Teck"
+    answer: "Lauwiesenweg 3, 73266 Bissingen an der Teck"
   },
   {
     question: "Wieviele Startplätze gibt es und gibt es ein Mindestalter?",
-    answer: "150 Startplätze stehen zur Verfügung und jeder kann mitmachen. Die Teilnahme ist altersunabhängig. Minderjährige müssen nur eine Einverständniserklärung der Eltern mitbringen."
+    answer:
+      "150 Startplätze stehen zur Verfügung und jeder kann mitmachen. Die Teilnahme ist altersunabhängig. Minderjährige müssen nur eine Einverständniserklärung der Eltern mitbringen."
   },
   {
     question: "Bis wann kann ich mich anmelden?",
@@ -18,32 +18,24 @@ const questionsAndAnswers = [
   },
   {
     question: "Wie sind die Distanzen bei den einzelnen Disziplinen?",
-    answer:
-      "Schwimmen: 400 m; Radfahren: ca. 10 km; Laufen: ca. 6 km"
+    answer: "Schwimmen: 400 m; Radfahren: ca. 10 km; Laufen: ca. 6 km"
   },
   {
     question: "Wo führt die Rad- und Laufstrecke entlang?",
-    answer:
+    answer: (
       <span>
-      Hier findet ihr Informationen zu den {" "}
-      <a
-        href="#strecken"
-      >
-        Strecken
-      </a>
-      {" "}
-      (Link klicken)
-    </span>
+        Hier findet ihr Informationen zu den <a href="#strecken">Strecken</a>{" "}
+        (Link klicken)
+      </span>
+    )
   },
   {
     question: "Wo findet die Schwimmdisziplin statt?",
-    answer:
-      "Im Bissinger See."
+    answer: "Im Bissinger See."
   },
   {
     question: "Brauche ich ein Rennrad oder ein Mountainbike?",
-    answer:
-      "Ein Mountainbike. Die Strecke führt über Feld- und Schotterwege."
+    answer: "Ein Mountainbike. Die Strecke führt über Feld- und Schotterwege."
   },
   {
     question: "Können wir auch zu Zweit an der Staffelwertung teilnehmen?",
@@ -63,8 +55,7 @@ const questionsAndAnswers = [
   },
   {
     question: "Wann und wo ist die Startnummernausgabe?",
-    answer:
-      "Um 9:00 – 9:45 Uhr am Sportplatz in Bissingen an der Teck"
+    answer: "Um 9:00 – 9:45 Uhr am Sportplatz in Bissingen an der Teck"
   },
   {
     question: "Wann beginnt das Rennen?",
@@ -80,21 +71,17 @@ const questionsAndAnswers = [
     question: "Wie sieht es mit der Haftung aus?",
     answer: (
       <span>
-        Jeder haftet für sich selbst. Eine genauere Erläuterung findet ihr unter {" "}
-        <a
-          href="/haftung"
-          rel="external noopener"
-          target="_blank"
-        >
+        Jeder haftet für sich selbst. Eine genauere Erläuterung findet ihr unter{" "}
+        <a href="/haftung" rel="external noopener" target="_blank">
           /haftung
         </a>
       </span>
     )
   },
   {
-    question: "Wird der Tecktriathlon nach den Regularien der DTU durchgeführt?",
-    answer:
-      "Nein, wir orientieren uns lediglich an den Disziplinen."
+    question:
+      "Wird der Tecktriathlon nach den Regularien der DTU durchgeführt?",
+    answer: "Nein, wir orientieren uns lediglich an den Disziplinen."
   },
   {
     question: "Brauche ich spezielles Triathlon-Equipment?",
@@ -104,7 +91,7 @@ const questionsAndAnswers = [
   {
     question: "Welche Leistungen sind im Preis inbegriffen?",
     answer:
-      "T-Shirt, Finishergeschenk, warme Duschen, Wettkampfverpflegung inkl.  Bananen und Isotonic Sports Drink, Festzelt mit Verpflegung kalt/warm, tolle Stimmung, Siegerehrungen, Startplatzübertragung im Krankheitsfall"
+      "T-Shirt (S - 3XL), Finishergeschenk, warme Duschen, Wettkampfverpflegung inkl.  Bananen und Isotonic Sports Drink, Festzelt mit Verpflegung kalt/warm, tolle Stimmung, Siegerehrungen, Startplatzübertragung im Krankheitsfall"
   }
 ];
 
@@ -166,25 +153,25 @@ const FAQs = () => (
               Ihr habt noch mehr Fragen?
             </h2>
             <p css={{ fontSize: "14px", color: "#000000", lineHeight: "20px" }}>
-              Kontaktiert uns einfach {" "}
+              Kontaktiert uns einfach{" "}
               <a
                 rel="external noopener"
                 target="_blank"
                 css={linkCss}
                 href="mailto:alex@tecktriathlon.de"
               >
-               alex@tecktriathlon.de
+                alex@tecktriathlon.de
               </a>{" "}
-              oder {" "}
+              oder{" "}
               <a
                 rel="external noopener"
                 target="_blank"
                 css={linkCss}
                 href="mailto:patrick@tecktriathlon.de"
               >
-               patrick@tecktriathlon.de
-              </a>.{" "}
-              Alternativ telefonisch unter 01578 1764211.
+                patrick@tecktriathlon.de
+              </a>
+              . Alternativ telefonisch unter 01578 1764211.
             </p>
           </div>
         </div>

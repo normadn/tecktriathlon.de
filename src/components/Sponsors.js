@@ -16,7 +16,7 @@ import schmidt from "../assets/img/sponsors/schmidt.jpg";
 import firstreisebuero from "../assets/img/sponsors/first-reisebuero.jpeg";
 import holl from "../assets/img/sponsors/sportHoll.png";
 import reweKopp from "../assets/img/sponsors/rewe-kopp.jpeg";
-import reuschwald from "../assets/img/sponsors/reuschwald.png";
+import reuschwald from "../assets/img/sponsors/reuschwald.PNG";
 import haupthaar from "../assets/img/sponsors/haupthaar.jpg";
 
 const Sponsors = () => (

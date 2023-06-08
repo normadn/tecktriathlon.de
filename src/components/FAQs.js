@@ -18,7 +18,7 @@ const questionsAndAnswers = [
   },
   {
     question: "Wie sind die Distanzen bei den einzelnen Disziplinen?",
-    answer: "Schwimmen: 400 m; Radfahren: ca. 10 km; Laufen: ca. 6 km"
+    answer: "Schwimmen: 400 m; Radfahren: ca. 12 km; Laufen: ca. 6 km"
   },
   {
     question: "Wo führt die Rad- und Laufstrecke entlang?",

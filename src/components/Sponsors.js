@@ -18,7 +18,7 @@ import holl from "../assets/img/sponsors/sportHoll.png";
 import reweKopp from "../assets/img/sponsors/rewe-kopp.jpeg";
 import reuschwald from "../assets/img/reuschwald.png";
 import haupthaar from "../assets/img/sponsors/haupthaar.jpg";
-import outhunt from "../assets/img/sponsors/outhu.png";
+import outhunt from "../assets/img/sponsors/Outhu.png";
 
 const Sponsors = () => (
   <section

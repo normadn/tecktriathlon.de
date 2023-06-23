@@ -18,6 +18,7 @@ import holl from "../assets/img/sponsors/sportHoll.png";
 import reweKopp from "../assets/img/sponsors/rewe-kopp.jpeg";
 import reuschwald from "../assets/img/reuschwald.png";
 import haupthaar from "../assets/img/sponsors/haupthaar.jpg";
+import outhunt from "../assets/img/sponsors/outhu.png";
 
 const Sponsors = () => (
   <section
@@ -392,8 +393,8 @@ const Sponsors = () => (
               css={{
                 display: "grid",
                 gridTemplateColumns: "1fr",
-                marginTop: "60px",
-                marginBottom: "20px",
+                marginTop: "00px",
+                marginBottom: "40px",
                 marginLeft: "10px",
                 "@media(max-width: 680px)": {
                   marginTop: "30px",
@@ -401,11 +402,11 @@ const Sponsors = () => (
                 }
               }}
             >
-              <SponsorLink url="http://www.schmidt-transporte.com/">
+              <SponsorLink url="http://www.out-hunt.de/">
                 <img
-                  src={schmidt}
+                  src={outhunt}
                   css={{
-                    width: "500px",
+                    width: "350px",
                     "@media(max-width: 980px)": {
                       width: "400px"
                     },
@@ -413,7 +414,7 @@ const Sponsors = () => (
                       width: "300px"
                     },
                     "@media(max-width: 460px)": {
-                      width: "300px"
+                      width: "250px"
                     }
                   }}
                   data-cy="test-sponsor-image"
@@ -427,6 +428,7 @@ const Sponsors = () => (
               css={{
                 display: "grid",
                 gridTemplateColumns: "1fr",
+                marginTop: "10px",
                 marginBottom: "80px",
                 "@media(max-width: 680px)": {
                   marginBottom: "30px"
@@ -462,7 +464,7 @@ const Sponsors = () => (
                 marginLeft: "10px",
                 "@media(max-width: 680px)": {
                   marginTop: "0px",
-                  marginBottom: "30px"
+                  marginBottom: "20px"
                 }
               }}
             >
@@ -495,7 +497,7 @@ const Sponsors = () => (
                 marginTop: "20px",
                 marginBottom: "20px",
                 "@media(max-width: 680px)": {
-                  marginBottom: "30px"
+                  marginBottom: "40px"
                 }
               }}
             >
@@ -522,46 +524,46 @@ const Sponsors = () => (
           </div>
 
           {/* Single Row Sponsors */}
-          {/* <div
-          css={{
-            marginTop: "20px",
-            marginBottom: "30px",
-            "@media(max-width: 680px)": {
-              marginBottom: "0px"
-            }
-          }}
-        >
           <div
             css={{
-              display: "grid",
-              gridTemplateColumns: "1fr",
-              marginBottom: "80px",
+              marginTop: "20px",
+              marginBottom: "30px",
               "@media(max-width: 680px)": {
-                marginBottom: "30px"
+                marginBottom: "20px"
               }
             }}
           >
-            <SponsorLink url="http://www.schmidt-transporte.com/">
-              <img
-                src={schmidt}
-                css={{
-                  width: "800px",
-                  "@media(max-width: 980px)": {
-                    width: "600px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "400px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "300px"
-                  }
-                }}
-                data-cy="test-sponsor-image"
-                alt="Schimdt Transporte"
-              />
-            </SponsorLink>
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                marginBottom: "80px",
+                "@media(max-width: 680px)": {
+                  marginBottom: "30px"
+                }
+              }}
+            >
+              <SponsorLink url="http://www.schmidt-transporte.com/">
+                <img
+                  src={schmidt}
+                  css={{
+                    width: "800px",
+                    "@media(max-width: 980px)": {
+                      width: "600px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "400px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "300px"
+                    }
+                  }}
+                  data-cy="test-sponsor-image"
+                  alt="Outhunt"
+                />
+              </SponsorLink>
+            </div>
           </div>
-        </div> */}
         </div>
       </div>
     </ContentWrapper>

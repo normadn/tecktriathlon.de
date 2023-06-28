@@ -39,7 +39,7 @@ export default () => (
               }
             }}
           >
-            Haftungausschluss
+            Haftungsausschluss
           </h1>
           {/* <p
             css={{

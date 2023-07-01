@@ -35,7 +35,8 @@ const questionsAndAnswers = [
   },
   {
     question: "Brauche ich ein Rennrad oder ein Mountainbike?",
-    answer: "Ein Mountainbike. Die Strecke führt über Feld- und Schotterwege."
+    answer:
+      "Ein Mountainbike. Die Strecke führt über Feld- und Schotterwege. E-Bikes sind nicht erlaubt."
   },
   {
     question: "Können wir auch zu Zweit an der Staffelwertung teilnehmen?",
@@ -68,12 +69,12 @@ const questionsAndAnswers = [
       "Um bei einem Volkstriathlon an den Start zu gehen, genügt, wenn du allgemein sportlich aktiv bist, eventuell auch als Ball- oder Mannschaftssportler. Eine Ausdauergrundlage ist natürlich ideal."
   },
   {
-    question: "Wie sieht es mit der Haftung aus?",
+    question: "Wie sind die Teilnahmebedingungen?",
     answer: (
       <span>
-        Jeder haftet für sich selbst. Eine genauere Erläuterung findet ihr unter{" "}
-        <a href="/haftung" rel="external noopener" target="_blank">
-          /haftung
+        Siehe{" "}
+        <a href="/teilnahmebedingungen">
+          www.tecktriathlon.de/teilnahmebedingungen
         </a>
       </span>
     )

@@ -107,7 +107,7 @@ const Landing = () => (
           >
             Es ist egal wie schnell du bist.
             <br />
-            Du schlägst alle die zuhause bleiben!
+            Du schlägst alle, die zuhause bleiben!
           </h2>
           <div>
             {/* <ActionButton
@@ -122,7 +122,7 @@ const Landing = () => (
           </div>
           <h2
             css={{
-              padding: "20px 0 20px",
+              padding: "20px 0 30px",
               color: "#575757",
               fontWeight: 800,
               lineHeight: "30px",
@@ -133,7 +133,7 @@ const Landing = () => (
               }
             }}
           >
-            Nächster Termin: 26.08.2023
+            Termin: 26.08.2023
           </h2>
           {/* <h2
             css={{
@@ -155,12 +155,34 @@ const Landing = () => (
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
               style={applyButtonCSS}
+              link="https://forms.gle/zwm72JBbPRr1zSiW7"
+              type="rounded"
+            >
+              Einzelanmeldung
+            </ActionButton>
+          </div>
+          <div>
+            <ActionButton
+              backgroundColor="#ffffff"
+              foregroundColor="#00205b"
+              style={applyButtonCSS}
+              link="https://forms.gle/FmytxVr74XwZHwo2A"
+              type="rounded"
+            >
+              Teamanmeldung
+            </ActionButton>
+          </div>
+          {/* <div>
+            <ActionButton
+              backgroundColor="#ffffff"
+              foregroundColor="#00205b"
+              style={applyButtonCSS}
               link="https://forms.gle/WiDQBE43HVf8EqFH9"
               type="rounded"
             >
               Interesse Teck Triathlon 2023
             </ActionButton>
-          </div>
+          </div> */}
         </div>
         <div
           css={{

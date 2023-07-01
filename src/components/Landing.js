@@ -107,7 +107,7 @@ const Landing = () => (
           >
             Es ist egal wie schnell du bist.
             <br />
-            Du schlägst alle die zuhause bleiben!
+            Du schlägst alle, die zuhause bleiben!
           </h2>
           <div>
             {/* <ActionButton

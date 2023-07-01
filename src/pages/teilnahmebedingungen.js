@@ -141,7 +141,7 @@ export default () => (
                 marginBottom: "10px"
               }}
             >
-              Dem Teilnehmer ist bekannt, dass die Teilnahme am Tecktriathlon
+              Dem Teilnehmer ist bekannt, dass die Teilnahme am Teck Triathlon
               Gefahren in sich birgt und das Risiko ernsthafter Verletzungen bis
               hin zu tödlichen Unfällen und Eigentumsbeschädigungen nicht
               ausgeschlossen werden kann.
@@ -243,7 +243,7 @@ export default () => (
                 marginBottom: "10px"
               }}
             >
-              Die Teilnahme am Tecktriathlon erfolgt auf eigenes Risiko.
+              Die Teilnahme am Teck Triathlon erfolgt auf eigenes Risiko.
             </li>
             <li
               css={{
@@ -284,7 +284,7 @@ export default () => (
             >
               Der Teilnehmer stellt den Veranstalter sowie dessen Erfüllungs-
               und Verrichtungsgehilfen von jeglicher Haftung gegenüber Dritten
-              frei, soweit diese Dritten Schäden in Folge des Tecktriathlon
+              frei, soweit diese Dritten Schäden in Folge des Teck Triathlon
               erleiden.
             </li>
             <li
@@ -301,7 +301,7 @@ export default () => (
                 marginBottom: "10px"
               }}
             >
-              Mit der Anmeldung zum Tecktriathlon bestätigt der Teilnehmer, die
+              Mit der Anmeldung zum Teck Triathlon bestätigt der Teilnehmer, die
               Verzichtserklärung, die Haftungsfreistellung und das Reglement
               gelesen und verstanden zu haben und diese vollumfänglich
               anzuerkennen

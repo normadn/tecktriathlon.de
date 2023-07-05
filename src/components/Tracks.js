@@ -1,4 +1,5 @@
 import React from "react";
+import ActionButton from "./ActionButton";
 
 import sellingPointOnejpg from "../assets/img/selling_points/fahrradstrecke.png";
 import sellingPointTwojpg from "../assets/img/selling_points/laufstrecke.png";
@@ -33,6 +34,13 @@ const imgStyle = {
   maxHeight: "320px",
   maxWidth: "474px",
   width: "100%"
+};
+
+const applyButtonCSS = {
+  margin: "5px 0 30px 0",
+  "@media(max-width: 820px)": {
+    margin: "5px 0 15px auto"
+  }
 };
 
 const Tracks = () => (
@@ -96,6 +104,25 @@ const Tracks = () => (
             </div>
           </div>
           <div css={flexChildStyle}>
+            <div
+              css={{
+                padding: "10px 0",
+                margin: "0px 0px",
+                "@media(max-width: 840px)": {
+                  padding: "10px 0px 20px 0"
+                }
+              }}
+            >
+              <ActionButton
+                backgroundColor="#ffffff"
+                foregroundColor="#00205b"
+                style={applyButtonCSS}
+                link="https://www.komoot.de/tour/1197072763?ref=wtd&share_token=an8YkYCuHyoF8eDu2XvY5yfy3DmLlp6VuNHxe0vuvJUrfndj9Q"
+                type="rounded"
+              >
+                Fahrradstrecke auf Komoot
+              </ActionButton>
+            </div>
             <picture css={imgStyle}>
               <source srcSet={fahrradtrack} type="image/jpg" />
               <img css={imgStyle} src={fahrradtrack} alt="html css" />
@@ -110,6 +137,25 @@ const Tracks = () => (
           }}
         >
           <div css={flexChildStyle}>
+            <div
+              css={{
+                padding: "10px 0",
+                margin: "0px 0px",
+                "@media(max-width: 840px)": {
+                  padding: "10px 0px 20px 0"
+                }
+              }}
+            >
+              <ActionButton
+                backgroundColor="#ffffff"
+                foregroundColor="#00205b"
+                style={applyButtonCSS}
+                link="https://www.komoot.de/tour/1197063295?ref=wtd&share_token=auAo2pHxtdvpxvXc1b5jhow95rzHmfifmvojrZe1rihpiKsxrT"
+                type="rounded"
+              >
+                Laufstrecke auf Komoot
+              </ActionButton>
+            </div>
             <picture css={imgStyle}>
               <source srcSet={lauftrack} type="image/jpg" />
               <img

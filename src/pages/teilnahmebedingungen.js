@@ -449,6 +449,13 @@ export default () => (
                 marginBottom: "10px"
               }}
             >
+              Es gilt die STVO.
+            </li>
+            <li
+              css={{
+                marginBottom: "10px"
+              }}
+            >
               Sollten einzelne Bestimmungen dieser Bedingungen ganz oder
               teilweise unwirksam sein oder werden, berührt das die Wirksamkeit
               der übrigen Regelungen nicht. Eine unwirksame oder nichtige

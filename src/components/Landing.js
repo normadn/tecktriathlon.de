@@ -152,7 +152,7 @@ const Landing = () => (
             <br />
             Schreibt euch auf die Warteliste.
           </h2>
-          <div>
+          {/* <div>
             <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
@@ -162,7 +162,7 @@ const Landing = () => (
             >
               Warteliste
             </ActionButton>
-          </div>
+          </div> */}
           {/* <div>
             <ActionButton
               backgroundColor="#ffffff"

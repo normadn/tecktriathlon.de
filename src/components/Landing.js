@@ -110,17 +110,17 @@ const Landing = () => (
             Du schlägst alle, die zuhause bleiben!
           </h2>
           <div>
-            {/* <ActionButton
+            <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
               style={applyButtonCSS}
-              link="https://drive.google.com/file/d/1EvCFts21Ysd-9WvVbnXv6yT8ew_faPeD/view?usp=sharing"
+              link="https://drive.google.com/file/d/1syJuMCO71SGx7nsQcDAR6qNrpehHjuLJ/view?usp=sharing"
               type="rounded"
             >
-              Ergebnisse 2022
-            </ActionButton> */}
+              Ergebnisse 2023
+            </ActionButton>
           </div>
-          <h2
+          {/* <h2
             css={{
               padding: "20px 0 30px",
               color: "#575757",
@@ -134,7 +134,7 @@ const Landing = () => (
             }}
           >
             Termin: 26.08.2023
-          </h2>
+          </h2> */}
           <h2
             css={{
               color: "#575757",
@@ -146,11 +146,7 @@ const Landing = () => (
               }
             }}
           >
-            Wir sagen Danke für 150 Anmeldungen!
-            <br />
-            Ihr wollt 2023 noch dabei sein?
-            <br />
-            Schreibt euch auf die Warteliste.
+            Wir sagen Danke!
           </h2>
           {/* <div>
             <ActionButton
@@ -185,17 +181,17 @@ const Landing = () => (
               Teamanmeldung
             </ActionButton>
           </div> */}
-          {/* <div>
+          <div>
             <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
               style={applyButtonCSS}
-              link="https://forms.gle/WiDQBE43HVf8EqFH9"
+              link="https://forms.gle/nyrtwfaRL6jfWP7m8"
               type="rounded"
             >
-              Interesse Teck Triathlon 2023
+              Interesse Teck Triathlon 2024
             </ActionButton>
-          </div> */}
+          </div>
         </div>
         <div
           css={{

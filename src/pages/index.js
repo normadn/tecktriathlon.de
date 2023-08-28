@@ -9,6 +9,7 @@ import CookieConsent from "react-cookie-consent";
 import "./index.css";
 import FAQs from "../components/FAQs";
 import pjson from "../../package.json";
+import VideoIntro from "../components/VideoIntro";
 import BriefSummary from "../components/BriefSummary";
 import SellingPoints from "../components/SellingPoints";
 import Footer from "../components/Footer";
@@ -113,6 +114,7 @@ export default () => {
         </Helmet>
         <div>
           <Landing />
+          <VideoIntro />
           <MailingListSignup />
           <SellingPoints />
           <Sponsors />

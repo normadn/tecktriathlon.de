@@ -33,7 +33,7 @@ const Landing = () => (
         css={{
           display: "grid",
           gridTemplateColumns: "auto 1fr",
-          marginBottom: "60px",
+          marginBottom: "20px",
           "@media(max-width: 820px)": {
             textAlign: "center",
             display: "block"

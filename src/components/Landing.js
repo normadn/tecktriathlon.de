@@ -109,7 +109,7 @@ const Landing = () => (
             <br />
             Du schlägst alle, die zuhause bleiben!
           </h2>
-          <div>
+          {/* <div>
             <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
@@ -119,8 +119,8 @@ const Landing = () => (
             >
               Ergebnisse 2023
             </ActionButton>
-          </div>
-          {/* <h2
+          </div> */}
+          <h2
             css={{
               padding: "20px 0 30px",
               color: "#575757",
@@ -133,9 +133,9 @@ const Landing = () => (
               }
             }}
           >
-            Termin: 26.08.2023
-          </h2> */}
-          <h2
+            Termin: 31.08.2024
+          </h2>
+          {/* <h2
             css={{
               color: "#575757",
               fontWeight: 600,
@@ -147,7 +147,7 @@ const Landing = () => (
             }}
           >
             Wir sagen Danke!
-          </h2>
+          </h2> */}
           {/* <div>
             <ActionButton
               backgroundColor="#ffffff"

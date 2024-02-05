@@ -19,6 +19,8 @@ import reweKopp from "../assets/img/sponsors/rewe-kopp.jpeg";
 import reuschwald from "../assets/img/reuschwald.png";
 import haupthaar from "../assets/img/sponsors/haupthaar.jpg";
 import outhunt from "../assets/img/sponsors/Outhu.png";
+import burgteck from "../assets/img/sponsors/burg-Teck-Logo.png";
+import enzo from "../assets/img/sponsors/pizzeria-Altobelli.png";
 
 const Sponsors = () => (
   <section
@@ -518,6 +520,71 @@ const Sponsors = () => (
                   }}
                   data-cy="test-sponsor-image"
                   alt="Reuschwald"
+                />
+              </SponsorLink>
+            </div>
+
+            {/* Tera Row 2 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                marginBottom: "80px",
+                marginLeft: "10px",
+                "@media(max-width: 680px)": {
+                  marginBottom: "30px"
+                }
+              }}
+            >
+              <SponsorLink url="https://www.tv-bissingen.de/hauptverein/gaststaetten">
+                <img
+                  src={enzo}
+                  css={{
+                    width: "500px",
+                    "@media(max-width: 980px)": {
+                      width: "400px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "300px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "250px"
+                    }
+                  }}
+                  data-cy="test-sponsor-image"
+                  alt="Pizzeria Altobelli"
+                />
+              </SponsorLink>
+            </div>
+
+            {/* Tera Row 3 */}
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                marginBottom: "80px",
+                "@media(max-width: 680px)": {
+                  marginBottom: "30px"
+                }
+              }}
+            >
+              <SponsorLink url="https://www.burg-teck-alb.de/gastronomie/">
+                <img
+                  src={burgteck}
+                  css={{
+                    width: "350px",
+                    "@media(max-width: 980px)": {
+                      width: "350px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "190px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "170px"
+                    }
+                  }}
+                  data-cy="test-sponsor-image"
+                  alt="Burg Teck"
                 />
               </SponsorLink>
             </div>

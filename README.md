@@ -1,4 +1,4 @@
-# QHacks Website
+# Tecktriathlon Website
 
 [![CircleCI
 Status](https://circleci.com/gh/qhacks/qhacks-website.svg?style=shield&circle-token=2816988f179e0cb9a7ce228608a9a72fb62c7f64)](https://circleci.com/gh/qhacks/qhacks-website)
@@ -67,8 +67,8 @@ Utilize the scripts below in the root of the project to get started:
 
 `npm run cypress-tests`
 
->NOTE: This will start a server and host the website at the `baseURL` that
->Cypress requires and shut down the server once all the testing is complete.
+> NOTE: This will start a server and host the website at the `baseURL` that
+> Cypress requires and shut down the server once all the testing is complete.
 
 **Open the Cypress test runner:**
 
@@ -78,8 +78,8 @@ Utilize the scripts below in the root of the project to get started:
 
 `npm run cypress-run`
 
->NOTE: To run this you must have the website being served to the `baseURL` set
->in the Cypress config.
+> NOTE: To run this you must have the website being served to the `baseURL` set
+> in the Cypress config.
 
 **Run only the Cypress tests and record data to the Cypress dashboard:**
 

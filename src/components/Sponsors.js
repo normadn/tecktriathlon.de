@@ -611,7 +611,7 @@ const Sponsors = () => (
                 }
               }}
             >
-              <SponsorLink url="http://www.schmidt-transporte.com/">
+              <SponsorLink url="https://www.marienapotheke-bissingen.de/">
                 <img
                   src={marienapo}
                   css={{
@@ -627,7 +627,7 @@ const Sponsors = () => (
                     }
                   }}
                   data-cy="test-sponsor-image"
-                  alt="Schmidt Transporte"
+                  alt="Marienapotheke Bissingen"
                 />
               </SponsorLink>
             </div>

@@ -21,6 +21,7 @@ import haupthaar from "../assets/img/sponsors/haupthaar.jpg";
 import outhunt from "../assets/img/sponsors/Outhu.png";
 import burgteck from "../assets/img/sponsors/burg-Teck-Logo.png";
 import enzo from "../assets/img/sponsors/pizzeria-Altobelli.png";
+import marienapo from "../assets/img/sponsors/marien-apotheke.jpg";
 
 const Sponsors = () => (
   <section
@@ -590,6 +591,47 @@ const Sponsors = () => (
             </div>
           </div>
 
+          {/* Single Row Sponsors */}
+          <div
+            css={{
+              marginTop: "20px",
+              marginBottom: "30px",
+              "@media(max-width: 680px)": {
+                marginBottom: "20px"
+              }
+            }}
+          >
+            <div
+              css={{
+                display: "grid",
+                gridTemplateColumns: "1fr",
+                marginBottom: "80px",
+                "@media(max-width: 680px)": {
+                  marginBottom: "30px"
+                }
+              }}
+            >
+              <SponsorLink url="http://www.schmidt-transporte.com/">
+                <img
+                  src={marienapo}
+                  css={{
+                    width: "700px",
+                    "@media(max-width: 980px)": {
+                      width: "600px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "400px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "300px"
+                    }
+                  }}
+                  data-cy="test-sponsor-image"
+                  alt="Schmidt Transporte"
+                />
+              </SponsorLink>
+            </div>
+          </div>
           {/* Single Row Sponsors */}
           <div
             css={{

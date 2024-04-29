@@ -18,7 +18,7 @@ import holl from "../assets/img/sponsors/sportHoll.png";
 import reweKopp from "../assets/img/sponsors/rewe-kopp.jpeg";
 import reuschwald from "../assets/img/reuschwald.png";
 import haupthaar from "../assets/img/sponsors/haupthaar.jpg";
-import outhunt from "../assets/img/sponsors/Outhu.png";
+import matic from "../assets/img/sponsors/matic.png";
 import burgteck from "../assets/img/sponsors/burg-Teck-Logo.png";
 import enzo from "../assets/img/sponsors/pizzeria-Altobelli.png";
 import marienapo from "../assets/img/sponsors/marien-apotheke.jpg";
@@ -343,7 +343,7 @@ const Sponsors = () => (
                 <img
                   src={holl}
                   css={{
-                    width: "500px",
+                    width: "400px",
                     "@media(max-width: 980px)": {
                       width: "400px"
                     },
@@ -375,7 +375,7 @@ const Sponsors = () => (
                 <img
                   src={firstreisebuero}
                   css={{
-                    width: "500px",
+                    width: "400px",
                     "@media(max-width: 980px)": {
                       width: "400px"
                     },
@@ -405,11 +405,11 @@ const Sponsors = () => (
                 }
               }}
             >
-              <SponsorLink url="http://www.out-hunt.de/">
+              <SponsorLink url="https://www.matic-gartenbau.de/">
                 <img
-                  src={outhunt}
+                  src={matic}
                   css={{
-                    width: "350px",
+                    width: "400px",
                     "@media(max-width: 980px)": {
                       width: "400px"
                     },
@@ -421,7 +421,7 @@ const Sponsors = () => (
                     }
                   }}
                   data-cy="test-sponsor-image"
-                  alt="Schmidt Transporte"
+                  alt="Gartenbau Matic"
                 />
               </SponsorLink>
             </div>
@@ -541,7 +541,7 @@ const Sponsors = () => (
                 <img
                   src={enzo}
                   css={{
-                    width: "500px",
+                    width: "450px",
                     "@media(max-width: 980px)": {
                       width: "400px"
                     },
@@ -573,7 +573,7 @@ const Sponsors = () => (
                 <img
                   src={burgteck}
                   css={{
-                    width: "350px",
+                    width: "320px",
                     "@media(max-width: 980px)": {
                       width: "350px"
                     },
@@ -668,7 +668,7 @@ const Sponsors = () => (
                     }
                   }}
                   data-cy="test-sponsor-image"
-                  alt="Outhunt"
+                  alt="Schmidt Transporte"
                 />
               </SponsorLink>
             </div>

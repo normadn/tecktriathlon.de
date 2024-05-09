@@ -92,7 +92,7 @@ const questionsAndAnswers = [
   {
     question: "Welche Leistungen sind im Preis inbegriffen?",
     answer:
-      "T-Shirt (S - 3XL), Finishergeschenk, warme Duschen, Wettkampfverpflegung inkl.  Bananen und Isotonic Sports Drink, Festzelt mit Verpflegung kalt/warm, tolle Stimmung, Siegerehrungen, Startplatzübertragung im Krankheitsfall"
+      "T-Shirt (S - 3XL), Finishergeschenk, warme Duschen, Wettkampfverpflegung inkl.  Bananen und Isotonic Sports Drink, Festzelt mit Verpflegung kalt/warm, tolle Stimmung, Siegerehrungen."
   }
 ];
 

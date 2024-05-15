@@ -333,8 +333,8 @@ export default () => (
               }}
             >
               Der Veranstalter ist berechtigt, den Ablauf der Veranstaltung
-              abzuändern, zeitlich verzögert zu starten oder abzusagen, wenn die
-              Bedingungen am Wettkampftag dies erforderlich machen. Im Fall
+              abzuändern, zeitlich verzögert zu starten oder abzusagen, wenn
+              dies die Bedingungen am Wettkampftag erforderlich machen. Im Falle
               einer Absage gibt es keinen Nachholtermin.
             </li>
             <li

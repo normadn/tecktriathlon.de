@@ -159,7 +159,7 @@ const Landing = () => (
               Warteliste
             </ActionButton>
           </div> */}
-          <div>
+          {/* <div>
             <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
@@ -180,7 +180,7 @@ const Landing = () => (
             >
               Teamanmeldung
             </ActionButton>
-          </div>
+          </div> */}
           {/* <div>
             <ActionButton
               backgroundColor="#ffffff"

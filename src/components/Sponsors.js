@@ -175,7 +175,7 @@ const Sponsors = () => (
                 }
               }}
             >
-              <SponsorLink url="http://seestueble.com">
+              <SponsorLink url="https://seestueble.com">
                 <img
                   src={seestueble}
                   css={{

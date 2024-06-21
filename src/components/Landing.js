@@ -159,12 +159,12 @@ const Landing = () => (
               Warteliste
             </ActionButton>
           </div> */}
-          {/* <div>
+          <div>
             <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
               style={applyButtonCSS}
-              link="https://forms.gle/zwm72JBbPRr1zSiW7"
+              link="https://forms.gle/Uy27qiQ98PfYuEnw7"
               type="rounded"
             >
               Einzelanmeldung
@@ -175,13 +175,13 @@ const Landing = () => (
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
               style={applyButtonCSS}
-              link="https://forms.gle/FmytxVr74XwZHwo2A"
+              link="https://forms.gle/SkjqfVHgdZtkuGBk6"
               type="rounded"
             >
               Teamanmeldung
             </ActionButton>
-          </div> */}
-          <div>
+          </div>
+          {/* <div>
             <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
@@ -191,7 +191,7 @@ const Landing = () => (
             >
               Interesse Teck Triathlon 2024
             </ActionButton>
-          </div>
+          </div> */}
         </div>
         <div
           css={{

@@ -63,7 +63,7 @@ const VideoIntro = () => (
             <div {...caretCSS("#fedb01")} />
           </div>
           <p css={{ lineHeight: "24px", fontColor: "#000000" }}>
-            Es war ein Fest!! Sei auch dieses Jahr wieder dabei egal ob als
+            Es war ein Fest!! Sei auch dieses Jahr wieder dabei, egal ob als
             Zuschauer oder als Teilnehmer. Wir freuen uns auf dich.
           </p>
         </div>

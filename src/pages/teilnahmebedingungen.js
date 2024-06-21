@@ -335,7 +335,9 @@ export default () => (
               Der Veranstalter ist berechtigt, den Ablauf der Veranstaltung
               abzuändern, zeitlich verzögert zu starten oder abzusagen, wenn
               dies die Bedingungen am Wettkampftag erforderlich machen. Im Falle
-              einer Absage gibt es keinen Nachholtermin.
+              einer Absage gibt es keinen Nachholtermin und es erfolgt keine
+              Rückerstattung des Startgeldes. Die Teilnehmenden können jedoch
+              ihre Trikots abholen.
             </li>
             <li
               css={{

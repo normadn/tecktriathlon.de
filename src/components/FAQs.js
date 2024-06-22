@@ -14,7 +14,7 @@ const questionsAndAnswers = [
   {
     question: "Bis wann kann ich mich anmelden?",
     answer:
-      "Bis 2 Wochen vor dem Veranstaltungstermin. So können wir sicherstellen, dass wir auch eure T-Shirts bis dahin fertig bekommen."
+      "Bis 2 Wochen vor Veranstaltungstermin, falls noch Plätze vorhanden. So können wir sicherstellen, dass wir auch eure T-Shirts bis dahin fertig bekommen."
   },
   {
     question: "Wie sind die Distanzen bei den einzelnen Disziplinen?",

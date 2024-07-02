@@ -45,8 +45,7 @@ const questionsAndAnswers = [
   },
   {
     question: "Wie hoch ist das Startgeld?",
-    answer:
-      "Einzelwertung: 35€; Staffelwertung: 35€ pro Person. Bei Anmeldung als Zweierteam bitte via Überweisung bezahlen."
+    answer: "Einzelwertung: 35€; Staffelwertung: 35€ pro Person."
   },
 
   {

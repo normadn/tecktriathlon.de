@@ -83,7 +83,7 @@ export default () => (
                 marginBottom: "10px"
               }}
             >
-              Das Teilnehmerlimit wird pro Veranstaltung auf 150 Teilnehmer
+              Das Teilnehmerlimit wird pro Veranstaltung auf 175 Teilnehmer
               festgesetzt, eine Nachmeldemöglichkeit besteht nicht.
             </li>
             <li

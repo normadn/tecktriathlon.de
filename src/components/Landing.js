@@ -114,7 +114,7 @@ const Landing = () => (
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
               style={applyButtonCSS}
-              link="https://drive.google.com/file/d/1pRASfYJPJAP8NOSPeiacRrYSOj0j2P5E/view?usp=drive_link"
+              link="https://drive.google.com/file/d/1ZSAgpRH4Ox_MujTCiuJ_N2C4CAdI7_1m/view?usp=sharing"
               type="rounded"
             >
               Ergebnisse 2024

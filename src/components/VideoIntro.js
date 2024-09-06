@@ -49,7 +49,7 @@ const VideoIntro = () => (
             "@media (max-width: 920px)": { paddingRight: "0px" }
           }}
         >
-          <h1 css={{ paddingTop: "2px" }}>Teck Triathlon 2023</h1>
+          <h1 css={{ paddingTop: "2px" }}>Teck Triathlon 2024</h1>
           <div
             css={{
               display: "grid",
@@ -80,7 +80,7 @@ const VideoIntro = () => (
         >
           <iframe
             title="Bissingen an der Teck"
-            src="https://www.youtube.com/embed/Xp0ErKo0u0o?si=EP1PeNQQLXhgHEgo"
+            src="https://www.youtube.com/embed/EM3rFj5PN5c?si=CKfMgbDjIdLVK3cl"
             frameBorder="0"
             allow="autoplay; encrypted-media"
             allowFullScreen

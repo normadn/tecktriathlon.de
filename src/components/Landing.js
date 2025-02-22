@@ -109,7 +109,7 @@ const Landing = () => (
             <br />
             Du schlägst alle, die zuhause bleiben!
           </h2>
-          <div>
+          {/* <div>
             <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
@@ -119,7 +119,35 @@ const Landing = () => (
             >
               Ergebnisse 2024
             </ActionButton>
-          </div>
+          </div> */}
+          <h2
+            css={{
+              padding: "20px 0 30px",
+              color: "#575757",
+              fontWeight: 800,
+              lineHeight: "30px",
+              "@media(max-width: 820px)": {
+                paddingTop: "10px",
+                fontSize: "15px",
+                lineHeight: "1.6"
+              }
+            }}
+          >
+            Leider kann der Teck Triathlon 2025 nicht stattfinden.
+          </h2>
+          <h2
+            css={{
+              color: "#575757",
+              fontWeight: 600,
+              fontSize: "20px",
+              paddingBottom: "30px",
+              "@media(max-width: 820px)": {
+                paddingBottom: "24px"
+              }
+            }}
+          >
+            29.08.2026 - Save the Date für die 5. Auflage!
+          </h2>
           {/* <h2
             css={{
               padding: "20px 0 30px",
@@ -147,8 +175,8 @@ const Landing = () => (
             }}
           >
             Wir sagen Danke für 175 Anmeldungen !!
-          </h2>
-          <div>
+          </h2> */}
+          {/* <div>
             <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
@@ -189,7 +217,7 @@ const Landing = () => (
               link="https://forms.gle/tSx5PphgqKxK4KPG9"
               type="rounded"
             >
-              Interesse Teck Triathlon 2025
+              Interesse Teck Triathlon 2026
             </ActionButton>
           </div>
         </div>

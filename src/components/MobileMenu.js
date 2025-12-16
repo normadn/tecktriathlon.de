@@ -1,4 +1,5 @@
 import React from "react";
+import { getImageUrl } from "../utils/imageHelper";
 
 import cubeswebp from "../assets/img/icons/mobileMenuCubes.webp";
 import menuClose from "../assets/img/icons/mobileMenuClose.svg";
@@ -12,7 +13,9 @@ const MobileMenu = (props) => (
     align="right"
     css={{
       marginLeft: "auto",
-      paddingTop: "32px",
+      display: "flex",
+      alignItems: "center",
+      height: "84px",
       "@media(min-width: 820px)": {
         display: "none"
       }
@@ -21,8 +24,8 @@ const MobileMenu = (props) => (
     <input
       type="image"
       onClick={props.toggleMenu}
-      src={hamburger}
-      css={{ width: "32px", height: "24px" }}
+      src={getImageUrl(hamburger)}
+      css={{ width: "32px", height: "24px", cursor: "pointer" }}
       alt="Open menu"
     />
     <div
@@ -43,7 +46,7 @@ const MobileMenu = (props) => (
         type="image"
         align="right"
         css={{ padding: "32px" }}
-        src={menuClose}
+        src={getImageUrl(menuClose)}
         onClick={props.toggleMenu}
         alt="Close menu"
       />

@@ -10,13 +10,10 @@ import "slick-carousel/slick/slick-theme.css";
 class SpeakerSlider extends Component {
   constructor(props) {
     super(props);
+    this.state = { currentIndex: 0 };
   }
 
   handleChange = (currentIndex) => this.setState({ currentIndex });
-
-  componentWillMount() {
-    this.setState({ currentIndex: 0 });
-  }
 
   onSpeakerSliderDotsClicked = (num) => () => {
     this.slider.slickGoTo(num);

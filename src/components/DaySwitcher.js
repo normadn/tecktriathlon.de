@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { css } from "glamor";
 
 class DaySwitcher extends Component {
   state = {
@@ -27,7 +26,7 @@ class DaySwitcher extends Component {
       transition: "left 0.8s ease"
     };
 
-    const navBarCss = css({
+    const navBarCss = {
       display: "grid",
       gridTemplateColumns: `repeat(${this.props.days.length}, 1fr)`,
       width: "66%",
@@ -61,7 +60,7 @@ class DaySwitcher extends Component {
       "> button.dayItem:not(.selectedDay):hover": {
         color: "#C81C2E"
       }
-    });
+    };
 
     const navItems = this.props.days.map((day, i) => (
       <button
@@ -76,9 +75,9 @@ class DaySwitcher extends Component {
     ));
 
     return (
-      <div {...navBarCss}>
+      <div css={navBarCss}>
         {navItems}
-        <div role="none presentation" css={{ ...sliderCss }} />
+        <div role="none presentation" css={sliderCss} />
       </div>
     );
   }

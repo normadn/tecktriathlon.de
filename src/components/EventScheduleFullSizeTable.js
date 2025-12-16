@@ -1,10 +1,9 @@
 import React from "react";
-import { css } from "glamor";
 import moment from "moment-timezone";
 
 const EventScheduleFullSizeTable = (props) => (
   <table
-    {...css({
+    css={{
       borderRadius: "16px",
       fontWeight: "500",
       overflow: "hidden",
@@ -35,7 +34,7 @@ const EventScheduleFullSizeTable = (props) => (
       "> tbody tr:last-child td:last-child": {
         borderBottomRightRadius: "16px"
       }
-    })}
+    }}
   >
     <tbody>
       <tr

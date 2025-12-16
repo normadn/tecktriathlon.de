@@ -3,7 +3,7 @@ import moment from "moment";
 
 import ContentWrapper from "./ContentWrapper";
 import SponsorLink from "./SponsorLink";
-import SignUpForm from "../components/SignUpForm";
+import { getImageUrl } from "../utils/imageHelper";
 
 import mail from "../assets/img/icons/socialMail.svg";
 import twitter from "../assets/img/icons/socialTwitter.svg";
@@ -74,7 +74,7 @@ const Footer = () => (
             paddingTop: "20px",
             paddingBottom: "30px",
             [smallScreens]: {
-              paddingTop: "0px",
+              paddingTop: "0px"
             }
           }}
         >
@@ -101,7 +101,7 @@ const Footer = () => (
               maxWidth: "455px"
             }}
           >
-          <p
+            <p
               css={{
                 fontSize: "14px",
                 lineHeight: "20px",
@@ -116,11 +116,11 @@ const Footer = () => (
               <span>
                 <img
                   height="34px"
-                  src={logo}
+                  src={getImageUrl(logo)}
                   css={{ marginBottom: "5px", paddingRight: "13px" }}
                   alt="amsel.tech"
                 />
-                <img height="37px" src={wordmark} alt="amsel.tech Wordmark" />
+                <img height="37px" src={getImageUrl(wordmark)} alt="amsel.tech Wordmark" />
               </span>
             </SponsorLink>
           </div>
@@ -134,7 +134,7 @@ const Footer = () => (
             paddingTop: "20px",
             paddingBottom: "30px",
             [smallScreens]: {
-              paddingTop: "15px",
+              paddingTop: "15px"
             }
           }}
         >

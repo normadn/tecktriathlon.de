@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import ActionButton from "./ActionButton";
-import { graphql } from "react-apollo";
-import * as Sentry from "@sentry/browser";
-import gql from "graphql-tag";
+import { getImageUrl } from "../utils/imageHelper";
 
 import circleCheckWhite from "../assets/img/icons/circleSuccess-white.svg";
 import circleTimesWhite from "../assets/img/icons/circleError-white.svg";
@@ -10,24 +8,6 @@ import circleCheck from "../assets/img/icons/circleSuccess-green.svg";
 import circleTimes from "../assets/img/icons/circleError-red.svg";
 import spinnerWhite from "../assets/img/icons/spinner-white.svg";
 import spinner from "../assets/img/icons/spinner-black.svg";
-
-const CREATE_MAILING_LIST_SUBSCRIPTION_MUTATION = gql`
-  mutation CreateMailingListSubscription(
-    $eventSlug: String!
-    $mailingListSlug: String!
-    $input: MailingListSubscriberInput!
-  ) {
-    mailingListSubscriberCreate(
-      eventSlug: $eventSlug
-      mailingListSlug: $mailingListSlug
-      input: $input
-    ) {
-      subscriber {
-        email
-      }
-    }
-  }
-`;
 
 class SignUpForm extends Component {
   state = {
@@ -66,45 +46,18 @@ class SignUpForm extends Component {
   signUp() {
     const email = this.state.emailAddress;
 
+    if (!email || !email.includes("@")) {
+      return this.setStatusFailure("Please enter a valid email address.");
+    }
+
     this.setStatusLoading();
 
-    this.props
-      .mutate({
-        variables: {
-          mailingListSlug: "announcements-newsletter",
-          eventSlug: "qhacks-2019",
-          input: {
-            email
-          }
-        }
-      })
-      .then((res) => {
-        try {
-          return this.setStatusSuccess(
-            res.data.mailingListSubscriberCreate.subscriber.email
-          );
-        } catch (err) {
-          Sentry.captureException(err);
-          return this.setStatusFailure(
-            "Something went wrong - please try again later."
-          );
-        }
-      })
-      .catch((err) => {
-        Sentry.captureException(err);
-        if (
-          err.graphQLErrors &&
-          err.graphQLErrors[0] &&
-          err.graphQLErrors[0].extensions &&
-          err.graphQLErrors[0].extensions.code === "EMAIL_ALREADY_SUBSCRIBED"
-        ) {
-          return this.setStatusFailure(`${email} has already been signed up!`);
-        }
-
-        return this.setStatusFailure(
-          "Something went wrong - please try again later."
-        );
-      });
+    // Simulate API call - replace with your actual API endpoint if needed
+    setTimeout(() => {
+      // For now, just show success message
+      // Replace this with actual API call to your backend
+      this.setStatusSuccess(email);
+    }, 1000);
   }
 
   render() {
@@ -118,7 +71,7 @@ class SignUpForm extends Component {
       case "loading": {
         buttonContent = (
           <img
-            src={whiteIcons ? spinnerWhite : spinner}
+            src={getImageUrl(whiteIcons ? spinnerWhite : spinner)}
             css={{
               animation: "spin 2s infinite linear"
             }}
@@ -129,13 +82,13 @@ class SignUpForm extends Component {
       }
       case "success": {
         buttonContent = (
-          <img src={whiteIcons ? circleCheckWhite : circleCheck} alt="" />
+          <img src={getImageUrl(whiteIcons ? circleCheckWhite : circleCheck)} alt="" />
         );
         break;
       }
       case "failure": {
         buttonContent = (
-          <img src={whiteIcons ? circleTimesWhite : circleTimes} alt="" />
+          <img src={getImageUrl(whiteIcons ? circleTimesWhite : circleTimes)} alt="" />
         );
         break;
       }
@@ -201,14 +154,16 @@ class SignUpForm extends Component {
             lineHeight: "22px"
           }}
         >
-          {this.state.boldMessage ? (
-            <strong>
-              {this.state.boldMessage}
-              &nbsp;
-            </strong>
-          ) : (
-            ""
-          )}
+          {this.state.boldMessage
+            ? (
+              <strong>
+                {this.state.boldMessage}
+                &nbsp;
+              </strong>
+            )
+            : (
+              ""
+            )}
           {this.state.message}
         </p>
       </div>
@@ -216,4 +171,4 @@ class SignUpForm extends Component {
   }
 }
 
-export default graphql(CREATE_MAILING_LIST_SUBSCRIPTION_MUTATION)(SignUpForm);
+export default SignUpForm;

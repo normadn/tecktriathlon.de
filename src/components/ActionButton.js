@@ -53,36 +53,38 @@ const ActionButton = (props) => {
       break;
   }
 
-  return props.link ? (
-    <a
-      css={{
-        ...commonStyles,
-        ...props.style,
-        display: "inline-block",
-        boxSizing: "content-box"
-      }}
-      data-cy={props.dataCy}
-      disabled={props.disabled}
-      onClick={props.onClick}
-      href={props.link}
-      target="_blank"
-      rel="external noopener"
-    >
-      {props.children}
-    </a>
-  ) : (
-    <button
-      css={{
-        ...commonStyles,
-        ...props.style
-      }}
-      data-cy={props.dataCy}
-      disabled={props.disabled}
-      onClick={props.onClick}
-    >
-      {props.children}
-    </button>
-  );
+  return props.link
+    ? (
+      <a
+        css={{
+          ...commonStyles,
+          ...props.style,
+          display: "inline-block",
+          boxSizing: "content-box"
+        }}
+        data-cy={props.dataCy}
+        disabled={props.disabled}
+        onClick={props.onClick}
+        href={props.link}
+        target="_blank"
+        rel="external noopener"
+      >
+        {props.children}
+      </a>
+    )
+    : (
+      <button
+        css={{
+          ...commonStyles,
+          ...props.style
+        }}
+        data-cy={props.dataCy}
+        disabled={props.disabled}
+        onClick={props.onClick}
+      >
+        {props.children}
+      </button>
+    );
 };
 
 export default ActionButton;

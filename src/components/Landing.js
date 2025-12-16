@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./Header";
 import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
+import { getImageUrl } from "../utils/imageHelper";
 
 import landingImg from "../assets/img/logo/tecktriathlon-hero-new.svg";
 import logo from "../assets/img/logo/logo-no-text.svg";
@@ -56,7 +57,7 @@ const Landing = () => (
           }}
         >
           <img
-            src={landingImg}
+            src={getImageUrl(landingImg)}
             css={{
               width: "70vw",
               maxWidth: "300px",
@@ -234,7 +235,7 @@ const Landing = () => (
           }}
         >
           <img
-            src={landingImg}
+            src={getImageUrl(landingImg)}
             css={{
               paddingTop: "35px",
               paddingLeft: "50px",

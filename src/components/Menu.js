@@ -1,5 +1,7 @@
 import React from "react";
+import Link from "next/link";
 import ScrollSpy from "react-scrollspy";
+import { getImageUrl } from "../utils/imageHelper";
 
 import colored from "../assets/img/logo/qhacksCrown-colored.svg";
 import amsel from "../assets/img/logo/tvb-squared.png";
@@ -14,8 +16,8 @@ const Menu = (props) => {
         height: "84px"
       }}
     >
-      <a
-        href="/#"
+      <Link
+        href="/"
         css={{
           transition: "0.5s",
           "@media(min-width:820px)": {
@@ -33,10 +35,10 @@ const Menu = (props) => {
             paddingBottom: "20px",
             height: "90px"
           }}
-          src={amsel}
+          src={getImageUrl(amsel)}
           alt="Amsel bird"
         />
-      </a>
+      </Link>
       <a
         id="mlh-trust-badge"
         href="https://amsel.tech"

@@ -191,7 +191,7 @@ const mentors = [
   }
 ];
 
-export default () => (
+const Mentors = () => (
   <div css={{ marginBottom: "16px" }}>
     <h1 css={{ fontWeight: "600", fontSize: "28px" }}>
       Additional Speakers and Mentors
@@ -220,3 +220,7 @@ export default () => (
     </div>
   </div>
 );
+
+Mentors.displayName = 'Mentors';
+
+export default Mentors;

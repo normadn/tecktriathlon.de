@@ -2,6 +2,8 @@ import React from "react";
 import CookieConsent from "react-cookie-consent";
 import Head from "next/head";
 import Script from "next/script";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
 
@@ -41,6 +43,8 @@ function MyApp({ Component, pageProps, emotionCache = clientSideEmotionCache }) 
         </>
       )}
       <Component {...pageProps} />
+      <Analytics />
+      <SpeedInsights />
       <CookieConsent
         location="bottom"
         enableDeclineButton

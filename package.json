@@ -34,9 +34,10 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@emotion/cache": "^11.11.0",
     "@emotion/babel-plugin": "^11.11.0",
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/server": "^11.11.0",
     "@sentry/nextjs": "^7.0.0",
     "moment-timezone": "^0.5.21",
     "next": "^14.0.0",

@@ -10,7 +10,7 @@ const menuItems = [
   "wertungen",
   "sponsoren",
   "informationen",
-  "strecken",
+  "strecken"
 ];
 
 class Header extends Component {
@@ -85,28 +85,28 @@ class Header extends Component {
             }
           }}
         >
-        <ContentWrapper>
-          <div
-            css={{
-              "@media(max-width:860px)": {
-                display: "grid",
-                gridTemplateColumns: "auto auto"
-              }
-            }}
-          >
-            <Menu
-              menuItems={this.props.menuItems || menuItems}
-              imgCss={true}
-              standaloneVersion={this.props.standaloneVersion}
-            />
-            <MobileMenu
-              menuItems={this.props.menuItems || menuItems}
-              isMenuVisible={this.state.isMobileMenuVisible}
-              toggleMenu={this.onMobileMenuClicked}
-            />
-          </div>
-        </ContentWrapper>
-      </div>
+          <ContentWrapper>
+            <div
+              css={{
+                "@media(max-width:860px)": {
+                  display: "grid",
+                  gridTemplateColumns: "auto auto"
+                }
+              }}
+            >
+              <Menu
+                menuItems={this.props.menuItems || menuItems}
+                imgCss={true}
+                standaloneVersion={this.props.standaloneVersion}
+              />
+              <MobileMenu
+                menuItems={this.props.menuItems || menuItems}
+                isMenuVisible={this.state.isMobileMenuVisible}
+                toggleMenu={this.onMobileMenuClicked}
+              />
+            </div>
+          </ContentWrapper>
+        </div>
       </div>
     );
   }

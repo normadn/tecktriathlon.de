@@ -13,7 +13,7 @@ import mall from "../assets/img/sponsors/mall-logo.jpeg";
 import schaefer from "../assets/img/sponsors/schaefer-logo.jpeg";
 import goldochsen from "../assets/img/sponsors/goldochsen-logo.jpeg";
 import amsel from "../assets/img/sponsors/amsel-tech.png";
-import schmidt from "../assets/img/sponsors/schmidt.jpg";
+// import schmidt from "../assets/img/sponsors/schmidt.jpg";
 import firstreisebuero from "../assets/img/sponsors/first-reisebuero.jpeg";
 import holl from "../assets/img/sponsors/sportHoll.png";
 import reweKopp from "../assets/img/sponsors/rewe-kopp.jpeg";
@@ -655,7 +655,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="http://www.schmidt-transporte.com/">
                 <img
-                  src={getImageUrl(schmidt)}
+                  src="/schmidt.jpg"
                   css={{
                     width: "800px",
                     "@media(max-width: 980px)": {

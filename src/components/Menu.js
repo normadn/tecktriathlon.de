@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import ScrollSpy from "react-scrollspy";
 import { getImageUrl } from "../utils/imageHelper";
 
@@ -15,8 +16,8 @@ const Menu = (props) => {
         height: "84px"
       }}
     >
-      <a
-        href="/#"
+      <Link
+        href="/"
         css={{
           transition: "0.5s",
           "@media(min-width:820px)": {
@@ -37,7 +38,7 @@ const Menu = (props) => {
           src={getImageUrl(amsel)}
           alt="Amsel bird"
         />
-      </a>
+      </Link>
       <a
         id="mlh-trust-badge"
         href="https://amsel.tech"

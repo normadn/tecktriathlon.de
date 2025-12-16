@@ -74,7 +74,7 @@ const Footer = () => (
             paddingTop: "20px",
             paddingBottom: "30px",
             [smallScreens]: {
-              paddingTop: "0px",
+              paddingTop: "0px"
             }
           }}
         >
@@ -101,7 +101,7 @@ const Footer = () => (
               maxWidth: "455px"
             }}
           >
-          <p
+            <p
               css={{
                 fontSize: "14px",
                 lineHeight: "20px",
@@ -134,7 +134,7 @@ const Footer = () => (
             paddingTop: "20px",
             paddingBottom: "30px",
             [smallScreens]: {
-              paddingTop: "15px",
+              paddingTop: "15px"
             }
           }}
         >

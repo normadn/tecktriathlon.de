@@ -10,6 +10,9 @@ const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL;
 
 module.exports = {
   reactStrictMode: true,
+  images: {
+    unoptimized: true
+  },
   env: {
     NETLIFY_ENV: NETLIFY_ENV,
     SITE_URL: siteUrl,

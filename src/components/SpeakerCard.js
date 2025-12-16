@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import SpeakerCardTextToggle from "./SpeakerCardTextToggle";
 
 class SpeakerCard extends Component {
-  componentWillMount() {
-    this.setState({ learnMoreToggled: false });
+  constructor(props) {
+    super(props);
+    this.state = { learnMoreToggled: false };
   }
 
   render() {

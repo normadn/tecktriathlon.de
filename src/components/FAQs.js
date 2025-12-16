@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import ContentWrapper from "./ContentWrapper";
 
 const questionsAndAnswers = [
@@ -72,9 +73,9 @@ const questionsAndAnswers = [
     answer: (
       <span>
         Siehe{" "}
-        <a href="/teilnahmebedingungen">
+        <Link href="/teilnahmebedingungen">
           www.tecktriathlon.de/teilnahmebedingungen
-        </a>
+        </Link>
       </span>
     )
   },

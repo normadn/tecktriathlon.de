@@ -1,6 +1,6 @@
 import React from "react";
 
-export default (props) => (
+const SponsorLink = (props) => (
   <a
     href={props.url}
     target="_blank"
@@ -20,3 +20,7 @@ export default (props) => (
     {props.children}
   </a>
 );
+
+SponsorLink.displayName = 'SponsorLink';
+
+export default SponsorLink;

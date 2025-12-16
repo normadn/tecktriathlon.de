@@ -17,7 +17,7 @@ const MailingListSignup = (props) => (
       backgroundSize: "100% auto",
       "@media(max-width: 840px)": {
         minHeight: "150px",
-        backgroundSize: "cover",
+        backgroundSize: "cover"
       }
     }}
   >

@@ -33,9 +33,9 @@ function MyApp({ Component, pageProps, emotionCache = clientSideEmotionCache }) 
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
                 gtag('config', 'UA-139155654-1', {
-                  page_path: window.location.pathname,
+                  page_path: window.location.pathname
                 });
-              `,
+              `
             }}
           />
         </>

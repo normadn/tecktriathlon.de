@@ -1,6 +1,6 @@
 import React from "react";
 
-export default ({
+const MentorCard = ({
   headshot,
   name,
   title,
@@ -59,3 +59,7 @@ export default ({
     </a>
   </div>
 );
+
+MentorCard.displayName = 'MentorCard';
+
+export default MentorCard;

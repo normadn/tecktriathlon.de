@@ -46,7 +46,7 @@ const imgStyle = {
 };
 
 const SellingPoints = () => (
-  <div id="wertungen" css={{ position: "relative", backgroundColor: "#f8f8f8",}}>
+  <div id="wertungen" css={{ position: "relative", backgroundColor: "#f8f8f8" }}>
     <ContentWrapper>
       <div
         css={{

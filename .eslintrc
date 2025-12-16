@@ -9,6 +9,9 @@
     "sourceType": "module"
   },
   "rules": {
+    "@next/next/no-img-element": "warn",
+    "react/display-name": "off",
+    "import/no-anonymous-default-export": "warn",
     "strict": 0,
     "indent": [2, 2, { "SwitchCase": 1 }],
     "semi": [2, "always"],

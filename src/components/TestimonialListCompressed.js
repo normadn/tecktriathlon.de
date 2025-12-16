@@ -9,6 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 class TestimonialListCompressed extends Component {
   constructor(props) {
     super(props);
+    this.state = { currentIndex: 0 };
   }
 
   handleSwipe = (direction) => {
@@ -20,10 +21,6 @@ class TestimonialListCompressed extends Component {
       this.setState({ currentIndex: this.state.currentIndex + increment });
     }
   };
-
-  componentWillMount() {
-    this.setState({ currentIndex: 0 });
-  }
 
   render() {
     const settings = {

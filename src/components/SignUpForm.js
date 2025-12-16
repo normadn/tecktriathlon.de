@@ -154,14 +154,16 @@ class SignUpForm extends Component {
             lineHeight: "22px"
           }}
         >
-          {this.state.boldMessage ? (
-            <strong>
-              {this.state.boldMessage}
-              &nbsp;
-            </strong>
-          ) : (
-            ""
-          )}
+          {this.state.boldMessage
+            ? (
+              <strong>
+                {this.state.boldMessage}
+                &nbsp;
+              </strong>
+            )
+            : (
+              ""
+            )}
           {this.state.message}
         </p>
       </div>

@@ -1,10 +1,9 @@
 import React from "react";
-import { css } from "glamor";
 import moment from "moment-timezone";
 
 const EventScheduleCompressedTable = (props) => (
   <table
-    {...css({
+    css={{
       borderRadius: "4px",
       border: "1px solid #e4e4e4",
       borderSpacing: "0",
@@ -37,7 +36,7 @@ const EventScheduleCompressedTable = (props) => (
       "> tbody tr:nth-child(2) td": {
         paddingBottom: "16px"
       }
-    })}
+    }}
   >
     {props.data.map((item) => (
       <tbody key={`${item.eventName} ${item.startDate}`}>

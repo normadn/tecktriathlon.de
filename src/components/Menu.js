@@ -1,5 +1,6 @@
 import React from "react";
 import ScrollSpy from "react-scrollspy";
+import { getImageUrl } from "../utils/imageHelper";
 
 import colored from "../assets/img/logo/qhacksCrown-colored.svg";
 import amsel from "../assets/img/logo/tvb-squared.png";
@@ -33,7 +34,7 @@ const Menu = (props) => {
             paddingBottom: "20px",
             height: "90px"
           }}
-          src={amsel}
+          src={getImageUrl(amsel)}
           alt="Amsel bird"
         />
       </a>

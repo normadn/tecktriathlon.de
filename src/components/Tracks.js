@@ -1,5 +1,6 @@
 import React from "react";
 import ActionButton from "./ActionButton";
+import { getImageUrl } from "../utils/imageHelper";
 
 import sellingPointOnejpg from "../assets/img/selling_points/fahrradstrecke.png";
 import sellingPointTwojpg from "../assets/img/selling_points/laufstrecke.png";
@@ -124,8 +125,8 @@ const Tracks = () => (
               </ActionButton>
             </div>
             <picture css={imgStyle}>
-              <source srcSet={fahrradtrack} type="image/jpg" />
-              <img css={imgStyle} src={fahrradtrack} alt="html css" />
+              <source srcSet={getImageUrl(fahrradtrack)} type="image/jpg" />
+              <img css={imgStyle} src={getImageUrl(fahrradtrack)} alt="html css" />
             </picture>
           </div>
         </div>
@@ -157,10 +158,10 @@ const Tracks = () => (
               </ActionButton>
             </div>
             <picture css={imgStyle}>
-              <source srcSet={lauftrack} type="image/jpg" />
+              <source srcSet={getImageUrl(lauftrack)} type="image/jpg" />
               <img
                 css={imgStyle}
-                src={lauftrack}
+                src={getImageUrl(lauftrack)}
                 alt="Mentor judging a VR hack"
               />
             </picture>

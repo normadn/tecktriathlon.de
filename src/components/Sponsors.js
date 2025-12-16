@@ -3,6 +3,7 @@ import React from "react";
 import SponsorLink from "./SponsorLink";
 import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
+import { getImageUrl } from "../utils/imageHelper";
 
 import goll from "../assets/img/sponsors/goll.png";
 import wall from "../assets/img/sponsors/wall-neu.png";
@@ -77,7 +78,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="https://www.backstube-goll.de/">
                 <img
-                  src={goll}
+                  src={getImageUrl(goll)}
                   css={{
                     width: "400px",
                     "@media(max-width: 980px)": {
@@ -112,7 +113,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="https://www.wall-am-markt.de/">
                 <img
-                  src={wall}
+                  src={getImageUrl(wall)}
                   css={{
                     width: "340px",
                     "@media(max-width: 980px)": {
@@ -145,7 +146,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="https://www.maenner-containerdienst.de/">
                 <img
-                  src={maenner}
+                  src={getImageUrl(maenner)}
                   css={{
                     width: "500px",
                     "@media(max-width: 980px)": {
@@ -177,7 +178,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="https://seestueble.com">
                 <img
-                  src={seestueble}
+                  src={getImageUrl(seestueble)}
                   css={{
                     width: "500px",
                     "@media(max-width: 980px)": {
@@ -210,7 +211,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="https://www.schaefer-metzgerei.de/">
                 <img
-                  src={schaefer}
+                  src={getImageUrl(schaefer)}
                   css={{
                     width: "500px",
                     "@media(max-width: 980px)": {
@@ -242,7 +243,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="https://www.rewe.de/marktseite/dettingen/865862/rewe-markt-kirchheimer-str-138/">
                 <img
-                  src={reweKopp}
+                  src={getImageUrl(reweKopp)}
                   css={{
                     width: "200px",
                     "@media(max-width: 980px)": {
@@ -274,7 +275,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="https://amsel.tech">
                 <img
-                  src={amsel}
+                  src={getImageUrl(amsel)}
                   css={{
                     width: "260px",
                     "@media(max-width: 980px)": {
@@ -306,7 +307,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="https://goldochsen.de/">
                 <img
-                  src={goldochsen}
+                  src={getImageUrl(goldochsen)}
                   css={{
                     width: "320px",
                     "@media(max-width: 980px)": {
@@ -341,7 +342,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="https://www.sport-holl.de/">
                 <img
-                  src={holl}
+                  src={getImageUrl(holl)}
                   css={{
                     width: "400px",
                     "@media(max-width: 980px)": {
@@ -373,7 +374,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="https://www.first-reisebuero.de/">
                 <img
-                  src={firstreisebuero}
+                  src={getImageUrl(firstreisebuero)}
                   css={{
                     width: "400px",
                     "@media(max-width: 980px)": {
@@ -407,7 +408,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="https://www.matic-gartenbau.de/">
                 <img
-                  src={matic}
+                  src={getImageUrl(matic)}
                   css={{
                     width: "400px",
                     "@media(max-width: 980px)": {
@@ -440,7 +441,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="https://www.mall-entsorgung.de/">
                 <img
-                  src={mall}
+                  src={getImageUrl(mall)}
                   css={{
                     width: "500px",
                     "@media(max-width: 980px)": {
@@ -473,7 +474,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="https://www.haupthaar.com/">
                 <img
-                  src={haupthaar}
+                  src={getImageUrl(haupthaar)}
                   css={{
                     width: "320px",
                     "@media(max-width: 980px)": {
@@ -506,7 +507,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="https://www.reuschwald.de/">
                 <img
-                  src={reuschwald}
+                  src={getImageUrl(reuschwald)}
                   css={{
                     width: "500px",
                     "@media(max-width: 980px)": {
@@ -539,7 +540,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="https://www.tv-bissingen.de/hauptverein/gaststaetten">
                 <img
-                  src={enzo}
+                  src={getImageUrl(enzo)}
                   css={{
                     width: "450px",
                     "@media(max-width: 980px)": {
@@ -571,7 +572,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="https://www.burg-teck-alb.de/gastronomie/">
                 <img
-                  src={burgteck}
+                  src={getImageUrl(burgteck)}
                   css={{
                     width: "320px",
                     "@media(max-width: 980px)": {
@@ -613,7 +614,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="https://www.marienapotheke-bissingen.de/">
                 <img
-                  src={marienapo}
+                  src={getImageUrl(marienapo)}
                   css={{
                     width: "700px",
                     "@media(max-width: 980px)": {
@@ -654,7 +655,7 @@ const Sponsors = () => (
             >
               <SponsorLink url="http://www.schmidt-transporte.com/">
                 <img
-                  src={schmidt}
+                  src={getImageUrl(schmidt)}
                   css={{
                     width: "800px",
                     "@media(max-width: 980px)": {

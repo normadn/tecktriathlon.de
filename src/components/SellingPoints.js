@@ -1,5 +1,6 @@
 import React from "react";
 import SellingPointsIcons from "./SellingPointsIcons.js";
+import { getImageUrl } from "../utils/imageHelper";
 
 import cubes2png from "../assets/img/icons/cubes-2.png";
 import judges from "../assets/img/icons/judgesIcon.svg";
@@ -49,10 +50,10 @@ const SellingPoints = () => (
     <ContentWrapper>
       <div
         css={{
-          padding: "100px 0",
+          padding: "80px 0",
           margin: "0 -28px",
           "@media(max-width: 840px)": {
-            padding: "100px 0 50px 0"
+            padding: "80px 0 50px 0"
           }
         }}
       >
@@ -70,10 +71,10 @@ const SellingPoints = () => (
           </div>
           <div css={flexChildStyle}>
             <picture css={imgStyle}>
-              <source srcSet={sellingPointOnejpg} type="image/jpg" />
+              <source srcSet={getImageUrl(sellingPointOnejpg)} type="image/jpg" />
               <img
                 css={imgStyle}
-                src={sellingPointOnejpg}
+                src={getImageUrl(sellingPointOnejpg)}
                 alt="html css"
               />
             </picture>
@@ -88,10 +89,10 @@ const SellingPoints = () => (
         >
           <div css={flexChildStyle}>
             <picture css={imgStyle}>
-              <source srcSet={sellingPointTwojpg} type="image/jpg" />
+              <source srcSet={getImageUrl(sellingPointTwojpg)} type="image/jpg" />
               <img
                 css={imgStyle}
-                src={sellingPointTwojpg}
+                src={getImageUrl(sellingPointTwojpg)}
                 alt="Mentor judging a VR hack"
               />
             </picture>

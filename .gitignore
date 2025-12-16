@@ -1,9 +1,41 @@
-.cache
+# Dependencies
 node_modules
-yarn-error.log
-public
-.DS_Store
-.vscode
+/.pnp
+.pnp.js
+
+# Testing
 coverage
 cypress/videos
 cypress/screenshots
+
+# Next.js
+/.next/
+/out/
+next-env.d.ts
+.cache/
+tmp-*
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
+*.pem
+.yarn-error.log
+.vscode
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+.env
+
+# Vercel
+.vercel
+
+# Typescript
+*.tsbuildinfo

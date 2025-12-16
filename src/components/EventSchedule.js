@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import MediaQuery from "react-responsive";
 import moment from "moment-timezone";
-import { css } from "glamor";
 
 import EventScheduleCompressedTable from "./EventScheduleCompressedTable";
 import EventScheduleFullSizeTable from "./EventScheduleFullSizeTable";
@@ -127,13 +126,13 @@ class EventSchedule extends Component {
             changeDay={(day) => this.changeDay(day)}
           />
           <h3
-            {...css({
+            css={{
               textTransform: "uppercase",
               color: "#00205b",
               marginLeft: "16px",
               "@media(max-width: 760px)": { marginLeft: 0 },
               fontWeight: 800
-            })}
+            }}
           >
             {moment(this.state.selectedDay, "YYYY-MM-DD").format(
               "dddd, MMMM Do, YYYY"

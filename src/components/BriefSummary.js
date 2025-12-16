@@ -1,17 +1,15 @@
 import React from "react";
-import { css } from "glamor";
 
 import ContentWrapper from "./ContentWrapper";
 
 import cubes1webp from "../assets/img/icons/cubes-1.webp";
 import cubes1png from "../assets/img/icons/cubes-1.png";
 
-const caretCSS = (backgroundColor) =>
-  css({
-    backgroundColor,
-    width: "26px",
-    height: "4px"
-  });
+const caretCSS = (backgroundColor) => ({
+  backgroundColor,
+  width: "26px",
+  height: "4px"
+});
 
 const BriefSummary = () => (
   <div
@@ -58,9 +56,9 @@ const BriefSummary = () => (
               padding: "13px 0px 27px 0px"
             }}
           >
-            <div {...caretCSS("#00205b")} />
-            <div {...caretCSS("#c81c2e")} />
-            <div {...caretCSS("#fedb01")} />
+            <div css={caretCSS("#00205b")} />
+            <div css={caretCSS("#c81c2e")} />
+            <div css={caretCSS("#fedb01")} />
           </div>
           <p css={{ lineHeight: "24px", fontColor: "#000000" }}>
             Einfach ein schönes Örtchen ... 

@@ -1,6 +1,6 @@
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = 'https://amsel.tech',
+  URL: NETLIFY_SITE_URL = 'https://tecktriathlon.de',
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV
 } = process.env;
@@ -10,9 +10,6 @@ const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL;
 
 module.exports = {
   reactStrictMode: true,
-  compiler: {
-    emotion: true,
-  },
   env: {
     NETLIFY_ENV: NETLIFY_ENV,
     SITE_URL: siteUrl,

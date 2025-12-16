@@ -1,4 +1,11 @@
-node_modules
-public
-coverage
-.cache
+# Ignore old Gatsby files
+src/pages/
+
+# Ignore build outputs
+.next/
+out/
+build/
+dist/
+
+# Ignore dependencies
+node_modules/

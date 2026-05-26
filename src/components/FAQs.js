@@ -46,7 +46,7 @@ const questionsAndAnswers = [
   },
   {
     question: "Wie hoch ist das Startgeld?",
-    answer: "Einzelwertung: 35€; Staffelwertung: 35€ pro Person."
+    answer: "Einzelwertung: 45€; Staffelwertung: 45€ pro Person."
   },
 
   {
@@ -56,12 +56,12 @@ const questionsAndAnswers = [
   },
   {
     question: "Wann und wo ist die Startnummernausgabe?",
-    answer: "Um 9:00 – 9:45 Uhr am Sportplatz in Bissingen an der Teck"
+    answer: "Um 10:00 – 10:45 Uhr am Sportplatz in Bissingen an der Teck"
   },
   {
     question: "Wann beginnt das Rennen?",
     answer:
-      "Um 10:00 Uhr am Sportplatz Bissingen an der Teck in 12er Gruppen, Abstand 15 Minuten. Gruppeneinteilung laut Aushang. Startberechtigung nur in der eingeteilten Gruppe."
+      "Um 11:00 Uhr am Sportplatz Bissingen an der Teck in 12er Gruppen, Abstand 15 Minuten. Gruppeneinteilung laut Aushang. Startberechtigung nur in der eingeteilten Gruppe."
   },
   {
     question: "Welches sportliche Ausgangsniveau wird benötigt?",

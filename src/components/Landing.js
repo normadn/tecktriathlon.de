@@ -123,21 +123,6 @@ const Landing = () => (
           </div> */}
           <h2
             css={{
-              padding: "20px 0 30px",
-              color: "#575757",
-              fontWeight: 800,
-              lineHeight: "30px",
-              "@media(max-width: 820px)": {
-                paddingTop: "10px",
-                fontSize: "15px",
-                lineHeight: "1.6"
-              }
-            }}
-          >
-            Leider kann der Teck Triathlon 2025 nicht stattfinden.
-          </h2>
-          <h2
-            css={{
               color: "#575757",
               fontWeight: 600,
               fontSize: "20px",
@@ -147,7 +132,7 @@ const Landing = () => (
               }
             }}
           >
-            29.08.2026 - Save the Date für die 5. Auflage!
+            Termin: 29.08.2026
           </h2>
           {/* <h2
             css={{
@@ -188,12 +173,12 @@ const Landing = () => (
               Warteliste
             </ActionButton>
           </div> */}
-          {/* <div>
+          <div>
             <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
               style={applyButtonCSS}
-              link="https://forms.gle/Uy27qiQ98PfYuEnw7"
+              link="https://forms.gle/h2HjuzZPzLPGPJnK6"
               type="rounded"
             >
               Einzelanmeldung
@@ -204,13 +189,13 @@ const Landing = () => (
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
               style={applyButtonCSS}
-              link="https://forms.gle/SkjqfVHgdZtkuGBk6"
+              link="https://forms.gle/SeRh5adoeZToDq6a9"
               type="rounded"
             >
               Teamanmeldung
             </ActionButton> 
-          </div> */}
-          <div>
+          </div>
+          {/* <div>
             <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
@@ -220,7 +205,7 @@ const Landing = () => (
             >
               Interesse Teck Triathlon 2026
             </ActionButton>
-          </div>
+          </div> */}
         </div>
         <div
           css={{

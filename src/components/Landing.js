@@ -134,7 +134,7 @@ const Landing = () => (
           >
             Termin: 29.08.2026
           </h2>
-          {/* <div>
+          <div>
             <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
@@ -155,7 +155,7 @@ const Landing = () => (
             >
               Teamanmeldung
             </ActionButton> 
-          </div> */}
+          </div>
           {/* <h2
             css={{
               color: "#575757",

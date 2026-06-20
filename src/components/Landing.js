@@ -134,22 +134,29 @@ const Landing = () => (
           >
             Termin: 29.08.2026
           </h2>
+          {/* <div>
+            <ActionButton
+              backgroundColor="#ffffff"
+              foregroundColor="#00205b"
+              style={applyButtonCSS}
+              link="https://forms.gle/h2HjuzZPzLPGPJnK6"
+              type="rounded"
+            >
+              Einzelanmeldung
+            </ActionButton>
+          </div>
+          <div>
+            <ActionButton
+              backgroundColor="#ffffff"
+              foregroundColor="#00205b"
+              style={applyButtonCSS}
+              link="https://forms.gle/SeRh5adoeZToDq6a9"
+              type="rounded"
+            >
+              Teamanmeldung
+            </ActionButton> 
+          </div> */}
           {/* <h2
-            css={{
-              padding: "20px 0 30px",
-              color: "#575757",
-              fontWeight: 800,
-              lineHeight: "30px",
-              "@media(max-width: 820px)": {
-                paddingTop: "10px",
-                fontSize: "15px",
-                lineHeight: "1.6"
-              }
-            }}
-          >
-            Termin: 31.08.2024
-          </h2>
-          <h2
             css={{
               color: "#575757",
               fontWeight: 600,
@@ -173,28 +180,6 @@ const Landing = () => (
               Warteliste
             </ActionButton>
           </div> */}
-          <div>
-            <ActionButton
-              backgroundColor="#ffffff"
-              foregroundColor="#00205b"
-              style={applyButtonCSS}
-              link="https://forms.gle/h2HjuzZPzLPGPJnK6"
-              type="rounded"
-            >
-              Einzelanmeldung
-            </ActionButton>
-          </div>
-          <div>
-            <ActionButton
-              backgroundColor="#ffffff"
-              foregroundColor="#00205b"
-              style={applyButtonCSS}
-              link="https://forms.gle/SeRh5adoeZToDq6a9"
-              type="rounded"
-            >
-              Teamanmeldung
-            </ActionButton> 
-          </div>
           {/* <div>
             <ActionButton
               backgroundColor="#ffffff"

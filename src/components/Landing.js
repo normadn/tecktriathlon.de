@@ -134,7 +134,7 @@ const Landing = () => (
           >
             Termin: 29.08.2026
           </h2>
-          <div>
+          {/* <div>
             <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
@@ -155,8 +155,8 @@ const Landing = () => (
             >
               Teamanmeldung
             </ActionButton> 
-          </div>
-          {/* <h2
+          </div> */}
+          <h2
             css={{
               color: "#575757",
               fontWeight: 600,
@@ -168,8 +168,8 @@ const Landing = () => (
             }}
           >
             Wir sagen Danke für 175 Anmeldungen !!
-          </h2> */}
-          {/* <div>
+          </h2>
+          <div>
             <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
@@ -179,7 +179,7 @@ const Landing = () => (
             >
               Warteliste
             </ActionButton>
-          </div> */}
+          </div>
           {/* <div>
             <ActionButton
               backgroundColor="#ffffff"

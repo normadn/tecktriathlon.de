@@ -174,7 +174,7 @@ const Landing = () => (
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
               style={applyButtonCSS}
-              link="https://forms.gle/di1Fyk7mgzV2U49c7"
+              link="https://forms.gle/eL4pRG2DjKb9SifP7"
               type="rounded"
             >
               Warteliste

@@ -118,7 +118,7 @@ const Tracks = () => (
                 backgroundColor="#ffffff"
                 foregroundColor="#00205b"
                 style={applyButtonCSS}
-                link="https://www.komoot.de/tour/1197072763?ref=wtd&share_token=an8YkYCuHyoF8eDu2XvY5yfy3DmLlp6VuNHxe0vuvJUrfndj9Q"
+                link="https://www.komoot.com/de-DE/tour/1197272191?ref=itd&share_token=aXjhoWwKw7WEkbrYdUW9RmEYiTs94oQbYwKrk7Bg6PrqHYfaGf&ref=its&t_s=referral&t_cid=route_share&t_ref_username=707786279989"
                 type="rounded"
               >
                 Fahrradstrecke auf Komoot
@@ -151,7 +151,7 @@ const Tracks = () => (
                 backgroundColor="#ffffff"
                 foregroundColor="#00205b"
                 style={applyButtonCSS}
-                link="https://www.komoot.de/tour/1197063295?ref=wtd&share_token=auAo2pHxtdvpxvXc1b5jhow95rzHmfifmvojrZe1rihpiKsxrT"
+                link="https://www.komoot.com/tour/1197272879?ref=itd&share_token=aHZcETHVPIsd0eMmF6gM45NBDzf9Ewbk2v0l6UuTKEQXEZpHhn&ref=its&t_s=referral&t_cid=route_share&t_ref_username=707786279989"
                 type="rounded"
               >
                 Laufstrecke auf Komoot

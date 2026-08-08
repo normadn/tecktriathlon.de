@@ -14,12 +14,11 @@ import schaefer from "../assets/img/sponsors/schaefer-logo.jpeg";
 import goldochsen from "../assets/img/sponsors/goldochsen-logo.jpeg";
 import amsel from "../assets/img/sponsors/amsel-tech.png";
 // import schmidt from "../assets/img/sponsors/schmidt.jpg";
-import firstreisebuero from "../assets/img/sponsors/first-reisebuero.jpeg";
+import firstreisebuero from "../assets/img/sponsors/first-reisebuero-v2.jpg";
 import holl from "../assets/img/sponsors/sportHoll.png";
 import reweKopp from "../assets/img/sponsors/rewe-kopp.jpeg";
 import reuschwald from "../assets/img/reuschwald.png";
 import haupthaar from "../assets/img/sponsors/haupthaar.jpg";
-import matic from "../assets/img/sponsors/matic.png";
 import burgteck from "../assets/img/sponsors/burg-Teck-Logo.png";
 import enzo from "../assets/img/sponsors/pizzeria-Altobelli.png";
 import marienapo from "../assets/img/sponsors/marien-apotheke.jpg";
@@ -392,41 +391,6 @@ const Sponsors = () => (
                 />
               </SponsorLink>
             </div>
-            {/* Tera Row 2 */}
-            <div
-              css={{
-                display: "grid",
-                gridTemplateColumns: "1fr",
-                marginTop: "00px",
-                marginBottom: "40px",
-                marginLeft: "10px",
-                "@media(max-width: 680px)": {
-                  marginTop: "30px",
-                  marginBottom: "30px"
-                }
-              }}
-            >
-              <SponsorLink url="https://www.matic-gartenbau.de/">
-                <img
-                  src={getImageUrl(matic)}
-                  css={{
-                    width: "400px",
-                    "@media(max-width: 980px)": {
-                      width: "400px"
-                    },
-                    "@media(max-width: 680px)": {
-                      width: "300px"
-                    },
-                    "@media(max-width: 460px)": {
-                      width: "250px"
-                    }
-                  }}
-                  data-cy="test-sponsor-image"
-                  alt="Gartenbau Matic"
-                />
-              </SponsorLink>
-            </div>
-
             {/* Tera Row 3 */}
             <div
               css={{

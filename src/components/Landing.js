@@ -169,7 +169,7 @@ const Landing = () => (
           >
             Wir sagen Danke für 175 Anmeldungen !!
           </h2>
-          <div>
+          {/* <div>
             <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
@@ -179,7 +179,7 @@ const Landing = () => (
             >
               Warteliste
             </ActionButton>
-          </div>
+          </div> */}
           {/* <div>
             <ActionButton
               backgroundColor="#ffffff"

@@ -6,6 +6,7 @@ import sellingPointOnejpg from "../assets/img/selling_points/fahrradstrecke.png"
 import sellingPointTwojpg from "../assets/img/selling_points/laufstrecke.png";
 import fahrradtrack from "../assets/img/selling_points/fahrradstrecke2023.jpeg";
 import lauftrack from "../assets/img/selling_points/laufstrecke2023.jpeg";
+import lageplan from "../assets/img/selling_points/Lageplan.png";
 import ContentWrapper from "./ContentWrapper";
 
 const twoColumnStyle = {
@@ -133,8 +134,7 @@ const Tracks = () => (
         <div
           css={{
             ...twoColumnStyle,
-            flexWrap: "wrap-reverse",
-            marginBottom: 0
+            flexWrap: "wrap-reverse"
           }}
         >
           <div css={flexChildStyle}>
@@ -207,6 +207,34 @@ const Tracks = () => (
                 }}
               />
             </div>
+          </div>
+        </div>
+        <div
+          id="lageplan"
+          css={{
+            ...twoColumnStyle,
+            flexWrap: "wrap",
+            marginBottom: 0
+          }}
+        >
+          <div css={flexChildStyle}>
+            <h1>Lageplan</h1>
+            <p css={blurbStyle}>
+              Auf dem Lageplan findet ihr alle wichtigen Stationen rund um den
+              Wettkampf: Schwimmstart und -ausgang, Wechselzone, Anmeldung mit
+              WC und Duschen, Ziel sowie den Parkplatz. So findet ihr euch vor
+              Ort schnell zurecht.
+            </p>
+          </div>
+          <div css={flexChildStyle}>
+            <picture css={imgStyle}>
+              <source srcSet={getImageUrl(lageplan)} type="image/png" />
+              <img
+                css={imgStyle}
+                src={getImageUrl(lageplan)}
+                alt="Lageplan Tecktriathlon"
+              />
+            </picture>
           </div>
         </div>
       </div>

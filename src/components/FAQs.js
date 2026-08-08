@@ -61,7 +61,7 @@ const questionsAndAnswers = [
   {
     question: "Wann beginnt das Rennen?",
     answer:
-      "Um 11:00 Uhr am Sportplatz Bissingen an der Teck in 12er Gruppen, Abstand 15 Minuten. Gruppeneinteilung laut Aushang. Startberechtigung nur in der eingeteilten Gruppe."
+      "Um 11:00 Uhr am Sportplatz Bissingen an der Teck in 15er Gruppen, Abstand 15 Minuten. Gruppeneinteilung laut Aushang. Startberechtigung nur in der eingeteilten Gruppe."
   },
   {
     question: "Welches sportliche Ausgangsniveau wird benötigt?",

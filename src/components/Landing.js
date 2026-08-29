@@ -110,18 +110,18 @@ const Landing = () => (
             <br />
             Du schlägst alle, die zuhause bleiben!
           </h2>
-          {/* <div>
+          <div>
             <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
               style={applyButtonCSS}
-              link="https://drive.google.com/file/d/1ZSAgpRH4Ox_MujTCiuJ_N2C4CAdI7_1m/view?usp=sharing"
+              link="https://drive.google.com/file/d/1b8ihJzGMOqpg6IAl5zaFhhvonaW0v6Xo/view?usp=sharing"
               type="rounded"
             >
-              Ergebnisse 2024
+              Ergebnisse 2026
             </ActionButton>
-          </div> */}
-          <h2
+          </div>
+          {/* <h2
             css={{
               color: "#575757",
               fontWeight: 600,
@@ -133,7 +133,7 @@ const Landing = () => (
             }}
           >
             Termin: 29.08.2026
-          </h2>
+          </h2> */}
           {/* <div>
             <ActionButton
               backgroundColor="#ffffff"
@@ -167,7 +167,7 @@ const Landing = () => (
               }
             }}
           >
-            Wir sagen Danke für 175 Anmeldungen !!
+            Wir sagen Danke für eure Teilnahme!
           </h2>
           {/* <div>
             <ActionButton

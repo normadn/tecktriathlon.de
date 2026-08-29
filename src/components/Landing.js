@@ -115,7 +115,7 @@ const Landing = () => (
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
               style={applyButtonCSS}
-              link="https://drive.google.com/file/d/1b8ihJzGMOqpg6IAl5zaFhhvonaW0v6Xo/view?usp=sharing"
+              link="https://drive.google.com/file/d/1bSBobSYLIPjfJyVX9vYopSx3MWL3_GOm/view?usp=sharing"
               type="rounded"
             >
               Ergebnisse 2026

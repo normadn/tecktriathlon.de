@@ -180,17 +180,17 @@ const Landing = () => (
               Warteliste
             </ActionButton>
           </div> */}
-          {/* <div>
+          <div>
             <ActionButton
               backgroundColor="#ffffff"
               foregroundColor="#00205b"
               style={applyButtonCSS}
-              link="https://forms.gle/tSx5PphgqKxK4KPG9"
+              link="https://forms.gle/oJShwGimtVKvZvTf9"
               type="rounded"
             >
-              Interesse Teck Triathlon 2026
+              Interesse Teck Triathlon 2028
             </ActionButton>
-          </div> */}
+          </div>
         </div>
         <div
           css={{

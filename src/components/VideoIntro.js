@@ -27,7 +27,8 @@ const VideoIntro = () => (
         css={{
           background: "#ffffff",
           display: "grid",
-          gridTemplateColumns: "auto auto",
+          gridTemplateColumns: "1fr auto",
+          alignItems: "center",
           padding: "60px 55px 60px 55px",
           margin: "0 auto 0 auto",
           borderRadius: "8px",
@@ -47,7 +48,7 @@ const VideoIntro = () => (
             "@media (max-width: 920px)": { paddingRight: "0px" }
           }}
         >
-          <h1 css={{ paddingTop: "2px" }}>Teck Triathlon 2024</h1>
+          <h1 css={{ paddingTop: "2px" }}>Teck Triathlon 2026</h1>
           <div
             css={{
               display: "grid",
@@ -67,32 +68,32 @@ const VideoIntro = () => (
         </div>
         <div
           css={{
-            margin: "auto auto auto auto",
+            margin: "auto",
+            width: "400px",
+            maxWidth: "100%",
+            overflow: "hidden",
             "@media(max-width: 1115px)": {
-              height: "40vw"
-            },
-            "@media(max-width: 715px)": {
-              height: "50vw"
+              paddingTop: "40px"
             }
           }}
         >
           <iframe
-            title="Bissingen an der Teck"
-            src="https://www.youtube.com/embed/EM3rFj5PN5c?si=CKfMgbDjIdLVK3cl"
+            title="Teck Triathlon 2026"
+            src="https://www.instagram.com/p/DcyI_lWsUTq/embed"
             frameBorder="0"
-            allow="autoplay; encrypted-media"
+            scrolling="no"
+            allow="autoplay; encrypted-media; clipboard-write"
             allowFullScreen
+            loading="lazy"
             css={{
-              width: "500px",
-              height: "281px",
-              "@media(max-width: 1215px)": {
-                width: "400px",
-                height: "225px"
-              },
+              display: "block",
+              width: "400px",
+              height: "740px",
+              maxWidth: "100%",
+              border: 0,
               "@media(max-width: 1115px)": {
-                paddingTop: "40px",
                 width: "100%",
-                height: "100%"
+                height: "680px"
               }
             }}
           />

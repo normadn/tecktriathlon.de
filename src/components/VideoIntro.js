@@ -28,7 +28,7 @@ const VideoIntro = () => (
           background: "#ffffff",
           display: "grid",
           gridTemplateColumns: "1fr auto",
-          alignItems: "center",
+          alignItems: "stretch",
           padding: "60px 55px 60px 55px",
           margin: "0 auto 0 auto",
           borderRadius: "8px",
@@ -44,11 +44,14 @@ const VideoIntro = () => (
       >
         <div
           css={{
+            display: "flex",
+            flexDirection: "column",
+            minHeight: 0,
             paddingRight: "43px",
             "@media (max-width: 920px)": { paddingRight: "0px" }
           }}
         >
-          <h1 css={{ paddingTop: "2px" }}>Teck Triathlon 2026</h1>
+          <h1 css={{ paddingTop: "2px" }}>Teck Triathlon Aftermovie</h1>
           <div
             css={{
               display: "grid",
@@ -65,10 +68,44 @@ const VideoIntro = () => (
             Es war ein Fest!! Sei auch dieses Jahr wieder dabei, egal ob als
             Zuschauer oder als Teilnehmer. Wir freuen uns auf dich.
           </p>
+          <div
+            css={{
+              flex: 1,
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              width: "100%",
+              minHeight: 0,
+              "@media(max-width: 1115px)": {
+                display: "none"
+              }
+            }}
+          >
+            <div
+              css={{
+                width: "100%",
+                aspectRatio: "16 / 9"
+              }}
+            >
+              <iframe
+                title="Teck Triathlon 2024"
+                src="https://www.youtube.com/embed/EM3rFj5PN5c?si=CKfMgbDjIdLVK3cl"
+                frameBorder="0"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+                css={{
+                  display: "block",
+                  width: "100%",
+                  height: "100%",
+                  border: 0
+                }}
+              />
+            </div>
+          </div>
         </div>
         <div
           css={{
-            margin: "auto",
+            margin: 0,
             width: "400px",
             maxWidth: "100%",
             overflow: "hidden",
